@@ -1,0 +1,11 @@
+.text-section {
+    background-color: white;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+

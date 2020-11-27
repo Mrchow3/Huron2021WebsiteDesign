@@ -1,29 +1,31 @@
 import React, {useState,useEffect} from 'react'
 import {Navbar,Nav,Container, NavDropdown,Form, FormControl, Button} from 'react-bootstrap'
 import './HNavBar.css';
+import logo from './gmegv3da01.svg';
 
 //const Navbar;
 function HNavBar() {
   return (
-      <Navbar expand="lg" bg="dark" fixed="top">
-        <Navbar.Brand href="#home">BPA Plan</Navbar.Brand>
+      <Navbar expand="lg" bg="light" fixed="top">
+        <Navbar.Brand href="#home">
+        <img
+        alt=""
+        src={logo}
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />{' '} BPA Plan
+      </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <Nav.Link href="#food">Food</Nav.Link>
+            <Nav.Link href="#hotels">Hotels</Nav.Link>
+            <Nav.Link href="#transportation">Transportation</Nav.Link>
+            <NavDropdown title="Other" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#activities">Activites</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Navbar>
   );
