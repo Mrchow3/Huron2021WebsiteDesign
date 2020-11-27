@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Mrchow3/Huron2021WebsiteDesign/static/css/main.c3e1a061.chunk.css",
+    "main.js": "/Mrchow3/Huron2021WebsiteDesign/static/js/main.194339ed.chunk.js",
+    "main.js.map": "/Mrchow3/Huron2021WebsiteDesign/static/js/main.194339ed.chunk.js.map",
+    "runtime-main.js": "/Mrchow3/Huron2021WebsiteDesign/static/js/runtime-main.9d4b621e.js",
+    "runtime-main.js.map": "/Mrchow3/Huron2021WebsiteDesign/static/js/runtime-main.9d4b621e.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Mrchow3/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1d7f68fb.chunk.js": "/Mrchow3/Huron2021WebsiteDesign/static/js/2.1d7f68fb.chunk.js",
+    "static/js/2.1d7f68fb.chunk.js.map": "/Mrchow3/Huron2021WebsiteDesign/static/js/2.1d7f68fb.chunk.js.map",
+    "static/js/3.e8d82675.chunk.js": "/Mrchow3/Huron2021WebsiteDesign/static/js/3.e8d82675.chunk.js",
+    "static/js/3.e8d82675.chunk.js.map": "/Mrchow3/Huron2021WebsiteDesign/static/js/3.e8d82675.chunk.js.map",
+    "index.html": "/Mrchow3/Huron2021WebsiteDesign/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/Mrchow3/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.c3e1a061.chunk.css.map": "/Mrchow3/Huron2021WebsiteDesign/static/css/main.c3e1a061.chunk.css.map",
+    "static/js/2.1d7f68fb.chunk.js.LICENSE.txt": "/Mrchow3/Huron2021WebsiteDesign/static/js/2.1d7f68fb.chunk.js.LICENSE.txt",
+    "static/media/gmegv3da01.c9721693.svg": "/Mrchow3/Huron2021WebsiteDesign/static/media/gmegv3da01.c9721693.svg",
+    "static/media/logo.31d6cfe0.svg": "/Mrchow3/Huron2021WebsiteDesign/static/media/logo.31d6cfe0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d4b621e.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.1d7f68fb.chunk.js",
+    "static/css/main.c3e1a061.chunk.css",
+    "static/js/main.194339ed.chunk.js"
+  ]
+}
