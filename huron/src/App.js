@@ -12,7 +12,12 @@ import {
   Carousel,
   CarouselItem,
 } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  HashRouter,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,15 +27,13 @@ import Food from './components/pages/Food';
 
 function App() {
   return (
-    <>
-      <Router>
-        <HNavBar />
-        <Switch>
-          <Route path='/home' exact component={Home} />
-          <Route path='/food' exact component={Food} />
-        </Switch>
-      </Router>
-    </>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <HNavBar />
+      <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/food' component={Food} />
+      </Switch>
+    </HashRouter>
   );
 }
 

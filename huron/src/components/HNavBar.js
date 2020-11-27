@@ -15,7 +15,7 @@ import logo from './gmegv3da01.svg';
 function HNavBar() {
   return (
     <Navbar expand='lg' bg='light' fixed='top'>
-      <Navbar.Brand href='/home'>
+      <Navbar.Brand href='#/'>
         <img
           alt=''
           src={logo}
@@ -28,12 +28,12 @@ function HNavBar() {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto'>
-          <Nav.Link href='food'>Food</Nav.Link>
-          <Nav.Link href='hotels'>Hotels</Nav.Link>
-          <Nav.Link href='transportation'>Transportation</Nav.Link>
-          <Nav.Link href='activities'>Activites</Nav.Link>
+          <Nav.Link href='#/food'>Food</Nav.Link>
+          <Nav.Link href='#/hotels'>Hotels</Nav.Link>
+          <Nav.Link href='#/transportation'>Transportation</Nav.Link>
+          <Nav.Link href='#/activities'>Activites</Nav.Link>
           <NavDropdown title='Other' id='basic-nav-dropdown'>
-            <NavDropdown.Item href='activities'>Activites</NavDropdown.Item>
+            <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
