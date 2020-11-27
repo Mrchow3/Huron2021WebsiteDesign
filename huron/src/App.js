@@ -26,7 +26,7 @@ function App() {
       <Router>
         <HNavBar />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/home' exact component={Home} />
           <Route path='/food' exact component={Food} />
         </Switch>
       </Router>

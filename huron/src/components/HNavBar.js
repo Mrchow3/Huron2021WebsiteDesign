@@ -15,7 +15,7 @@ import logo from './gmegv3da01.svg';
 function HNavBar() {
   return (
     <Navbar expand='lg' bg='light' fixed='top'>
-      <Navbar.Brand href='/'>
+      <Navbar.Brand href='/home'>
         <img
           alt=''
           src={logo}
