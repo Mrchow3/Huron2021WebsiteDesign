@@ -10,7 +10,8 @@ import {
   Carousel,
   CarouselItem,
 } from 'react-bootstrap';
-import './CarouselSection.css';
+
+import './css/CarouselSection.css';
 import HeroSection from './HeroSection.js';
 
 function CarouselSection(props) {
@@ -20,7 +21,7 @@ function CarouselSection(props) {
 
   return (
     <div className='carousel-section'>
-      <Carousel> {props.inputs}</Carousel>
+      <Carousel> {props.children}</Carousel>
     </div>
   );
 }

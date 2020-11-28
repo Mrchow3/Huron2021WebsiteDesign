@@ -17,10 +17,15 @@ import {
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './CardSection.css';
+import './css/CardSection.css';
+import HeroSection from './HeroSection';
 
 function CardSection(props) {
-  return <CardDeck>{props.children}</CardDeck>;
+  return (
+    <div className='card-parent'>
+      <CardColumns>{props.children}</CardColumns>
+    </div>
+  );
 }
 
 export default CardSection;
