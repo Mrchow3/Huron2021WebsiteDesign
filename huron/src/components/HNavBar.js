@@ -27,15 +27,22 @@ function HNavBar() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
-        <Nav className='mr-auto'>
-          <Nav.Link href='#/food'>Food</Nav.Link>
-          <Nav.Link href='#/hotels'>Hotels</Nav.Link>
-          <Nav.Link href='#/transportation'>Transportation</Nav.Link>
-          <Nav.Link href='#/activities'>Activites</Nav.Link>
-          <NavDropdown title='Other' id='basic-nav-dropdown'>
-            <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
+            <Nav className='mr-auto'>
+              <NavDropdown title='Plan Your Travel' class='category'>
+                <NavDropdown.Item class="specific-dropdown" href='#/activities'>Activites</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title='Convention Info' class='category'>
+                <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title='Explore Orlando' class='category'>
+                <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+          <Nav className='mr-auto'>
+          </Nav> 
+          <Form inline>
+          <Button variant="outline-primary">Book Now!</Button>
+          </Form>
       </Navbar.Collapse>
     </Navbar>
   );
@@ -49,3 +56,11 @@ export default HNavBar;
           </Navbar.Collapse>
         </Navbar>
       </Container> */
+/*
+<Nav.Link href='#/food'>Plan Your Travel</Nav.Link>
+            <Nav.Link href='#/hotels'>Convention Info</Nav.Link>
+            <Nav.Link href='#/transportation'>Transportation</Nav.Link>
+            <Nav.Link href='#/activities'>Activites</Nav.Link>
+            <NavDropdown title='Other' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
+            </NavDropdown>*/

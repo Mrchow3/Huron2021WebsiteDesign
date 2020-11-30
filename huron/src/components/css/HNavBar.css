@@ -2,4 +2,32 @@
     opacity: 0.9;
 }
 
+#categories{
+    width: auto;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    left: 50%;
+}
 
+#book-button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    justify-self: right;
+    
+}
+.category{
+    padding-left: 100px;
+}
+
+.specific-dropdown{
+    position: absolute;
+    width: 100vw;
+    size: unset;
+    align-items: center;
+    align-self: center;
+}
