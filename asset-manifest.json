@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Huron2021WebsiteDesign/static/css/main.9e2c7536.chunk.css",
-    "main.js": "/Huron2021WebsiteDesign/static/js/main.9717978b.chunk.js",
-    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.9717978b.chunk.js.map",
-    "runtime-main.js": "/Huron2021WebsiteDesign/static/js/runtime-main.9bd54211.js",
-    "runtime-main.js.map": "/Huron2021WebsiteDesign/static/js/runtime-main.9bd54211.js.map",
+    "main.css": "/Huron2021WebsiteDesign/static/css/main.6fae610a.chunk.css",
+    "main.js": "/Huron2021WebsiteDesign/static/js/main.8408a9d9.chunk.js",
+    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.8408a9d9.chunk.js.map",
+    "runtime-main.js": "/Huron2021WebsiteDesign/static/js/runtime-main.7a92a3ac.js",
+    "runtime-main.js.map": "/Huron2021WebsiteDesign/static/js/runtime-main.7a92a3ac.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.2937df2e.chunk.js": "/Huron2021WebsiteDesign/static/js/2.2937df2e.chunk.js",
-    "static/js/2.2937df2e.chunk.js.map": "/Huron2021WebsiteDesign/static/js/2.2937df2e.chunk.js.map",
-    "static/js/3.600be871.chunk.js": "/Huron2021WebsiteDesign/static/js/3.600be871.chunk.js",
-    "static/js/3.600be871.chunk.js.map": "/Huron2021WebsiteDesign/static/js/3.600be871.chunk.js.map",
+    "static/js/2.8942d5b2.chunk.js": "/Huron2021WebsiteDesign/static/js/2.8942d5b2.chunk.js",
+    "static/js/2.8942d5b2.chunk.js.map": "/Huron2021WebsiteDesign/static/js/2.8942d5b2.chunk.js.map",
+    "static/js/3.ccefbadd.chunk.js": "/Huron2021WebsiteDesign/static/js/3.ccefbadd.chunk.js",
+    "static/js/3.ccefbadd.chunk.js.map": "/Huron2021WebsiteDesign/static/js/3.ccefbadd.chunk.js.map",
     "index.html": "/Huron2021WebsiteDesign/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.9e2c7536.chunk.css.map": "/Huron2021WebsiteDesign/static/css/main.9e2c7536.chunk.css.map",
-    "static/js/2.2937df2e.chunk.js.LICENSE.txt": "/Huron2021WebsiteDesign/static/js/2.2937df2e.chunk.js.LICENSE.txt",
+    "static/css/main.6fae610a.chunk.css.map": "/Huron2021WebsiteDesign/static/css/main.6fae610a.chunk.css.map",
+    "static/js/2.8942d5b2.chunk.js.LICENSE.txt": "/Huron2021WebsiteDesign/static/js/2.8942d5b2.chunk.js.LICENSE.txt",
     "static/media/gmegv3da01.718a6c25.svg": "/Huron2021WebsiteDesign/static/media/gmegv3da01.718a6c25.svg",
     "static/media/logo.31d6cfe0.svg": "/Huron2021WebsiteDesign/static/media/logo.31d6cfe0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9bd54211.js",
+    "static/js/runtime-main.7a92a3ac.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.2937df2e.chunk.js",
-    "static/css/main.9e2c7536.chunk.css",
-    "static/js/main.9717978b.chunk.js"
+    "static/js/2.8942d5b2.chunk.js",
+    "static/css/main.6fae610a.chunk.css",
+    "static/js/main.8408a9d9.chunk.js"
   ]
 }
