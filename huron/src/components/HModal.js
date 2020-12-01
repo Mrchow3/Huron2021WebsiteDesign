@@ -1,0 +1,41 @@
+import React, { useState, useEffect } from 'react';
+import { Modal, Button} from 'react-bootstrap';
+import './css/HNavBar.css';
+
+function CenteredModal(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Book your trip now!
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+            BLAH BLAH BLAH
+          </p>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={props.onHide}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    );
+  }
+
+  function HModal(){
+    const [modalShow, setModalShow] = React.useState(false);  
+    return(
+      <>
+      <Button variant="outline-primary" onClick={() => setModalShow(true)}>Book Now!</Button>
+      <CenteredModal
+      show={modalShow}
+      onHide={() => setModalShow(false)}
+      />
+      </>);
+  }
+  export default HModal;
