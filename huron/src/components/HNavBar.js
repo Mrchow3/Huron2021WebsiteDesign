@@ -35,7 +35,7 @@ function HNavBar() {
                 <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title='Explore Orlando' class='category'>
-                <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
+                <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           <Nav className='mr-auto'>

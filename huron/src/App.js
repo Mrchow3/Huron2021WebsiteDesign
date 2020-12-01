@@ -24,6 +24,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HNavBar from './components/HNavBar.js';
 import Home from './components/pages/Home.js';
 import Food from './components/pages/Food';
+import ExTransportation from './components/pages/ExTransportation';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/food' component={Food} />
+        <Route path='/explore-transportation' component={ExTransportation} />
       </Switch>
     </HashRouter>
   );
