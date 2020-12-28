@@ -1,22 +1,26 @@
-.child {
-  width: auto;
+.centered-child{
+  position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
-  font-size: 60px;
   transform: translate(-50%, -50%);
+
+  color: white;
+  background-color: #00FFFF;
+
+  justify-content: center;
   /*
-  align-items:center;
-  
-  margin-top: 20vh;
-  */
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
-  display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
+  */
+}
+
+
+.button-container{
+  text-align:center;
+  position: relative;
 }
 
 .header {
@@ -31,3 +35,24 @@
   margin-top: -25px;
 }
 /*https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/*/
+
+/*
+.child {
+  width: auto;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+  
+}
+
+*/

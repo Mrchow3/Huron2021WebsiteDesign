@@ -38,9 +38,15 @@ function Home() {
         image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
         height='90'
       >
-        <div className='child'>
-          <header className='header'>Plan Your Trip to Nationals</header>
+      
+        <div className='centered-child'>
+          <h1>Plan Your Trip to Nationals</h1>
+          <div className='button-container'>
+            <Button variant="primary">Primary</Button>
+            <Button variant="primary">Secondary</Button>
+          </div>
         </div>
+
       </HeroSection>
 
       <CarouselSection height='900'>{carouseloutputs}</CarouselSection>
@@ -49,7 +55,7 @@ function Home() {
         image='https://www.itl.cat/pngfile/big/92-924579_bondi-beach-ultra-hd-4k-wallpaper-4k-desktop.jpg'
         height='90'
       >
-        <p className='child'>Testing</p>
+        <p className='centered-child'>Testing</p>
       </HeroSection>
 
       <CardSection>

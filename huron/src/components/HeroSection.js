@@ -12,15 +12,19 @@ import './css/HeroSection.css';
 
 //const Navbar;
 function HeroSection(props) {
+  
   const HeroStyles = {
     'background-image': `url(${props.image})`,
-    height: `${props.height}vh`,
     filter: `brightness(${props.filter}%)`,
   };
 
+  const ParentStyle = {
+    height: `${props.height}vh`,
+  };
+
   return (
-    <div className='parent-hero'>
-      <div className='hero-image' style={HeroStyles}></div>
+    <div className='parent-hero' style={ParentStyle}>
+      <div className='hero-image'style={HeroStyles}></div>
       {props.children}
     </div>
   );

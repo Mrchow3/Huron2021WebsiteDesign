@@ -1,5 +1,28 @@
+.parent-hero {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-content: center;
+  align-items: center;
+}
+
 .hero-image {
-  /*background-image: url("https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  filter: brightness(90%);
+}
+
+/*
+.hero-image {
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,9 +31,10 @@
   align-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  filter: brightness(90%);
 }
+
 .parent-hero {
-  /*height: 100vh;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,3 +42,4 @@
   align-content: center;
   align-items: center;
 }
+*/

@@ -1,8 +1,22 @@
 .overdiv{
-    background-image: linear-gradient(white, aquamarine);
+    background-image: linear-gradient(white, #CFF2FF);
 }
 
 .alt-2{
     opacity: 0.5;
     background-color: slategray;
+}
+
+.article{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.heading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.article-image{
+    object-fit: cover;
+    border-radius: 0.6em;
 }

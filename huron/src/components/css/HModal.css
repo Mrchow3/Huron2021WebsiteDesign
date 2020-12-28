@@ -1,0 +1,14 @@
+.toggle-menu{
+    background-color: brown;
+    border-bottom: 1px solid grey;
+    display: table-row;
+}
+
+.modal-nav{
+    height: 36px;
+    padding: 0px;
+}
+
+.debug{
+    background-color: red;
+}
