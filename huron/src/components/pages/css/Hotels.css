@@ -1,3 +1,8 @@
 .no-click {
     pointer-events: none;
 }
+
+.card-top{
+    object-fit: cover;
+    height: 350px;
+}
