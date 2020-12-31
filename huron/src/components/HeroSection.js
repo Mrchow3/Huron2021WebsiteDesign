@@ -12,7 +12,7 @@ import './css/HeroSection.css';
 
 //const Navbar;
 function HeroSection(props) {
-  
+
   const HeroStyles = {
     'background-image': `url(${props.image})`,
     filter: `brightness(${props.filter}%)`,

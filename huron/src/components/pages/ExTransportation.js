@@ -38,10 +38,10 @@ function ExTransportation() {
           image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
           height='90'
           style="filter: brightness(50%)">
-            <div className='child'>
-              <header className='header'>Transportation</header>
-            </div>
         </HeroSection>
+        <div className='centered-child'>
+          <h1>Transportation</h1>
+        </div>
       
         <div class="overdiv">
             <div class="container-fluid mx-auto" style={{width: '80%',}}>

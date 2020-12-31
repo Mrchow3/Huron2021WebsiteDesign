@@ -24,6 +24,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HNavBar from './components/HNavBar.js';
 import Home from './components/pages/Home.js';
 import Food from './components/pages/Food';
+import Hotels from './components/pages/Hotels';
 import ExTransportation from './components/pages/ExTransportation';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/food' component={Food} />
         <Route path='/explore-transportation' component={ExTransportation} />
+        <Route path='/hotels' component={Hotels} />
       </Switch>
     </HashRouter>
   );
