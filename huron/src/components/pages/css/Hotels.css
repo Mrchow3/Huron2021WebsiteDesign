@@ -6,3 +6,15 @@
     object-fit: cover;
     height: 350px;
 }
+
+.cropped-500{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.cropped-400{
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+}
