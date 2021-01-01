@@ -35,7 +35,7 @@ const carouselInputs = [
       'https://free4kwallpapers.com/uploads/originals/2019/06/18/boat-wallpaper.jpg',
     height: carouselItemHeight,
     carouselFilter: 65,
-    title: 'Transportation',
+    title: 'Getting Around',
     captionTitle: 'First Slide',
     captionText: 'Here is some text!',
     button: 'See Options',
