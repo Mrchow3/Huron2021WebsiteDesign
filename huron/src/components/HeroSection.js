@@ -15,7 +15,7 @@ function HeroSection(props) {
 
   const HeroStyles = {
     'background-image': `url(${props.image})`,
-    filter: `brightness(${props.filter}%)`,
+    filter: `brightness(${props.filter}%)`
   };
 
   const ParentStyle = {

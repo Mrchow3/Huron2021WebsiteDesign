@@ -69,9 +69,9 @@ function HNavBar() {
               </NavDropdown>
               <NavDropdown title='Explore Orlando' class='category'>
                 <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
-                <NavDropdown.Item href='#/'>Sight Seeing</NavDropdown.Item>
-                <NavDropdown.Item href='#/'>Attractions</NavDropdown.Item>
-                <NavDropdown.Item href='#/'>Local Food</NavDropdown.Item>
+                <NavDropdown.Item href='#/sight-seeing'>Sight Seeing</NavDropdown.Item>
+                <NavDropdown.Item href='#/explore-attractions'>Attractions</NavDropdown.Item>
+                <NavDropdown.Item href='#/explore-food/'>Local Food</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           <Nav className='mr-auto'>

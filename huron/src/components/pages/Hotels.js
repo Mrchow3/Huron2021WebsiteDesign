@@ -59,13 +59,17 @@ class Hotels extends Component{
         });
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     render() {
         return (
             <div>
                 <HeroSection
-                            image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
+                            image='https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
                             height='90'
-                            style="filter: brightness(50%)">
+                            filter='70'>
                 </HeroSection>
                 <div className='centered-child'>
                     <h1>Hotels</h1>
@@ -212,15 +216,18 @@ class Hotels extends Component{
                             <hr></hr>
                             <CardDeck>
                                 <Card>
-                                    <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/bXq6MdJETZkkn5NxhcjgCg/o.jpg" />
-                                    <Card.Body>
-                                        <Card.Title>Food</Card.Title>
-                                        <Card.Text>
-                                            Enjoy some amazing food from a variety of restaurants within Disney’s Coronado Springs Resort!
-                                        </Card.Text>
-                                    </Card.Body>
+                                    <a className="card-link" href="#food">
+                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/bXq6MdJETZkkn5NxhcjgCg/o.jpg" />
+                                        <Card.Body>
+                                            <Card.Title>Food</Card.Title>
+                                            <Card.Text>
+                                                Enjoy some amazing food from a variety of restaurants within Disney’s Coronado Springs Resort!
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </a>
                                 </Card>
-                                <Card>
+                                <Card href="#recreation">
+                                    <a className="card-link" href="#recreation">
                                     <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/vjzzQCs8c2CCVrgXdOVoZA/o.jpg" />
                                     <Card.Body>
                                         <Card.Title>Recreation</Card.Title>
@@ -228,6 +235,7 @@ class Hotels extends Component{
                                             Let yourself live out the wonderful recreation options in Disney’s Coronado Springs Resort!
                                         </Card.Text>
                                     </Card.Body>
+                                    </a>
                                 </Card>
                             </CardDeck>
                         </div>
@@ -370,23 +378,27 @@ class Hotels extends Component{
                             </div>
                             <hr></hr>
                             <CardDeck>
-                                <Card>
-                                    <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/Qq9LDQx6PkaHeS74GQxHqw/o.jpg" />
-                                    <Card.Body>
-                                        <Card.Title>Food</Card.Title>
-                                        <Card.Text>
-                                            Enjoy some amazing food from a variety of restaurants within Disney’s Yacht Club Resort!
-                                        </Card.Text>
-                                    </Card.Body>
+                                <Card href="#food">
+                                    <a className="card-link" href="#food">
+                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/Qq9LDQx6PkaHeS74GQxHqw/o.jpg" />
+                                        <Card.Body>
+                                            <Card.Title>Food</Card.Title>
+                                            <Card.Text>
+                                                Enjoy some amazing food from a variety of restaurants within Disney’s Yacht Club Resort!
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </a>
                                 </Card>
-                                <Card>
-                                    <Card.Img variant="top" className="card-top" src="http://4.bp.blogspot.com/_zSWJkb_7Edw/S7RTARKUIoI/AAAAAAAAAms/_LzIq6HzAjE/s1600/Stormalong+Bay.JPG" />
-                                    <Card.Body>
-                                        <Card.Title>Recreation</Card.Title>
-                                        <Card.Text>
-                                            Let yourself live out the wonderful recreation options in Disney’s Yacht Club Resort!
-                                        </Card.Text>
-                                    </Card.Body>
+                                <Card href="#recreation">
+                                    <a className="card-link" href="#food">
+                                        <Card.Img variant="top" className="card-top" src="http://4.bp.blogspot.com/_zSWJkb_7Edw/S7RTARKUIoI/AAAAAAAAAms/_LzIq6HzAjE/s1600/Stormalong+Bay.JPG" />
+                                        <Card.Body>
+                                            <Card.Title>Recreation</Card.Title>
+                                            <Card.Text>
+                                                Let yourself live out the wonderful recreation options in Disney’s Yacht Club Resort!
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </a>
                                 </Card>
                             </CardDeck>
                         </div>

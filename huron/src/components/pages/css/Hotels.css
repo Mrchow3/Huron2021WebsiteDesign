@@ -18,3 +18,8 @@
     width: 500px;
     height: 400px;
 }
+
+a.card-link,
+a.card-link:hover{
+    color:inherit;
+}

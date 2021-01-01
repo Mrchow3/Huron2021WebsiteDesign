@@ -32,11 +32,15 @@ import SingleCard from '../SingleCard.js';
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='App'>
       <HeroSection
-        image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
-        height='90'
+        image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+        height='92'
+        filter='70'
       >
       
         <div className='centered-child'>
@@ -49,7 +53,7 @@ function Home() {
 
       </HeroSection>
 
-      <CarouselSection height='900'>{carouseloutputs}</CarouselSection>
+      <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
 
       <HeroSection
         image='https://www.itl.cat/pngfile/big/92-924579_bondi-beach-ultra-hd-4k-wallpaper-4k-desktop.jpg'

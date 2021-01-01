@@ -1,5 +1,6 @@
 .overdiv{
     background-image: linear-gradient(white, #CFF2FF);
+    overflow: auto;
 }
 
 .alt-2{

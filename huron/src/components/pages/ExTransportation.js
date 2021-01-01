@@ -32,6 +32,9 @@ import SingleCard from '../SingleCard.js';
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 
 function ExTransportation() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='App'>
         <HeroSection
@@ -44,7 +47,7 @@ function ExTransportation() {
         </div>
       
         <div class="overdiv">
-            <div class="container-fluid mx-auto" style={{width: '80%',}}>
+            <div class="container-fluid mx-auto overdiv" style={{width: '80%',}}>
                 <div class="alt-1"> 
                     <h2 className="heading">Lynx Bus Service</h2>
                     <hr className="the-hr"></hr>
@@ -91,7 +94,7 @@ function ExTransportation() {
                 <div class="alt-1"> 
                     <h2 class="heading">Biking and Walking</h2>
                     <hr className="the-hr"></hr>
-                    <div class="row mt-3 mb-2">
+                    <div class="row mt-3 article">
                         <div class="col-md mr-3">
                             <img src="http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg" className="img-fluid article-image"></img>
                         </div>

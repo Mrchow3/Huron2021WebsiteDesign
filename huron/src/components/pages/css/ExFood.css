@@ -1,0 +1,7 @@
+.food-overlay{
+    color: white;
+}
+
+.food-image{
+    filter: brightness(70%);
+}

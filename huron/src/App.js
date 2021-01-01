@@ -26,15 +26,18 @@ import Home from './components/pages/Home.js';
 import Food from './components/pages/Food';
 import Hotels from './components/pages/Hotels';
 import ExTransportation from './components/pages/ExTransportation';
+import ExFood from './components/pages/ExFood';
 
 function App() {
+
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <HNavBar />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/food' component={Food} />
         <Route path='/explore-transportation' component={ExTransportation} />
+        <Route path='/explore-food' component={ExFood} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
     </HashRouter>

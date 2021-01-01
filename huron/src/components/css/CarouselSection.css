@@ -2,3 +2,35 @@
   /*height: 500px;*/
   width: 100%;
 }
+
+.carousel-heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  width: 76vw;
+}
+
+.carousel-image{
+  /*filter: brightness(45%);*/
+  height: 94vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(45%);
+}
+
+#carousel-title{
+  filter: brightness(100%);
+  font-size: 4em;
+  color: white;
+  text-decoration: ivory;
+  margin: 0 0 8px;
+}
+
+.carousel-description{
+  filter: brightness(100%);
+  color: white;
+  font-size: 1.2em;
+}
