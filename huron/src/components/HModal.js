@@ -27,16 +27,19 @@ function CenteredModal(props) {
           <Modal.Title id="contained-modal-title-vcenter" className="">
             Book your trip now!
           </Modal.Title>
-          <nav class="navbar navbar-expand-lg navbar-light modal-nav float-right">
-            <a class="navbar-brand"></a>
-            <div class="collapse navbar-collapse">
-              <ul class="navbar-nav">
-                  <a class="nav-link nav-item active" href="#">Travel<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">Register</a>
-                  <a class="nav-item nav-link" href="#">About</a>
-              </ul>
+          <Nav className="modal-nav ml-3" variant="tabs" defaultActiveKey="#first">
+            <div class="row">
+              <Nav.Item className="mx-3">
+                <Nav.Link href="#first">Active</Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="mr-3">
+                <Nav.Link href="#link">Link</Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="mr-3">
+              <Nav.Link href="#boop">Link</Nav.Link>
+              </Nav.Item>
             </div>
-          </nav>
+          </Nav>
         </Modal.Header>
         <Modal.Body>
           <p>
@@ -62,3 +65,15 @@ function CenteredModal(props) {
       </>);
   }
   export default HModal;
+
+  /*
+  <nav class="navbar navbar-expand-lg navbar-light modal-nav float-right">
+            <a class="navbar-brand"></a>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                  <a class="nav-link nav-item active" href="#">Travel<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Register</a>
+                  <a class="nav-item nav-link" href="#">About</a>
+              </ul>
+            </div>
+          </nav>*/
