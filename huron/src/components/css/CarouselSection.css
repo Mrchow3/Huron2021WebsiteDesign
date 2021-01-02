@@ -1,5 +1,4 @@
 .carousel {
-  height: auto;
   width: 100vw;
   
 }
@@ -14,6 +13,7 @@
   object-fit: cover;
 }
 
+
 .carousel-image{
   /*filter: brightness(45%);*/
   /*height: 94vh;*/
@@ -24,8 +24,19 @@
   overflow: hidden;
   height: auto;
   max-height: 92vh;
-  min-height: 65vh;
   object-fit: cover;
+}
+
+@media only screen and (max-width:800px){
+  .carousel-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(45%);
+    overflow: hidden;
+    height: 50vh;
+    object-fit: cover;
+  }
 }
 
 #carousel-title{
