@@ -20,7 +20,7 @@ function CarouselSection(props) {
   };
 
   return (
-    <div className='carousel-section'>
+    <div className='carousel'>
       <Carousel> {props.children}</Carousel>
     </div>
   );
