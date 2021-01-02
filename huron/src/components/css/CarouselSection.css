@@ -10,6 +10,7 @@
   transform: translate(-50%, -50%);
   user-select: none;
   width: 76vw;
+  object-fit: cover;
 }
 
 .carousel-image{
@@ -25,7 +26,6 @@
   filter: brightness(100%);
   font-size: 4em;
   color: white;
-  text-decoration: ivory;
   margin: 0 0 8px;
 }
 

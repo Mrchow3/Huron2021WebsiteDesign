@@ -66,13 +66,15 @@ class Hotels extends Component{
     render() {
         return (
             <div>
-                <HeroSection
-                            image='https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
-                            height='90'
-                            filter='70'>
-                </HeroSection>
-                <div className='centered-child'>
-                    <h1>Hotels</h1>
+                <div className="head-hero">
+                    <HeroSection
+                                image='https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
+                                height='92'
+                                filter='70'>
+                    </HeroSection>
+                    <div className='centered-child'>
+                        <h1 className='centered-title'>Hotels</h1>
+                    </div>
                 </div>
                 <div className="container">
                     <hr></hr>

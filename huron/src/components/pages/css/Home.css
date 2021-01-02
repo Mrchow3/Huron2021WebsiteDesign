@@ -3,10 +3,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  user-select: none;
   color: white;
-  background-color: #00FFFF;
-
+  /*background-color: #00FFFF;*/
+  text-align: center;
   justify-content: center;
   /*
   margin-left: auto;
@@ -17,6 +17,9 @@
   */
 }
 
+.centered-title{
+  font-size: 4rem;
+}
 
 .button-container{
   text-align:center;

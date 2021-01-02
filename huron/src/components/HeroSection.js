@@ -20,6 +20,7 @@ function HeroSection(props) {
 
   const ParentStyle = {
     height: `${props.height}vh`,
+    width: '100vw'
   };
 
   return (

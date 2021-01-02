@@ -21,6 +21,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../css/CarouselSection.css';
+import '../css/main.css';
 import HeroSection from '../HeroSection.js';
 import TextSection from '../TextSection.js';
 import CarouselSection from '../CarouselSection.js';
@@ -69,24 +70,28 @@ const carouseloutputs = [];
 carouselInputs.forEach((element) =>
   carouseloutputs.push(
     <Carousel.Item>
-      <div>
-        <img className="d-block w-100 carousel-image" alt={element.title} src={element.image} />
-      </div>
-      <div className="carousel-heading bg-transparent overflow-hidden py-4 py-md-5 h-100">
-        <div class="container-fluid mx-auto py-4 py-md-5">
-          <div class="row d-flex align-items-md-center justify-content-between">
-            <div className="text-center text-md-left px-4" style={{ top: '35%' }}>
-              <header className="display-md-2 display-4" id="carousel-title">{element.title}</header>
-              <p className="carousel-description">{element.captionText}</p>
-              <div className="">
-                <a href={element.ref}>
-                  <Button>{element.button}</Button>
-                </a>
+      <div className="head-hero">
+        <div>
+          <img className="d-block w-100 carousel-image" alt={element.title} src={element.image} />
+        </div>
+        <div className="carousel-heading bg-transparent overflow-hidden py-4 py-md-5 h-100">
+          <div class="container-fluid mx-auto py-4 py-md-5">
+            <div class="row d-flex align-items-md-center justify-content-between">
+              <div></div>
+              <div className="col-md text-center text-md-left px-4" style={{ top: '35%' }}>
+                <header className="display-md-2 display-4" id="carousel-title">{element.title}</header>
+                <p className="carousel-description">{element.captionText}</p>
+                <div className="">
+                  <a href={element.ref}>
+                    <Button>{element.button}</Button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
     </Carousel.Item>
   )
 );

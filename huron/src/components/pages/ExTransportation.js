@@ -22,6 +22,7 @@ import { Button as ButtonM } from '@material-ui/core';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
+import '../css/main.css';
 
 import HeroSection from '../HeroSection.js';
 import TextSection from '../TextSection.js';
@@ -37,14 +38,17 @@ function ExTransportation() {
   }, []);
   return (
     <div className='App'>
+      <div className="head-hero">
         <HeroSection
           image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
-          height='90'
+          height='92'
           style="filter: brightness(50%)">
         </HeroSection>
         <div className='centered-child'>
-          <h1>Transportation</h1>
+          <h1 className="centered-title">Transportation</h1>
         </div>
+      </div>
+        
       
         <div class="overdiv">
             <div class="container-fluid mx-auto overdiv" style={{width: '80%',}}>

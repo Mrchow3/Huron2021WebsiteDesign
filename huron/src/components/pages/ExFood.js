@@ -41,13 +41,15 @@ function ExFood(){
       }, []);
     return (
         <div>
-            <HeroSection
-                image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
-                height='90'
-                filter='70'
-            ></HeroSection>
-            <div className='centered-child'>
-                <h1>Local Foods</h1>
+            <div className="head-hero">
+                <HeroSection
+                    image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+                    height='92'
+                    filter='70'
+                ></HeroSection>
+                <div className='centered-child'>
+                    <h1 className="centered-title">Local Foods</h1>
+                </div>
             </div>
             <div className="container">
                 <hr />

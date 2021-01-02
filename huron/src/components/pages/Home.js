@@ -22,6 +22,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button as ButtonM } from '@material-ui/core';
 
 import './css/Home.css';
+import '../css/main.css';
 
 import HeroSection from '../HeroSection.js';
 import TextSection from '../TextSection.js';
@@ -37,30 +38,35 @@ function Home() {
   }, []);
   return (
     <div className='App'>
-      <HeroSection
-        image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
-        height='92'
-        filter='70'
-      >
-      
-        <div className='centered-child'>
-          <h1>Plan Your Trip to Nationals</h1>
-          <div className='button-container'>
-            <Button variant="primary">Primary</Button>
-            <Button variant="primary">Secondary</Button>
+      <div className="head-hero">
+        <HeroSection
+          image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+          height='92'
+          filter='70'
+        >
+        
+          <div className='centered-child'>
+            <h1 className="centered-title">Plan Your Trip to Nationals</h1>
+            <div className='button-container'>
+              <Button variant="primary">Primary</Button>
+              <Button variant="primary">Secondary</Button>
+            </div>
           </div>
-        </div>
 
-      </HeroSection>
+        </HeroSection>
+      </div>
+      <div className="container">
+        <div className="my-4 py-4 row d-flex align-items-md-center justify-content-between">
+          <div className="col-md text-center px-4">
+              <p className="text-center" style={{ 'font-size': '1.3em'}}>Orlando blah blah</p>
+            </div>
+        </div>
+      </div>
+      
 
       <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
 
-      <HeroSection
-        image='https://www.itl.cat/pngfile/big/92-924579_bondi-beach-ultra-hd-4k-wallpaper-4k-desktop.jpg'
-        height='90'
-      >
-        <p className='centered-child'>Testing</p>
-      </HeroSection>
+      
 
       <CardSection>
         <SingleCard />
@@ -85,3 +91,10 @@ export default Home;
           </Navbar.Collapse>
         </Navbar>
       </Container> */
+
+      /*<HeroSection
+        image='https://www.itl.cat/pngfile/big/92-924579_bondi-beach-ultra-hd-4k-wallpaper-4k-desktop.jpg'
+        height='90'
+      >
+        <p className='centered-child'>Testing</p>
+      </HeroSection>*/
