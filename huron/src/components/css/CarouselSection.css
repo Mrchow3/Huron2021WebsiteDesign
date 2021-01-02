@@ -1,6 +1,7 @@
 .carousel {
-  /*height: 500px;*/
+  height: auto;
   width: 100vw;
+  
 }
 
 .carousel-heading{
@@ -15,11 +16,16 @@
 
 .carousel-image{
   /*filter: brightness(45%);*/
-  height: 94vh;
+  /*height: 94vh;*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   filter: brightness(45%);
+  overflow: hidden;
+  height: auto;
+  max-height: 92vh;
+  min-height: 500px;
+  object-fit: cover;
 }
 
 #carousel-title{

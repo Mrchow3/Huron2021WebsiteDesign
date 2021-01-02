@@ -71,9 +71,9 @@ carouselInputs.forEach((element) =>
   carouseloutputs.push(
     <Carousel.Item>
       <div className="head-hero">
-        <div>
-          <img className="d-block w-100 carousel-image" alt={element.title} src={element.image} />
-        </div>
+          <div className="row d-lg-block">
+              <img className="d-block img-thumbnail d-block w-100 carousel-image" alt={element.title} src={element.image} />
+          </div>
         <div className="carousel-heading bg-transparent overflow-hidden py-4 py-md-5 h-100">
           <div class="container-fluid mx-auto py-4 py-md-5">
             <div class="row d-flex align-items-md-center justify-content-between">
