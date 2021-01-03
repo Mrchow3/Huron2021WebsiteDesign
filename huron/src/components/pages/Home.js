@@ -59,7 +59,9 @@ function Home() {
       <div className="container">
         <div className="my-4 py-4 row d-flex align-items-md-center justify-content-between">
           <div className="col-md text-center px-4">
-              <p className="text-center" style={{ 'font-size': '1.3em'}}>Orlando blah blah</p>
+              <p className="text-center" style={{ 'font-size': '1.3em'}}>Congratulations on your qualification to the 2021 National Leadership Conference!</p>
+              <p className="text-center" style={{ 'font-size': '1.3em'}}>Learn more about the convention by exploring the potential hotels you could stay at as well as the schedule of the conference. Explore the unique culture of Orlando by cruising on a tranquil boat ride at Winter Park or immersing yourself in views of the bustling cityscape from atop the Wheel. Enjoy your stay!
+            </p>
             </div>
         </div>
       </div>
