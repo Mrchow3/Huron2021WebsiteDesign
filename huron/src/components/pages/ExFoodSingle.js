@@ -37,6 +37,9 @@ import SingleCard from '../SingleCard.js';
 import { foodInputs } from '../inputs/FoodInputs.js'; //jsx inputs for food
 
 function ExFoodSingle(props){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     const articles = []
     console.log(props.content[0]);
     props.content.forEach((article) => {

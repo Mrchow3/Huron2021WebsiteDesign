@@ -66,8 +66,7 @@ function HNavBar() {
               </NavDropdown>
               <NavDropdown title='Explore Orlando' class='category'>
                 <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
-                <NavDropdown.Item href='#/sight-seeing'>Sightseeing</NavDropdown.Item>
-                
+                <NavDropdown.Item href='#/explore-sightseeing'>Sightseeing</NavDropdown.Item>
                 <NavDropdown.Item href='#/explore-food/'>Local Food</NavDropdown.Item>
               </NavDropdown>
             </Nav>

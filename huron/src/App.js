@@ -27,6 +27,7 @@ import Food from './components/pages/Food';
 import Hotels from './components/pages/Hotels';
 import ExTransportation from './components/pages/ExTransportation';
 import ExFood from './components/pages/ExFood';
+import ExSightseeing from './components/pages/ExSightseeing';
 import { foodInputs } from './components/inputs/FoodInputs.js';
 import ExFoodSingle from './components/pages/ExFoodSingle';
 
@@ -64,6 +65,7 @@ function App() {
           type = {foodInputs[5].type}
           content = {foodInputs[5].content}
         />} />
+        <Route path='/explore-sightseeing' component={ExSightseeing} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
     </HashRouter>

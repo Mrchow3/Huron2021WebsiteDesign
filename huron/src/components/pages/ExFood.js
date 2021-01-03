@@ -48,7 +48,7 @@ function ExFood(){
                     filter='70'
                 ></HeroSection>
                 <div className='centered-child'>
-                    <h1 className="centered-title">Local Foods</h1>
+                    <h1 className="centered-title">Local Food</h1>
                 </div>
             </div>
             <div className="container">
