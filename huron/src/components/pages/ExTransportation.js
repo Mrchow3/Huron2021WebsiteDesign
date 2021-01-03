@@ -51,7 +51,7 @@ function ExTransportation() {
         
       
         <div class="overdiv">
-            <div class="container-fluid mx-auto overdiv" style={{width: '80%',}}>
+            <div class="container mx-auto">
                 <div class="alt-1"> 
                     <h2 className="heading">Lynx Bus Service</h2>
                     <hr className="the-hr"></hr>

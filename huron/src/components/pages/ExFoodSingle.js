@@ -47,11 +47,11 @@ function ExFoodSingle(props){
                 )
             );
             articles.push(
-                <div>
+                <div className="alt-1">
                     <h2 className="heading">{article.name}</h2>
                     <hr className="the-hr"></hr>
-                    <div className="row mb-4">
-                        <div className="col">
+                    <div className="row article mb-4">
+                        <div className="col-md mr-3">
                             <p>
                                 {article.description}
                             </p>
