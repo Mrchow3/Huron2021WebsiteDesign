@@ -30,6 +30,7 @@ import TextSection from '../TextSection.js';
 import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
+import conferenceImg from '../the-hard-way.jpeg';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 
@@ -59,8 +60,8 @@ function Home() {
       <div className="container">
         <div className="my-4 py-4 row d-flex align-items-md-center justify-content-between">
           <div className="col-md text-center px-4">
-              <p className="text-center" style={{ 'font-size': '1.3em'}}>Congratulations on your qualification to the 2021 National Leadership Conference!</p>
-              <p className="text-center" style={{ 'font-size': '1.3em'}}>Learn more about the convention by exploring the potential hotels you could stay at as well as the schedule of the conference. Explore the unique culture of Orlando by cruising on a tranquil boat ride at Winter Park or immersing yourself in views of the bustling cityscape from atop the Wheel. Enjoy your stay!
+              <p className="text-center web-overview">Congratulations on your qualification to the 2021 National Leadership Conference!</p>
+              <p className="text-center web-overview">Learn more about the convention by exploring the potential hotels you could stay at as well as the schedule of the conference. Explore the unique culture of Orlando by cruising on a tranquil boat ride at Winter Park or immersing yourself in views of the bustling cityscape from atop the Wheel. Enjoy your stay!
             </p>
             </div>
         </div>
@@ -76,7 +77,7 @@ function Home() {
           <CardSection>
               <Card>
                   <a className="card-link" href="#/convention-info">
-                      <Card.Img variant="top" className="card-top food-image" src="http://www.fullerstreet.com/images/resume/bpa-2019-6.jpg" />
+                      <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
                       <Card.ImgOverlay className="food-overlay">
                           <Card.Body>
                               <Card.Title>Convention Info</Card.Title>
@@ -147,3 +148,6 @@ export default Home;
         <SingleCard />
       </CardSection>
       */
+
+
+//! IMPORTANT: Conference Image Reference: http://www.fullerstreet.com/images/resume/bpa-2019-6.jpg 
