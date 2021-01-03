@@ -1,0 +1,15 @@
+.icon{
+    height: 200px;
+}
+
+a.icon-inherit,
+a.icon-inherit:hover{
+    color:inherit;
+}
+
+.foot{
+    overflow: auto;
+    background-color: #242124;
+    color: white;
+    text-align: center;
+}

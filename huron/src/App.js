@@ -22,6 +22,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HNavBar from './components/HNavBar.js';
+import HFooter from './components/HFooter.js';
 import Home from './components/pages/Home.js';
 import Food from './components/pages/Food';
 import Hotels from './components/pages/Hotels';
@@ -68,6 +69,9 @@ function App() {
         <Route path='/explore-sightseeing' component={ExSightseeing} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
+      <footer>
+        <HFooter />
+      </footer>
     </HashRouter>
   );
 }
