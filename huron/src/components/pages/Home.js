@@ -77,9 +77,9 @@ function Home() {
                       <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
                       <Card.ImgOverlay className="food-overlay">
                           <Card.Body>
-                              <Card.Title>Convention Info</Card.Title>
+                              <Card.Title>General Info</Card.Title>
                               <Card.Text>
-                                  All you need to know about the National Convention!
+                                  All you need to know about the National Conference!
                               </Card.Text>
                           </Card.Body>
                       </Card.ImgOverlay>
