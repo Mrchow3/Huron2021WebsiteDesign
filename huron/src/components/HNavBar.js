@@ -60,7 +60,7 @@ function HNavBar() {
                 <NavDropdown.Item class="specific-dropdown" href='#/activities'>Activites</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title='Convention Info' class='category'>
-              <NavDropdown.Item href='#/convention-center'>General Info</NavDropdown.Item>
+              <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
                 <NavDropdown.Item href='#/schedule'>Schedule</NavDropdown.Item>
                 <NavDropdown.Item href='#/hotels'>Hotels</NavDropdown.Item>
               </NavDropdown>

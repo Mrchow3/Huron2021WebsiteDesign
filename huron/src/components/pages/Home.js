@@ -73,7 +73,7 @@ function Home() {
           <hr />
           <CardSection>
               <Card>
-                  <a className="card-link" href="#/convention-info">
+                  <a className="card-link" href="#/general-info">
                       <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
                       <Card.ImgOverlay className="food-overlay">
                           <Card.Body>
