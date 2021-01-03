@@ -2,6 +2,10 @@
     background-image: linear-gradient(white, #CFF2FF);
     overflow: auto;
 }
+.overdiv-2{
+    background-image: linear-gradient(white, #e5fbe5);
+    overflow: auto;
+}
 
 .alt-2{
     opacity: 0.5;

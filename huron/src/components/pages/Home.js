@@ -49,10 +49,7 @@ function Home() {
         
           <div className='centered-child'>
             <h1 className="centered-title">Plan Your Trip to Nationals</h1>
-            <div className='button-container'>
-              <Button variant="primary">Primary</Button>
-              <Button variant="primary">Secondary</Button>
-            </div>
+            
           </div>
 
         </HeroSection>
@@ -102,7 +99,7 @@ function Home() {
                   </a>
               </Card>
               <Card>
-                  <a className="card-link" href="#/explore-food/asian">
+                  <a className="card-link" href="#/hotels">
                       <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
                       <Card.ImgOverlay className="food-overlay">
                           <Card.Body>
@@ -147,6 +144,11 @@ export default Home;
         <SingleCard />
         <SingleCard />
       </CardSection>
+
+      <div className='button-container'>
+              <Button variant="primary">Primary</Button>
+              <Button variant="primary">Secondary</Button>
+            </div>
       */
 
 

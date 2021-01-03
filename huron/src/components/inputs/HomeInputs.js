@@ -51,7 +51,7 @@ const carouselInputs = [
     captionTitle: '',
     captionText: 'Experience Orlando to the fullest and immerse yourself in the real city experience.',
     button: 'See Options',
-    ref:'#/explore-food/',
+    ref:'#/explore-sightseeing/',
   },
   {
     image:
