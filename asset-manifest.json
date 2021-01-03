@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Huron2021WebsiteDesign/static/css/main.bc9bcc8e.chunk.css",
-    "main.js": "/Huron2021WebsiteDesign/static/js/main.5db5ecb3.chunk.js",
-    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.5db5ecb3.chunk.js.map",
+    "main.js": "/Huron2021WebsiteDesign/static/js/main.befd3fbf.chunk.js",
+    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.befd3fbf.chunk.js.map",
     "runtime-main.js": "/Huron2021WebsiteDesign/static/js/runtime-main.5bcb9a00.js",
     "runtime-main.js.map": "/Huron2021WebsiteDesign/static/js/runtime-main.5bcb9a00.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.7e129629.chunk.js",
     "static/css/main.bc9bcc8e.chunk.css",
-    "static/js/main.5db5ecb3.chunk.js"
+    "static/js/main.befd3fbf.chunk.js"
   ]
 }
