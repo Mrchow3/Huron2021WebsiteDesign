@@ -23,7 +23,7 @@
   filter: brightness(45%);
   overflow: hidden;
   height: auto;
-  max-height: 94vh;
+  max-height: 93vh;
   object-fit: cover;
 }
 

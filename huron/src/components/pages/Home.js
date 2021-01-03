@@ -23,6 +23,7 @@ import { Button as ButtonM } from '@material-ui/core';
 
 import './css/Home.css';
 import '../css/main.css';
+import './css/ExFood.css';
 
 import HeroSection from '../HeroSection.js';
 import TextSection from '../TextSection.js';
@@ -67,18 +68,52 @@ function Home() {
       <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
 
       
-
-      <CardSection>
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-        <SingleCard />
-      </CardSection>
+      <div className="container mb-4">
+          <h1 className="convention-title">Learn More About the Convention</h1>
+          <hr />
+          <CardSection>
+              <Card>
+                  <a className="card-link" href="#/convention-info">
+                      <Card.Img variant="top" className="card-top food-image" src="http://www.fullerstreet.com/images/resume/bpa-2019-6.jpg" />
+                      <Card.ImgOverlay className="food-overlay">
+                          <Card.Body>
+                              <Card.Title>Convention Info</Card.Title>
+                              <Card.Text>
+                                  All you need to know about the National Convention!
+                              </Card.Text>
+                          </Card.Body>
+                      </Card.ImgOverlay>
+                  </a>
+              </Card>
+              <Card>
+                  <a className="card-link" href="#/schedule">
+                      <Card.Img variant="top" className="card-top food-image" src="http://cs.utdallas.edu/wp-content/uploads/2016/11/DSC_0125.jpg" />
+                      <Card.ImgOverlay className="food-overlay">
+                          <Card.Body>
+                              <Card.Title>Schedule</Card.Title>
+                              <Card.Text>
+                                  When are your events? Let's find out.
+                              </Card.Text>
+                          </Card.Body>
+                      </Card.ImgOverlay>
+                  </a>
+              </Card>
+              <Card>
+                  <a className="card-link" href="#/explore-food/asian">
+                      <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
+                      <Card.ImgOverlay className="food-overlay">
+                          <Card.Body>
+                              <Card.Title>Hotels</Card.Title>
+                              <Card.Text>
+                                  Learn about the two options for your stay in Orlando.
+                              </Card.Text>
+                          </Card.Body>
+                      </Card.ImgOverlay>
+                  </a>
+              </Card>
+          </CardSection>
+      </div>
+      
     </div>
   );
 }
@@ -97,4 +132,16 @@ export default Home;
         height='90'
       >
         <p className='centered-child'>Testing</p>
-      </HeroSection>*/
+      </HeroSection>
+      <CardSection>
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+        <SingleCard />
+      </CardSection>
+      */

@@ -63,14 +63,11 @@ function HNavBar() {
               <NavDropdown.Item href='#/convention-center'>Convention Center</NavDropdown.Item>
                 <NavDropdown.Item href='#/schedule'>Schedule</NavDropdown.Item>
                 <NavDropdown.Item href='#/hotels'>Hotels</NavDropdown.Item>
-                <NavDropdown.Item href='#/food'>Food</NavDropdown.Item>
-                <NavDropdown.Item href='#/convention-transportation'>Transportation</NavDropdown.Item>
-                <NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title='Explore Orlando' class='category'>
                 <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
-                <NavDropdown.Item href='#/sight-seeing'>Sight Seeing</NavDropdown.Item>
-                <NavDropdown.Item href='#/explore-attractions'>Attractions</NavDropdown.Item>
+                <NavDropdown.Item href='#/sight-seeing'>Sightseeing</NavDropdown.Item>
+                
                 <NavDropdown.Item href='#/explore-food/'>Local Food</NavDropdown.Item>
               </NavDropdown>
             </Nav>
@@ -103,4 +100,9 @@ export default HNavBar;
 <MyVerticallyCenteredModal
 show={modalShow}
 onHide={() => setModalShow(false)}
+
+<NavDropdown.Item href='#/food'>Food</NavDropdown.Item>
+<NavDropdown.Item href='#/convention-transportation'>Transportation</NavDropdown.Item>
+<NavDropdown.Item href='#/activities'>Activites</NavDropdown.Item>
+<NavDropdown.Item href='#/explore-attractions'>Attractions</NavDropdown.Item>
 />*/
