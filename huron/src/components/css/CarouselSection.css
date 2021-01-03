@@ -23,21 +23,11 @@
   filter: brightness(45%);
   overflow: hidden;
   height: auto;
-  max-height: 92vh;
+  max-height: 94vh;
   object-fit: cover;
 }
 
-@media only screen and (max-width:800px){
-  .carousel-image{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(45%);
-    overflow: hidden;
-    height: 50vh;
-    object-fit: cover;
-  }
-}
+
 
 #carousel-title{
   filter: brightness(100%);
@@ -50,4 +40,22 @@
   filter: brightness(100%);
   color: white;
   font-size: 1.2em;
+}
+
+@media only screen and (max-width: 768px){
+  .carousel-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(45%);
+    overflow: hidden;
+    height: 45vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  #carousel-title{
+    font-size: 3em;
+    color: white;
+    margin: 0 0 8px;
+  }
 }
