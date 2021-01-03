@@ -31,6 +31,8 @@ import ExFood from './components/pages/ExFood';
 import ExSightseeing from './components/pages/ExSightseeing';
 import { foodInputs } from './components/inputs/FoodInputs.js';
 import ExFoodSingle from './components/pages/ExFoodSingle';
+import { sightseeingInputs } from './components/inputs/SightseeingInputs.js';
+import ExSightseeingSingle from './components/pages/ExSightseeingSingle';
 
 function App() {
   var boo = ExFoodSingle(foodInputs[0]);
@@ -67,6 +69,15 @@ function App() {
           content = {foodInputs[5].content}
         />} />
         <Route path='/explore-sightseeing' component={ExSightseeing} />
+        <Route path='/explore-sightseeing-harry-p-leu-gardens' component={ExSightseeingSingle} children={ 
+        <ExSightseeingSingle
+          title = {sightseeingInputs[0].title}
+          blurb = {sightseeingInputs[0].blurb}
+          website = {sightseeingInputs[0].website}
+          prices = {sightseeingInputs[0].prices}
+          hours = {sightseeingInputs[0].hours}
+          image = {sightseeingInputs[0].image}
+        />} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
       <footer>

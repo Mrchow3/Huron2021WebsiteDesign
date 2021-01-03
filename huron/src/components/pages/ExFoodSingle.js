@@ -83,7 +83,7 @@ function ExFoodSingle(props){
             <div className="head-hero">
                 <HeroSection
                     image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
-                    height='92'
+                    height='60'
                     filter='70'
                 ></HeroSection>
                 <div className='centered-child'>
@@ -95,7 +95,6 @@ function ExFoodSingle(props){
                     {articles}
                 </div>  
             </div>
-            
         </div>
     );
 }
