@@ -38,7 +38,9 @@ import { attractionInputs } from './components/inputs/AttractionInputs.js';
 import ExAttractionsSingle from './components/pages/ExAttractionsSingle';
 import DisneyPage from './components/pages/DisneyPage';
 import SpringsFood from './components/pages/SpringsFood';
+import SpringsRec from './components/pages/SpringsRec';
 import YachtFood from './components/pages/YachtFood';
+import YachtRec from './components/pages/YachtRec';
 
 function App() {
   return (
@@ -258,7 +260,9 @@ function App() {
         <Route path='/explore-attractions-disney' component={DisneyPage} />
         <Route path='/hotels' component={Hotels} />
         <Route path='/corondo-springs-food' component={SpringsFood} />
+        <Route path='/corondo-springs-recreation' component={SpringsRec} />
         <Route path='/yacht-club-food' component={YachtFood} />
+        <Route path='/yacht-club-recreation' component={YachtRec} />
       </Switch>
       <footer>
         <HFooter />

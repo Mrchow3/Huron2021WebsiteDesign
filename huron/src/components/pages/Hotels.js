@@ -229,7 +229,7 @@ class Hotels extends Component{
                                     </a>
                                 </Card>
                                 <Card href="#recreation">
-                                    <a className="card-link" href="#recreation">
+                                    <a className="card-link" href="#corondo-springs-recreation">
                                     <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/vjzzQCs8c2CCVrgXdOVoZA/o.jpg" />
                                     <Card.Body>
                                         <Card.Title>Recreation</Card.Title>
@@ -325,7 +325,7 @@ class Hotels extends Component{
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <img src="https://mickeyblog.com/wp-content/uploads/2018/08/Yacht-Club-720x340.jpg" className="img-fluid article-image cropped-500"></img>
+                                        <img src="https://royaltreatmenttravel.com/wp-content/uploads/2018/02/yc-15.jpg" className="img-fluid article-image cropped-500"></img>
                                     </div>
                                 </div>
                             </div>
@@ -392,7 +392,7 @@ class Hotels extends Component{
                                     </a>
                                 </Card>
                                 <Card href="#recreation">
-                                    <a className="card-link" href="#food">
+                                    <a className="card-link" href="#/yacht-club-recreation">
                                         <Card.Img variant="top" className="card-top" src="http://4.bp.blogspot.com/_zSWJkb_7Edw/S7RTARKUIoI/AAAAAAAAAms/_LzIq6HzAjE/s1600/Stormalong+Bay.JPG" />
                                         <Card.Body>
                                             <Card.Title>Recreation</Card.Title>
