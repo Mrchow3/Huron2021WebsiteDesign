@@ -81,7 +81,7 @@ function DisneyPage() {
                     <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md mr-3">
-                            <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image"></img>
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image"></img>
                             </div>
                         <div class="col">
                             <div class="right-div">
