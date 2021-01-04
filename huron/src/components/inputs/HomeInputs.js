@@ -64,6 +64,17 @@ const carouselInputs = [
     button: 'See Options',
     ref:'#/explore-food/',
   },
+  {
+    image: /*searched orlando attractions for image*/
+      'https://cdn.newsday.com/polopoly_fs/1.11408063.1454597559!/httpImage/image.jpeg_gen/derivatives/display_960/image.jpeg',
+    height: carouselItemHeight,
+    carouselFilter: 60,
+    title: 'Attractions',
+    captionTitle: 'Fourth Slide',
+    captionText: 'Orlando is known for its many exciting attractions. Learn about the best visits from the unique Museum of Art to the amazing Universal Theme Park.',
+    button: 'See Options',
+    ref:'#/explore-attractions/',
+  },
 ];
 
 const carouseloutputs = [];

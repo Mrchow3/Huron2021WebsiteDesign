@@ -48,7 +48,7 @@ function DisneyPage() {
             <h1 className="centered-title">Disney</h1>
             </div>
         </div>
-        <div class="overdiv">
+        <div class="overdiv-2">
             <div class="container mx-auto">
                 <div class="alt-1"> 
                     <h2 className="heading">Disney’s Magic Kingdom</h2>

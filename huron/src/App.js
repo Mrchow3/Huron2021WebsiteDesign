@@ -39,7 +39,6 @@ import ExAttractionsSingle from './components/pages/ExAttractionsSingle';
 import DisneyPage from './components/pages/DisneyPage';
 
 function App() {
-  var boo = ExFoodSingle(foodInputs[0]);
   return (
     <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <HNavBar />
