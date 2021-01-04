@@ -29,11 +29,13 @@ import Hotels from './components/pages/Hotels';
 import ExTransportation from './components/pages/ExTransportation';
 import ExFood from './components/pages/ExFood';
 import ExSightseeing from './components/pages/ExSightseeing';
+import ExAttractions from './components/pages/ExAttractions';
 import { foodInputs } from './components/inputs/FoodInputs.js';
 import ExFoodSingle from './components/pages/ExFoodSingle';
 import { sightseeingInputs } from './components/inputs/SightseeingInputs.js';
 import ExSightseeingSingle from './components/pages/ExSightseeingSingle';
-import ExAttractions from './components/pages/ExAttractions';
+import { attractionInputs } from './components/inputs/AttractionInputs.js';
+import ExAttractionsSingle from './components/pages/ExAttractionsSingle';
 
 function App() {
   var boo = ExFoodSingle(foodInputs[0]);
@@ -152,6 +154,96 @@ function App() {
             image = {sightseeingInputs[8].image}
         />} />
         <Route path='/explore-attractions' component={ExAttractions} />
+        <Route path='/explore-attractions-water-attractions' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[0].title}
+            description = {attractionInputs[0].description}
+            websites = {attractionInputs[0].websites}
+            pricing = {attractionInputs[0].pricing}
+            hours = {attractionInputs[0].hours}
+            image = {attractionInputs[0].image}
+        />} />
+        <Route path='/explore-attractions-ripleys' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[1].title}
+            description = {attractionInputs[1].description}
+            websites = {attractionInputs[1].websites}
+            pricing = {attractionInputs[1].pricing}
+            hours = {attractionInputs[1].hours}
+            image = {attractionInputs[1].image}
+        />} />
+        <Route path='/explore-attractions-museum-of-art' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[2].title}
+            description = {attractionInputs[2].description}
+            websites = {attractionInputs[2].websites}
+            pricing = {attractionInputs[2].pricing}
+            hours = {attractionInputs[2].hours}
+            image = {attractionInputs[2].image}
+        />} />
+        <Route path='/explore-attractions-chocolate-kingdom' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[3].title}
+            description = {attractionInputs[3].description}
+            websites = {attractionInputs[3].websites}
+            pricing = {attractionInputs[3].pricing}
+            hours = {attractionInputs[3].hours}
+            image = {attractionInputs[3].image}
+        />} />
+        <Route path='/explore-attractions-escape-room' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[4].title}
+            description = {attractionInputs[4].description}
+            websites = {attractionInputs[4].websites}
+            pricing = {attractionInputs[4].pricing}
+            hours = {attractionInputs[4].hours}
+            image = {attractionInputs[4].image}
+        />} />
+        <Route path='/explore-attractions-ifly' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[5].title}
+            description = {attractionInputs[5].description}
+            websites = {attractionInputs[5].websites}
+            pricing = {attractionInputs[5].pricing}
+            hours = {attractionInputs[5].hours}
+            image = {attractionInputs[5].image}
+        />} />
+        <Route path='/explore-attractions-kennedy-space-center' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[6].title}
+            description = {attractionInputs[6].description}
+            websites = {attractionInputs[6].websites}
+            pricing = {attractionInputs[6].pricing}
+            hours = {attractionInputs[6].hours}
+            image = {attractionInputs[6].image}
+        />} />
+        <Route path='/explore-attractions-indoor-karting"' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[7].title}
+            description = {attractionInputs[7].description}
+            websites = {attractionInputs[7].websites}
+            pricing = {attractionInputs[7].pricing}
+            hours = {attractionInputs[7].hours}
+            image = {attractionInputs[7].image}
+        />} />
+        <Route path='/explore-attractions-science-center' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[8].title}
+            description = {attractionInputs[8].description}
+            websites = {attractionInputs[8].websites}
+            pricing = {attractionInputs[8].pricing}
+            hours = {attractionInputs[8].hours}
+            image = {attractionInputs[8].image}
+        />} />
+        <Route path='/explore-attractions-icon-park' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[9].title}
+            description = {attractionInputs[9].description}
+            websites = {attractionInputs[9].websites}
+            pricing = {attractionInputs[9].pricing}
+            hours = {attractionInputs[9].hours}
+            image = {attractionInputs[9].image}
+        />} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
       <footer>

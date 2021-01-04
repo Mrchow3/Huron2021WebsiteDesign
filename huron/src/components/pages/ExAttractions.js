@@ -81,7 +81,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-water-attractions">
                             <Card.Img variant="top" className="card-top food-image" src="http://littleinspiration.com/wp-content/uploads/2017/06/img_6608.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -94,7 +94,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-icon-park">
                             <Card.Img variant="top" className="card-top food-image" src="https://www.iconparkorlando.com/wp-content/uploads/185164_up_high1.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -107,7 +107,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-ripleys">
                             <Card.Img variant="top" className="card-top food-image" src="https://media.dayoutwiththekids.co.uk/media/12950/38231-ripleys-believe-it-or-not-london-09.jpg?mode=crop&width=1680&height=940" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -120,7 +120,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-museum-of-art">
                             <Card.Img variant="top" className="card-top food-image" src="https://thermanstatom.com/site/wp-content/uploads/2014/12/orlando-art-museum2.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -133,7 +133,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-chocolate-kingdom">
                             <Card.Img variant="top" className="card-top food-image" src="https://thumbnails.trvl-media.com/dtxTyWcWUaV8Ak9zL6txLOrDko0=/cdn.lemediavault.com/images/d0fbe092c5a36096b0a23f15257188de.jpeg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -146,7 +146,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-escape-room">
                             <Card.Img variant="top" className="card-top food-image" src="https://media2.fdncms.com/orlando/imager/escapology/u/zoom/2372600/escapology.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -159,7 +159,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-ifly">
                             <Card.Img variant="top" className="card-top food-image" src="https://www.indoorskydivingsource.com/wp-content/uploads/2015/11/ifly-orlando-dual-inside.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -172,7 +172,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-kennedy-space-center">
                             <Card.Img variant="top" className="card-top food-image" src="https://image.cnbcfm.com/api/v1/image/105425499-15356580044102_rocket-garden-at-the-kennedy-space-center-visitor--complex_photo_kennedy-space-center-complex.jpg?v=1535658045" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -185,7 +185,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-indoor-karting">
                             <Card.Img variant="top" className="card-top food-image" src="https://orlandoinformer.com/wp-content/uploads/2020/04/Andretti-Indoor-Karting-Games-Orlando-racing-1024x684.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
@@ -198,7 +198,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-universal">
+                        <a className="card-link" href="#/explore-attractions-science-center">
                             <Card.Img variant="top" className="card-top food-image" src="http://www.todaysorlando.com/sites/default/files/styles/cover/public/Orlando_science_center_osc_front.jpg?itok=KPmvtMdB" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>
