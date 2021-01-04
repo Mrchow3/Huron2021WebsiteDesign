@@ -33,6 +33,7 @@ import { foodInputs } from './components/inputs/FoodInputs.js';
 import ExFoodSingle from './components/pages/ExFoodSingle';
 import { sightseeingInputs } from './components/inputs/SightseeingInputs.js';
 import ExSightseeingSingle from './components/pages/ExSightseeingSingle';
+import ExAttractions from './components/pages/ExAttractions';
 
 function App() {
   var boo = ExFoodSingle(foodInputs[0]);
@@ -150,6 +151,7 @@ function App() {
             hours = {sightseeingInputs[8].hours}
             image = {sightseeingInputs[8].image}
         />} />
+        <Route path='/explore-attractions' component={ExAttractions} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
       <footer>

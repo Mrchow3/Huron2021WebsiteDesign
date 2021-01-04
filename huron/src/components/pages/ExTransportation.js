@@ -96,7 +96,7 @@ function ExTransportation() {
                     </div>
                 </div>
                 <div class="alt-1"> 
-                    <h2 class="heading">Biking and Walking</h2>
+                    <h2 class="heading">Biking</h2>
                     <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
                         <div class="col-md mr-3">
@@ -122,8 +122,84 @@ function ExTransportation() {
                                       </li>
                                   </ul>
                                 </section>
-                                <p>Enjoy sightseeing through downtown Orlando on foot. Take in views of local restaurants and shops while exploring the city and getting your steps in.</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alt-1">
+                  <h2 class="heading">Taxis</h2>
+                  <hr className="the-hr"></hr>
+                    <div class="row mt-3 article">
+                        <div class="col-md mr-3">
+                            <div class="right-div">
+                                <p class="right-justified">Taxis are typically available at hotels and surrounding large attractions. But if you don’t prefer to hail your own cab, call 407-422-2222 for Mears Orlando Taxi Services. Started in 1939, Mears offers both sedans and vans, each equipped with drivers that are local experts and will help you arrive at your destination safely and on time. Additionally, Mears’ partnership with Uber provides luxury rides available on the Uber app, making their taxis more accessible for you. While prices vary depending on type of vehicle and distance traveled, on average Mears taxis are more affordable than other ride sharing options.</p>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <img src="http://3.bp.blogspot.com/-gYGxymZphLc/VG-oX-AZeKI/AAAAAAAAVPk/BXU6Tl9wLko/s1600/taxi-orlando-transporte.jpg" className="img-fluid article-image"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="alt-1"> 
+                    <h2 class="heading">Ridesharing</h2>
+                    <hr className="the-hr"></hr>
+                    <div class="row mt-3 article">
+                        <div class="col-md mr-3">
+                            <img src="https://media.bizj.us/view/img/10538212/minnie-van-service*1200xx900-506-0-51.jpg" className="img-fluid article-image"></img>
+                        </div>
+                        <div class="col">
+                            <div class="right-div">
+                                <p class="right-justified"><a href="https://auth.uber.com/login/?uber_client_name=riderSignUp&city_id=7&utm_source=AdWords_Brand&utm_campaign=search-google-brand_1_7_us-chicago_d_txt_acq_cpc_en-us_uber_kwd-169801042_320236091175_22880476120_e_c_track-jan22urlupdate-sl42391-1114_restructure&cid=271787680&adg_id=22880476120&fi_id=5028672018&match=e&net=g&dev=c&dev_m=&cre=320236091175&kwid=kwd-169801042&kw=uber&placement=&tar=&gclsrc=aw.ds&&gclid=EAIaIQobChMI3KS0oYHV3wIVVTVpCh3gPgtTEAAYASABEgK6hvD_BwE&gclsrc=aw.ds">Uber</a> and <a href="https://www.lyft.com/rider">Lyft</a> offer on-demand rides throughout Orlando. With both apps effortless to use, all that is required to get a ride to your destination is a couple clicks. Rates and availability are available on both platforms.</p>
+                                <section>
+                                  <p>Uber</p>
+                                  <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
+                                      <li>
+                                      Booking Fee: $2.20
+                                      </li>
+                                      <li>
+                                      Cost per mile: $1.60
+                                      </li>
+                                      <li>
+                                      Per-minute wait time: $0.42
+                                      </li>
+                                      <li>
+                                      Minimum fair: $7.20
+                                      </li>
+                                  </ul>
+                                </section>
+                                <section>
+                                  <p>Lyft</p>
+                                  <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
+                                      <li>
+                                      Base Fare: $1.15
+                                      </li>
+                                      <li>
+                                      Cost per mile: $0.82
+                                      </li>
+                                      <li>
+                                      Cost per minute: $0.14 
+                                      </li>
+                                      <li>
+                                      Minimum fare: $4.45
+                                      </li>
+                                  </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alt-1">
+                  <h2 class="heading">I-Ride Trolley and Pedicab</h2>
+                  <hr className="the-hr"></hr>
+                    <div class="row mt-3 article">
+                        <div class="col-md mr-3">
+                            <div class="right-div">
+                                <p class="right-justified">The I-Ride Trolley is perfect for anyone who wishes to ride the Revenge of the Mummy at Universal Studios, visit the Kraken at Seaworld, or get adventurous at the Islands of Adventure. The trolley services destinations in the International Drive area which is home to many attractions that will make your trip eventful and extraordinary. Single ride fare is $2.00 while the price of passes can range from $5.00 per person (1-day pass) to $9.00 per person (5-day pass).</p>
+                                <p class="left-justified">Traveling with a small group and looking for a local’s advice? Pedicabs offer quick eco friendly travel for short distances throughout the city. The drivers are friendly and help tourists get an inside peek of Orlando. Additionally, the payment for your ride depends on the number of people riding and distance traveled, and is typically paid as a tip to your driver. Pedicabs are both a great form of downtown transportation and a fun, informative experience.</p>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <img src="https://www.peppertreebay.com/wp-content/uploads/2020/07/siesta-key-transportation-1.jpg" className="img-fluid article-image"></img>
                         </div>
                     </div>
                 </div>
@@ -140,4 +216,7 @@ export default ExTransportation;
             <Navbar.Brand href="#">Navbar</Navbar.Brand>
           </Navbar.Collapse>
         </Navbar>
-      </Container> */
+      </Container> 
+      
+<p>Enjoy sightseeing through downtown Orlando on foot. Take in views of local restaurants and shops while exploring the city and getting your steps in.</p>
+*/

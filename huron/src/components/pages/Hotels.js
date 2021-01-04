@@ -216,7 +216,7 @@ class Hotels extends Component{
                                 </div>
                             </div>
                             <hr></hr>
-                            <CardDeck>
+                            <CardDeck className="mb-4">
                                 <Card>
                                     <a className="card-link" href="#food">
                                         <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/bXq6MdJETZkkn5NxhcjgCg/o.jpg" />
@@ -379,7 +379,7 @@ class Hotels extends Component{
                                 </div>
                             </div>
                             <hr></hr>
-                            <CardDeck>
+                            <CardDeck className="mb-4">
                                 <Card href="#food">
                                     <a className="card-link" href="#food">
                                         <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/Qq9LDQx6PkaHeS74GQxHqw/o.jpg" />
