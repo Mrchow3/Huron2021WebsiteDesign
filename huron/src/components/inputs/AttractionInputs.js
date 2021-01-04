@@ -204,6 +204,37 @@ const attractionInputs = [
         image: 'https://i1.wp.com/partiudisneyparks.com/wp-content/uploads/2020/05/icon-park-orlando.png?w=1392&ssl=1',
         citation: 'Picture Citation: Braga, Carlos. Icon-park-orlando. 2020. Partiu Disney Parks, https://partiudisneyparks.com/en/icon-park-orlando/',
     },
+    {
+        title: 'Universal Studios Florida, Islands of Adventure, and Volcano Bay',
+        description: 'Featuring rides and restaurants based on your favorite TV shows and movies, Universal Studios is the ultimate Hollywood experience. Dive into the Wizarding World of Harry Potter in the Diagon Alley and the Escape from Gringotts ride. After checking out the rides and shops at Universal Studios Florida, you can take the Hogwarts Express across to another park, the Islands of Adventure, which features Marvel superhero roller coasters and water rides that are fun for the whole family. Located right next door is Universal’s Volcano Bay. This water theme park filled with winding rivers, wave pools, and slides is the perfect way to cool off after a hot day in the other parks.',
+        websites: [
+            {
+                part: 'Universal Orlando',
+                site: 'https://www.universalorlando.com/web-store/en/us/park-tickets?flr=1&days=1',
+            },
+            {
+                part: 'Islands of Adventure',
+                site: 'https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure',
+            },
+            {
+                part: 'Volcano Bay',
+                site: 'https://www.universalorlando.com/web/en/us/theme-parks/volcano-bay',
+            }
+        ],
+        pricing: [
+            'Universal Studios: $109, one day ticket',
+            'Islands of Adventure: $109, one day ticket',
+            'Volcano Bay: $70, one day ticket',
+            'Universal Studios and Islands of Adventure: $164, one day ticket'
+        ],
+        hours: [
+            'Universal Studios: Most days, 9:00am - 5:00pm',
+            'Islands of Adventure: Most days, 10:00am - 6:00pm',
+            'Volcano Bay: Most days, 10:00 AM - 5:00 PM (Closed in the winter)'
+        ],
+        image: 'https://www.visitflorida.com/content/dam/visitflorida/en-us/images/articles/2016/listicles/family-universal/universal-orlando-resort-harry-potter-diagon-alley.jpg.1020.680.imagerendition',
+        citation: 'Picture Citation: Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html',
+    },
 ];
 
 export { attractionInputs };

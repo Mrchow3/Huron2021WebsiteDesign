@@ -36,6 +36,7 @@ import { sightseeingInputs } from './components/inputs/SightseeingInputs.js';
 import ExSightseeingSingle from './components/pages/ExSightseeingSingle';
 import { attractionInputs } from './components/inputs/AttractionInputs.js';
 import ExAttractionsSingle from './components/pages/ExAttractionsSingle';
+import DisneyPage from './components/pages/DisneyPage';
 
 function App() {
   var boo = ExFoodSingle(foodInputs[0]);
@@ -244,6 +245,16 @@ function App() {
             hours = {attractionInputs[9].hours}
             image = {attractionInputs[9].image}
         />} />
+        <Route path='/explore-attractions-universal' component={ExAttractionsSingle} children={ 
+          <ExAttractionsSingle
+            title = {attractionInputs[10].title}
+            description = {attractionInputs[10].description}
+            websites = {attractionInputs[10].websites}
+            pricing = {attractionInputs[10].pricing}
+            hours = {attractionInputs[10].hours}
+            image = {attractionInputs[10].image}
+        />} />
+        <Route path='/explore-attractions-disney' component={DisneyPage} />
         <Route path='/hotels' component={Hotels} />
       </Switch>
       <footer>
