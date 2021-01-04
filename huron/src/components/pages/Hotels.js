@@ -218,8 +218,8 @@ class Hotels extends Component{
                             <hr></hr>
                             <CardDeck className="mb-4">
                                 <Card>
-                                    <a className="card-link" href="#food">
-                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/bXq6MdJETZkkn5NxhcjgCg/o.jpg" />
+                                    <a className="card-link" href="#/corondo-springs-food">
+                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/zS-e1bYjpjbYxDLZqx8sFw/o.jpg" />
                                         <Card.Body>
                                             <Card.Title>Food</Card.Title>
                                             <Card.Text>
@@ -381,7 +381,7 @@ class Hotels extends Component{
                             <hr></hr>
                             <CardDeck className="mb-4">
                                 <Card href="#food">
-                                    <a className="card-link" href="#food">
+                                    <a className="card-link" href="#/yacht-club-food">
                                         <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/Qq9LDQx6PkaHeS74GQxHqw/o.jpg" />
                                         <Card.Body>
                                             <Card.Title>Food</Card.Title>

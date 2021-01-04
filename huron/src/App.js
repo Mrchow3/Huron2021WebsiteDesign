@@ -37,6 +37,8 @@ import ExSightseeingSingle from './components/pages/ExSightseeingSingle';
 import { attractionInputs } from './components/inputs/AttractionInputs.js';
 import ExAttractionsSingle from './components/pages/ExAttractionsSingle';
 import DisneyPage from './components/pages/DisneyPage';
+import SpringsFood from './components/pages/SpringsFood';
+import YachtFood from './components/pages/YachtFood';
 
 function App() {
   return (
@@ -255,6 +257,8 @@ function App() {
         />} />
         <Route path='/explore-attractions-disney' component={DisneyPage} />
         <Route path='/hotels' component={Hotels} />
+        <Route path='/corondo-springs-food' component={SpringsFood} />
+        <Route path='/yacht-club-food' component={YachtFood} />
       </Switch>
       <footer>
         <HFooter />
