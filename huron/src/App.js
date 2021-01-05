@@ -43,6 +43,7 @@ import YachtFood from './components/pages/YachtFood';
 import YachtRec from './components/pages/YachtRec';
 import GeneralInfo from './components/pages/GeneralInfo';
 import Travel from './components/pages/Travel';
+import Schedule from './components/pages/Schedule';
 
 function App() {
   return (
@@ -266,6 +267,7 @@ function App() {
         <Route path='/yacht-club-food' component={YachtFood} />
         <Route path='/yacht-club-recreation' component={YachtRec} />
         <Route path='/general-info' component={GeneralInfo} />
+        <Route path='/schedule' component={Schedule} />
         <Route path='/travel' component={Travel} />
       </Switch>
       <footer>
