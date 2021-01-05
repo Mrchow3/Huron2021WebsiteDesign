@@ -1,35 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Image,
-  Carousel,
-  CarouselItem,
-  Card,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
+  Card
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import { Button as ButtonM } from '@material-ui/core';
+import LazyLoader from 'react-lazyload'
 
 import './css/Home.css';
 import '../css/main.css';
 import './css/ExFood.css';
 
 import HeroSection from '../HeroSection.js';
-import TextSection from '../TextSection.js';
 import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
-import SingleCard from '../SingleCard.js';
 import conferenceImg from '../the-hard-way.jpeg';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
@@ -64,54 +46,58 @@ function Home() {
         </div>
       </div>
       
-
+      <LazyLoader once={true}>
       <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
+      </LazyLoader>
+      
 
       
       <div className="container mb-4">
           <h1 className="convention-title">Learn More About the Convention</h1>
           <hr />
-          <CardSection>
-              <Card>
-                  <a className="card-link" href="#/general-info">
-                      <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
-                      <Card.ImgOverlay className="food-overlay">
-                          <Card.Body>
-                              <Card.Title>General Info</Card.Title>
-                              <Card.Text>
-                                  All you need to know about the National Conference!
-                              </Card.Text>
-                          </Card.Body>
-                      </Card.ImgOverlay>
-                  </a>
-              </Card>
-              <Card>
-                  <a className="card-link" href="#/schedule">
-                      <Card.Img variant="top" className="card-top food-image" src="http://cs.utdallas.edu/wp-content/uploads/2016/11/DSC_0125.jpg" />
-                      <Card.ImgOverlay className="food-overlay">
-                          <Card.Body>
-                              <Card.Title>Schedule</Card.Title>
-                              <Card.Text>
-                                  When are your events? Let's find out.
-                              </Card.Text>
-                          </Card.Body>
-                      </Card.ImgOverlay>
-                  </a>
-              </Card>
-              <Card>
-                  <a className="card-link" href="#/hotels">
-                      <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
-                      <Card.ImgOverlay className="food-overlay">
-                          <Card.Body>
-                              <Card.Title>Hotels</Card.Title>
-                              <Card.Text>
-                                  Learn about the two options for your stay in Orlando.
-                              </Card.Text>
-                          </Card.Body>
-                      </Card.ImgOverlay>
-                  </a>
-              </Card>
-          </CardSection>
+          <LazyLoader once={true}>
+            <CardSection>
+                <Card>
+                    <a className="card-link" href="#/general-info">
+                        <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
+                        <Card.ImgOverlay className="food-overlay">
+                            <Card.Body>
+                                <Card.Title>General Info</Card.Title>
+                                <Card.Text>
+                                    All you need to know about the National Conference!
+                                </Card.Text>
+                            </Card.Body>
+                        </Card.ImgOverlay>
+                    </a>
+                </Card>
+                <Card>
+                    <a className="card-link" href="#/schedule">
+                        <Card.Img variant="top" className="card-top food-image" src="http://cs.utdallas.edu/wp-content/uploads/2016/11/DSC_0125.jpg" />
+                        <Card.ImgOverlay className="food-overlay">
+                            <Card.Body>
+                                <Card.Title>Schedule</Card.Title>
+                                <Card.Text>
+                                    When are your events? Let's find out.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card.ImgOverlay>
+                    </a>
+                </Card>
+                <Card>
+                    <a className="card-link" href="#/hotels">
+                        <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
+                        <Card.ImgOverlay className="food-overlay">
+                            <Card.Body>
+                                <Card.Title>Hotels</Card.Title>
+                                <Card.Text>
+                                    Learn about the two options for your stay in Orlando.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card.ImgOverlay>
+                    </a>
+                </Card>
+            </CardSection>
+          </LazyLoader>
       </div>
       
     </div>
