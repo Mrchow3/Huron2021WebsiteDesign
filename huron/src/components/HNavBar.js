@@ -44,7 +44,7 @@ function MyVerticallyCenteredModal(props) {
 function HNavBar() {
   return (
     <Navbar expand='lg' bg='light' fixed='top'>
-      <Navbar.Brand href='#/'>
+      <Navbar.Brand className="ml-n1" href='#/'>
         <img
           alt=''
           src={palmlogo}
@@ -73,15 +73,17 @@ function HNavBar() {
               </NavDropdown>
             </Nav>
           <Nav className='mr-auto'>
-          </Nav> 
-          <HModal/>
+          </Nav>
+          <Button variant="outline-primary" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
       </Navbar.Collapse>
     </Navbar>
   );
 }
 
 export default HNavBar;
-/*      <Container>
+/*
+<HModal/>      
+<Container>
         <Navbar expand="lg" variant="tabs" bg="dark">
           <Navbar.Collapse>
             <Navbar.Brand href="#">Navbar</Navbar.Brand>
