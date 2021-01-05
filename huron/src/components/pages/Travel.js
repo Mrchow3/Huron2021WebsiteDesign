@@ -29,6 +29,9 @@ import conferenceImg from '../the-hard-way.jpeg';
 import HeroSection from '../HeroSection.js';
 
 function Travel() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <div className="head-hero">
