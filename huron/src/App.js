@@ -41,6 +41,7 @@ import SpringsFood from './components/pages/SpringsFood';
 import SpringsRec from './components/pages/SpringsRec';
 import YachtFood from './components/pages/YachtFood';
 import YachtRec from './components/pages/YachtRec';
+import GeneralInfo from './components/pages/GeneralInfo';
 
 function App() {
   return (
@@ -263,6 +264,7 @@ function App() {
         <Route path='/corondo-springs-recreation' component={SpringsRec} />
         <Route path='/yacht-club-food' component={YachtFood} />
         <Route path='/yacht-club-recreation' component={YachtRec} />
+        <Route path='/general-info' component={GeneralInfo} />
       </Switch>
       <footer>
         <HFooter />
