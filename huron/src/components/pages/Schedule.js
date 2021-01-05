@@ -26,7 +26,10 @@ function Schedule() {
             <div className="container">
                 <h2 className="heading">Tentative Schedule</h2>
                 <hr className="the-hr"></hr>
-                <iframe src="https://34kjmn3xy614nqsp3bsgpb13-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/SOE-NLC-2021-TENTATIVE-10.01.20.pdf"></iframe>
+                <p>You may also view the schedule <a target="_blank" href="https://34kjmn3xy614nqsp3bsgpb13-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/SOE-NLC-2021-TENTATIVE-10.01.20.pdf">here</a>.</p>
+                <div className="frame">
+                    <iframe src="https://34kjmn3xy614nqsp3bsgpb13-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/SOE-NLC-2021-TENTATIVE-10.01.20.pdf"></iframe>
+                </div>
             </div>
         </div>
     );
