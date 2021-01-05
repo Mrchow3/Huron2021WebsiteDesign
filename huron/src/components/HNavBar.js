@@ -11,6 +11,7 @@ import {
 } from 'react-bootstrap';
 import './css/HNavBar.css';
 import logo from './gmegv3da01.svg';
+import palmlogo from './peter_black-1.jpg';
 import HModal from './HModal.js';
 /*
 function MyVerticallyCenteredModal(props) {
@@ -46,7 +47,7 @@ function HNavBar() {
       <Navbar.Brand href='#/'>
         <img
           alt=''
-          src={logo}
+          src={palmlogo}
           width='30'
           height='30'
           className='d-inline-block align-top'
@@ -57,7 +58,7 @@ function HNavBar() {
       <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='mr-auto'>
               <NavDropdown title='Plan Your Travel' class='category'>
-                <NavDropdown.Item class="specific-dropdown" href='#/activities'>Activites</NavDropdown.Item>
+                <NavDropdown.Item class="specific-dropdown" href='#/travel'>Travel Options</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title='Convention Info' class='category'>
               <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
