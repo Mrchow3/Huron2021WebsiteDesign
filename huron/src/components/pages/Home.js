@@ -46,16 +46,13 @@ function Home() {
         </div>
       </div>
       
-      <LazyLoader once={true}>
       <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
-      </LazyLoader>
       
 
       
       <div className="container mb-4">
           <h1 className="convention-title">Learn More About the Convention</h1>
           <hr />
-          <LazyLoader once={true}>
             <CardSection>
                 <Card>
                     <a className="card-link" href="#/general-info">
@@ -97,7 +94,6 @@ function Home() {
                     </a>
                 </Card>
             </CardSection>
-          </LazyLoader>
       </div>
       
     </div>

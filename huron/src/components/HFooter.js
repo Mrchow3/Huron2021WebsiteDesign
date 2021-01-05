@@ -11,7 +11,7 @@ function HFooter(){
             <div className="mb-2">
                 <div className="row">
                     <div className="col mx-2">
-                        This website was made by the 2021 BPA Website Design Team of the Huron BPA Chapter. The prompt: create a planning website for the 2021 BPA National Conference.
+                        This website was made by the 2021 BPA Website Design Team of the Huron BPA Chapter; the prompt, create a planning website for the 2021 BPA National Conference.
                     </div>
                 </div>
                 <div className="row pb-2 mt-2">
