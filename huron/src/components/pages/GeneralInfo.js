@@ -59,7 +59,7 @@ function GeneralInfo() {
                         </p>
                         <p>
                         <a href="#/hotels">
-                            <Button className="btn-info">Learn about the Hotel Options</Button>
+                            <Button variant="outline-info">Learn about the Hotel Options</Button>
                         </a>
                         </p>
                         <h4>Payments</h4>
