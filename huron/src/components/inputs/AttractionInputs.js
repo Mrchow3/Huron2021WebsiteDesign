@@ -34,6 +34,8 @@ const attractionInputs = [
         restrictionInfo: ['https://seaworld.com/orlando/park-info/park-safety/'],
         image: 'https://cache.undercovertourist.com/blog/2016/05/Aquatica-800x450.jpg',
         citation: "Picture Citation: Mommy Frog. Aquatica by SeaWorld. 2020. Undercover tourist, https://www.undercovertourist.com/blog/orlando-top-water-parks/",
+        hero: 'https://www.clickorlando.com/resizer/1ThPt-CkQ00GREPkgeZFnMosw1s=/1600x1064/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/57UHQ5TEDFBDRBUDAPEIK76TDE.webp',
+        heroCitation: 'SeaWorld Orlando. SeaWorld Orlando Manta Roller Coaster. 2020. Click Orlando, https://www.clickorlando.com/news/local/2020/08/31/visit-seaworld-orlando-for-rest-of-2020-all-of-2021-for-110/'
     },
     {
         title: 'Ripley’s Believe it or Not',
@@ -54,6 +56,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://media-cdn.tripadvisor.com/media/photo-w/02/4b/b7/6f/ripley-s-believe-it-or.jpg',
         citation: 'Picture Citation: Tripadvisor Management. Front View of Ripley’s Believe It or Not. 2012. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d124551-Reviews-Ripley_s_Believe_It_or_Not_Orlando-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=38516591',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/mqTx7V1rdY-Xz-a1dXOx5w/o.jpg',
+        heroCitation: ' D., Donna. Ripley’s Believe it or Not. 2020. Yelp. https://www.yelp.com/biz_photos/ripleys-believe-it-or-not-orlando-4?select=mqTx7V1rdY-Xz-a1dXOx5w '
     },
     {
         title: 'Orlando Museum of Art',
@@ -76,6 +80,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://thermanstatom.com/site/wp-content/uploads/2014/12/ORLANDO-MUSEUM-OF-ART.jpg',
         citation: 'Picture Citation: Reid, Tom. Orlando Museum of Art. 2009. Therman Statom, https://thermanstatom.com/portfolio_page/orlando-museum-of-art/',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/jIzvtPozrZP5oo-HuNy84Q/o.jpg',
+        heroCitation: 'B., Kathleen. Painting Section. 2019. Yelp. https://www.yelp.com/biz_photos/orlando-museum-of-art-orlando?select=jIzvtPozrZP5oo-HuNy84Q'
     },
     {
         title: 'Chocolate Kingdom: Interactive Factory Adventure Tour',
@@ -96,6 +102,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/dfOMgkZuV_3UzZPqk2NDzw/o.jpg',
         citation: 'Picture Citation: H., Michelle. Photos for Chocolate Kingdom-Factory Adventure Tour. 2019. Yelp, https://www.yelp.com/biz_photos/chocolate-kingdom-factory-adventure-tour-orlando?select=dfOMgkZuV_3UzZPqk2NDzw',
+        hero: 'https://media-cdn.tripadvisor.com/media/photo-o/17/a6/c2/bc/20190514-155846-largejpg.jpg',
+        heroCitation: 'Monaleese. A Chocoholic’s Delight. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d8353042-Reviews-Chocolate_Kingdom_Factory_Tours-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=396804796'
     },
     {
         title: 'The Escape Room Orlando',
@@ -116,6 +124,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://orlandoinformer.com/wp-content/uploads/2018/01/Edit-11-1024x683.jpg',
         citation: 'Picture Citation: Rupp, Madison. I’m Still Talking About Gold Rush Months After We Played. 2018. Orlando Informer, https://orlandoinformer.com/blog/guide-escape-rooms-orlando',
+        hero: 'https://booking.theescapegame.com/slir/h500/https://booking.theescapegame.com/media/experiences/5ba0f7bfe3ac9f0c248b4584.jpg',
+        heroCitation: 'The Escape Room Orlando. Prison Break #2. 2021. The Escape Room, https://theescapegame.com/orlando/'
     },
     { /* MAY NOT APPLY */
         title: 'iFLY Orlando Indoor Skydiving',
@@ -141,6 +151,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://instagram.fdet1-2.fna.fbcdn.net/v/t51.2885-15/e35/89270883_202145167668875_2178344007128352351_n.jpg?_nc_ht=instagram.fdet1-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=fqBk06csybYAX-qPthy&tp=1&oh=ac23e4a9d80d7d5af2fc2df2e36139bf&oe=601DCB2A',
         citation: 'Picture Citation: iFLY Orlando. Piper’s Third Birthday. 2020. Instagram, https://www.instagram.com/p/B9Sf4swphPN/',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/QZ46y-f4XZRa1uqS4sGKMQ/o.jpg',
+        heroCitation: 'R., Allyssa. What a Blast!. 2019. Yelp. https://www.yelp.com/biz_photos/ifly-indoor-skydiving-orlando-orlando-2?select=QZ46y-f4XZRa1uqS4sGKMQ'
     },
     {
         title: 'Kennedy Space Center',
@@ -161,6 +173,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://www.kennedyspacecenter.com/-/media/DNC/KSCVC/Attraction-Images/NASA-Now-and-Next/Hero-images/NASA-NOW-MAIN-banner.ashx?h=950&w=1875&la=en&hash=CC088C0A78F1B2F1C5E224F384F6DCDB03AE7905',
         citation: 'Picture Citation: DNC Parks and Resort. NASA Now + Next. 2020. Kennedy Space Center Visitor Complex, https://www.kennedyspacecenter.com/explore-attractions',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/jdcrhLfN-UwKX4cfXJbqmg/o.jpg',
+        heroCitation: 'N., Natalie. Rocket Garden Behind the Splash Pad. 2018. Yelp. https://www.yelp.com/biz_photos/kennedy-space-center-visitor-complex-merritt-island?select=jdcrhLfN-UwKX4cfXJbqmg'
     },
     {
         title: 'Andretti Indoor Karting & Games',
@@ -187,6 +201,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://img.grouponcdn.com/deal/3NQPF9BhzT5En1c4hY4CdgNDRxoZ/3N-774x464/v1/c700x420.webp',
         citation: 'Picture Citation: Andretti Karting. Andretti Indoor Karting And Games Orlando. 2020. Groupon, https://www.groupon.com/deals/andretti-indoor-karting-and-games-orlando-2',
+        hero: 'https://bcifl.net/wp-content/uploads/2017/11/Andretti-Karting-Skybar.jpg',
+        heroCitation: 'BCI Integrated Solutions. Andretti Indoor Karting & Games Orlando. 2020. BCI Integrated Solutions, https://bcifl.net/project/andretti-indoor-karting-orlando/'
     },
     { /* MAY NOT APPLY */
         title: 'Orlando Science Center',
@@ -207,6 +223,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://www.osc.org/wp-content/uploads/2018/09/Shot-by-Harry-Aaron_599.jpg',
         citation: 'Picture Citation: Aaron, Harry. T-Rex Holding a Wedding Sign in its Mouth. 2020. Orlando Science Center, https://www.osc.org/shot-by-harry-aaron_599/',
+        hero: 'https://www.osc.org/wp-content/uploads/2018/09/Event-picture7_720.jpg',
+        heroCitation: 'Orlando Science Center. Event Set Up on the Terrace. 2021. Orlando Science Center, https://www.osc.org/event-picture7_720/'
     },
     {
         title: 'ICON Park',
@@ -234,6 +252,8 @@ const attractionInputs = [
         restrictionInfo: ['https://www.iconparkorlando.com/terms-conditions/'],
         image: 'https://i1.wp.com/partiudisneyparks.com/wp-content/uploads/2020/05/icon-park-orlando.png?w=1392&ssl=1',
         citation: 'Picture Citation: Braga, Carlos. Icon-park-orlando. 2020. Partiu Disney Parks, https://partiudisneyparks.com/en/icon-park-orlando/',
+        hero: 'https://a.cdn-hotels.com/gdcs/production50/d1181/2c4b122e-9291-4b8e-93b9-5ea6136b8ea0.jpg',
+        heroCitation: 'Clark, Rusty. The New I-Drive 360. 2015. Hotels, https://ua.hotels.com/go/usa/icon-orlando'
     },
     {
         title: 'Universal Theme Park',
@@ -271,6 +291,8 @@ const attractionInputs = [
         restrictionInfo: ['https://www.universalorlando.com/web/en/us/plan- your-visit/hours-information/policies-restrictions'],
         image: 'https://www.visitflorida.com/content/dam/visitflorida/en-us/images/articles/2016/listicles/family-universal/universal-orlando-resort-harry-potter-diagon-alley.jpg.1020.680.imagerendition',
         citation: 'Picture Citation: Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/eKsSxXPhSj3bG1QXzDaDmg/o.jpg',
+        heroCitation: 'Royal Family Tours VIP. Orlando Studios Theme Park. 2020. Yelp. https://www.yelp.com/biz_photos/royal-family-tours-vip-orlando?select=eKsSxXPhSj3bG1QXzDaDmg'
     },
 ];
 

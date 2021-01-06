@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function DisneyPage() {
   useEffect(() => {
@@ -50,6 +51,7 @@ function DisneyPage() {
         </div>
         <div class="overdiv-2">
             <div class="container mx-auto">
+                <HCitation citation="Kinkade, Thomas. Main Street, USA Walt Disney World. 2014. Thomas Kinkade Studios, https://thomaskinkade.com/art/main-street-u-s-a-walt-disney-world/"></HCitation>
                 <div class="alt-1"> 
                     <h2 className="heading">Disney’s Magic Kingdom</h2>
                     <hr className="the-hr"></hr>

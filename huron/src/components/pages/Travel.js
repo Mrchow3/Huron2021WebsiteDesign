@@ -28,6 +28,7 @@ import conferenceImg from '../the-hard-way.jpeg';
 
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function Travel() {
     useEffect(() => {
@@ -74,6 +75,7 @@ function Travel() {
                             </div>
                             <div class="col">
                                 <img src="https://cdn.britannica.com/s:800x1000/69/155469-131-14083F59/airplane-flight.jpg" className="img-fluid article-image"></img>
+                                <ArticleCitation citation="Picture Citation: Fotolia, Eray. Aeroplane. 2016. Encyclopedia Britannica, https://www.britannica.com/list/7-puzzling-plane-disappearances" />
                             </div>
                         </div>
                     </div>
@@ -83,6 +85,7 @@ function Travel() {
                         <div class="row article">
                             <div class="col-md mr-3">
                                 <img src="https://mapasdecostarica.info/wp-content/uploads/sites/8/2017/12/tips-for-renting-a-car-in-Costa-Rica-770x430.jpg" className="img-fluid article-image"></img>
+                                <ArticleCitation citation="Picture Citation: Garcia, Jessica. Travel Tips. 2017. Maps of Costa Rica, https://mapasdecostarica.info/tips-for-renting-a-car-in-costa-rica" />
                             </div>
                             <div class="col">
                                 <div class="right-div">

@@ -211,6 +211,8 @@ function App() {
             restrictions = {attractionInputs[0].restrictions}
             restrictionInfo = {attractionInputs[0].restrictionInfo}
             citation = {attractionInputs[0].citation}
+            hero = {attractionInputs[0].hero}
+            heroCitation = {attractionInputs[0].heroCitation}
         />} />
         <Route path='/explore-attractions-ripleys' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -223,6 +225,8 @@ function App() {
             restrictions = {attractionInputs[1].restrictions}
             restrictionInfo = {attractionInputs[1].restrictionInfo}
             citation = {attractionInputs[1].citation}
+            hero = {attractionInputs[1].hero}
+            heroCitation = {attractionInputs[1].heroCitation}
         />} />
         <Route path='/explore-attractions-museum-of-art' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -235,6 +239,8 @@ function App() {
             restrictions = {attractionInputs[2].restrictions}
             restrictionInfo = {attractionInputs[2].restrictionInfo}
             citation = {attractionInputs[2].citation}
+            hero = {attractionInputs[2].hero}
+            heroCitation = {attractionInputs[2].heroCitation}
         />} />
         <Route path='/explore-attractions-chocolate-kingdom' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -247,6 +253,8 @@ function App() {
             restrictions = {attractionInputs[3].restrictions}
             restrictionInfo = {attractionInputs[3].restrictionInfo}
             citation = {attractionInputs[3].citation}
+            hero = {attractionInputs[3].hero}
+            heroCitation = {attractionInputs[3].heroCitation}
         />} />
         <Route path='/explore-attractions-escape-room' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -259,6 +267,8 @@ function App() {
             restrictions = {attractionInputs[4].restrictions}
             restrictionInfo = {attractionInputs[4].restrictionInfo}
             citation = {attractionInputs[4].citation}
+            hero = {attractionInputs[4].hero}
+            heroCitation = {attractionInputs[4].heroCitation}
         />} />
         <Route path='/explore-attractions-ifly' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -271,6 +281,8 @@ function App() {
             restrictions = {attractionInputs[5].restrictions}
             restrictionInfo = {attractionInputs[5].restrictionInfo}
             citation = {attractionInputs[5].citation}
+            hero = {attractionInputs[5].hero}
+            heroCitation = {attractionInputs[5].heroCitation}
         />} />
         <Route path='/explore-attractions-kennedy-space-center' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -283,8 +295,10 @@ function App() {
             restrictions = {attractionInputs[6].restrictions}
             restrictionInfo = {attractionInputs[6].restrictionInfo}
             citation = {attractionInputs[6].citation}
+            hero = {attractionInputs[6].hero}
+            heroCitation = {attractionInputs[6].heroCitation}
         />} />
-        <Route path='/explore-attractions-indoor-karting"' component={ExAttractionsSingle} children={ 
+        <Route path='/explore-attractions-indoor-karting' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
             title = {attractionInputs[7].title}
             description = {attractionInputs[7].description}
@@ -295,6 +309,8 @@ function App() {
             restrictions = {attractionInputs[7].restrictions}
             restrictionInfo = {attractionInputs[7].restrictionInfo}
             citation = {attractionInputs[7].citation}
+            hero = {attractionInputs[7].hero}
+            heroCitation = {attractionInputs[7].heroCitation}
         />} />
         <Route path='/explore-attractions-science-center' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -307,6 +323,8 @@ function App() {
             restrictions = {attractionInputs[8].restrictions}
             restrictionInfo = {attractionInputs[8].restrictionInfo}
             citation = {attractionInputs[8].citation}
+            hero = {attractionInputs[8].hero}
+            heroCitation = {attractionInputs[8].heroCitation}
         />} />
         <Route path='/explore-attractions-icon-park' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -319,6 +337,8 @@ function App() {
             restrictions = {attractionInputs[9].restrictions}
             restrictionInfo = {attractionInputs[9].restrictionInfo}
             citation = {attractionInputs[9].citation}
+            hero = {attractionInputs[9].hero}
+            heroCitation = {attractionInputs[9].heroCitation}
         />} />
         <Route path='/explore-attractions-universal' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -331,6 +351,8 @@ function App() {
             restrictions = {attractionInputs[10].restrictions}
             restrictionInfo = {attractionInputs[10].restrictionInfo}
             citation = {attractionInputs[10].citation}
+            hero = {attractionInputs[10].hero}
+            heroCitation = {attractionInputs[10].heroCitation}
         />} />
         <Route path='/explore-attractions-disney' component={DisneyPage} />
         <Route path='/hotels' component={Hotels} />

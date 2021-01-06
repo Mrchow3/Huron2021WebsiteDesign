@@ -37,6 +37,7 @@ import SingleCard from '../SingleCard.js';
 import { foodInputs } from '../inputs/FoodInputs.js'; //jsx inputs for food
 import ExAttractions from './ExAttractions';
 import ArticleCitation from '../ArticleCitation';
+import HCitation from '../HCitation';
 
 function ExAttractionsSingle(props){
     useEffect(() => {
@@ -80,7 +81,7 @@ function ExAttractionsSingle(props){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+                    image={props.hero}
                     height='60'
                     filter='70'
                 ></HeroSection>
@@ -90,8 +91,8 @@ function ExAttractionsSingle(props){
             </div>
             <div className="overdiv-2">
                 <div className="container mb-4">
+                    <HCitation citation={props.heroCitation}></HCitation>
                     <div className="alt-1">
-                        <hr className="the-hr"></hr>
                         <div className="row article mb-4">
                             <div className="col-md mr-3">
                                 <p>
