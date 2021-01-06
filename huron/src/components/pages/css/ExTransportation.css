@@ -24,6 +24,12 @@
 .article-image{
     object-fit: cover;
     border-radius: 0.6em;
+    position: relative;
+}
+
+.image-container{
+    
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {

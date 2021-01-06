@@ -35,6 +35,7 @@ import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
+import CardCitation from '../CardCitation';
 
 function ExSightseeing(){
     useEffect(() => {
@@ -66,6 +67,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="O., Crystal. Kopsia Fruticosa at Harry P. Leu Gardens. 2020. Yelp. https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=iRcHiY53ct5yNZefZEJUgg" />
                         </a>
                     </Card>
                     <Card>
@@ -79,6 +81,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Florida Dolphin Tours. Swim With Manatees Excursion. 2014. Yelp, https://www.yelp.com/biz_photos/florida-dolphin-tours-orlando?select=WRLaECUSy96v5Wx-4fOOpA" />
                         </a>
                     </Card>
                     <Card>
@@ -92,6 +95,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="D., Mark. Tibet-Butler Preserve Boardwalk. 2017. Yelp. https://www.yelp.com/biz_photos/tibet-butler-preserve-orlando?select=zKmHO2-EEbP0pV-ePEn0CA" />
                         </a>
                     </Card>
                     <Card>
@@ -105,6 +109,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="L., Angel. Lake Eola Park at Night. 2020. Yelp, https://www.yelp.com/biz_photos/lake-eola-park-orlando?select=X4_FuDHfq0lVYj1UHM1-tA" />
                         </a>
                     </Card>
                     <Card>
@@ -118,6 +123,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Exotic Animal Experience. Porcupines. 2017. Yelp, https://www.yelp.com/biz_photos/exotic-animal-experience-orlando?select=duDMufPC8prSBNJeVS9hbg" />
                         </a>
                     </Card>
                     <Card>
@@ -131,6 +137,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Nesslar, Jennifer. Lake Tibet-Butler. 2016. Orange Observer, https://www.orangeobserver.com/photo-gallery/final-piece-butler-chain-lakes#photo-5" />
                         </a>
                     </Card>
                     <Card>
@@ -144,6 +151,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="M., Peter. Schitterende Airboatride. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34337-d677214-Reviews-Kissimmee_Swamp_Tours-Kenansville_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=406706487" />
                         </a>
                     </Card>
                     <Card>
@@ -157,6 +165,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Scenic Boat Tour. Winter Park Florida. 2020. Scenic Boat Tour, https://www.scenicboattours.com/gallery" />
                         </a>
                     </Card>
                     <Card>

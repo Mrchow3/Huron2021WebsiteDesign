@@ -87,6 +87,7 @@ function App() {
             prices = {sightseeingInputs[0].prices}
             hours = {sightseeingInputs[0].hours}
             image = {sightseeingInputs[0].image}
+            citation = {sightseeingInputs[0].citation}
         />} />
         <Route path='/explore-sightseeing-florida-tours' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -96,6 +97,7 @@ function App() {
             prices = {sightseeingInputs[1].prices}
             hours = {sightseeingInputs[1].hours}
             image = {sightseeingInputs[1].image}
+            citation = {sightseeingInputs[1].citation}
         />} />
         <Route path='/explore-sightseeing-tibet-butler-preserve' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -105,6 +107,7 @@ function App() {
             prices = {sightseeingInputs[2].prices}
             hours = {sightseeingInputs[2].hours}
             image = {sightseeingInputs[2].image}
+            citation = {sightseeingInputs[2].citation}
         />} />
         <Route path='/explore-sightseeing-lake-eola-park' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -114,6 +117,7 @@ function App() {
             prices = {sightseeingInputs[3].prices}
             hours = {sightseeingInputs[3].hours}
             image = {sightseeingInputs[3].image}
+            citation = {sightseeingInputs[3].citation}
         />} />
         <Route path='/explore-sightseeing-exotic-animals' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -123,6 +127,7 @@ function App() {
             prices = {sightseeingInputs[4].prices}
             hours = {sightseeingInputs[4].hours}
             image = {sightseeingInputs[4].image}
+            citation = {sightseeingInputs[4].citation}
         />} />
         <Route path='/explore-sightseeing-butler-chain-lakes' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -132,6 +137,7 @@ function App() {
             prices = {sightseeingInputs[5].prices}
             hours = {sightseeingInputs[5].hours}
             image = {sightseeingInputs[5].image}
+            citation = {sightseeingInputs[5].citation}
         />} />
         <Route path='/explore-sightseeing-kissimmee-swamp-tours' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -141,6 +147,7 @@ function App() {
             prices = {sightseeingInputs[6].prices}
             hours = {sightseeingInputs[6].hours}
             image = {sightseeingInputs[6].image}
+            citation = {sightseeingInputs[6].citation}
         />} />
         <Route path='/explore-sightseeing-winter-park-boat-tour' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -150,6 +157,7 @@ function App() {
             prices = {sightseeingInputs[7].prices}
             hours = {sightseeingInputs[7].hours}
             image = {sightseeingInputs[7].image}
+            citation = {sightseeingInputs[7].citation}
         />} />
         <Route path='/explore-sightseeing-wildlife-attractions' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -159,6 +167,7 @@ function App() {
             prices = {sightseeingInputs[8].prices}
             hours = {sightseeingInputs[8].hours}
             image = {sightseeingInputs[8].image}
+            citation = {sightseeingInputs[8].citation}
         />} />
         <Route path='/explore-attractions' component={ExAttractions} />
         <Route path='/explore-attractions-water-attractions' component={ExAttractionsSingle} children={ 
@@ -171,6 +180,7 @@ function App() {
             image = {attractionInputs[0].image}
             restrictions = {attractionInputs[0].restrictions}
             restrictionInfo = {attractionInputs[0].restrictionInfo}
+            citation = {attractionInputs[0].citation}
         />} />
         <Route path='/explore-attractions-ripleys' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -182,6 +192,7 @@ function App() {
             image = {attractionInputs[1].image}
             restrictions = {attractionInputs[1].restrictions}
             restrictionInfo = {attractionInputs[1].restrictionInfo}
+            citation = {attractionInputs[1].citation}
         />} />
         <Route path='/explore-attractions-museum-of-art' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -193,6 +204,7 @@ function App() {
             image = {attractionInputs[2].image}
             restrictions = {attractionInputs[2].restrictions}
             restrictionInfo = {attractionInputs[2].restrictionInfo}
+            citation = {attractionInputs[2].citation}
         />} />
         <Route path='/explore-attractions-chocolate-kingdom' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -204,6 +216,7 @@ function App() {
             image = {attractionInputs[3].image}
             restrictions = {attractionInputs[3].restrictions}
             restrictionInfo = {attractionInputs[3].restrictionInfo}
+            citation = {attractionInputs[3].citation}
         />} />
         <Route path='/explore-attractions-escape-room' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -215,6 +228,7 @@ function App() {
             image = {attractionInputs[4].image}
             restrictions = {attractionInputs[4].restrictions}
             restrictionInfo = {attractionInputs[4].restrictionInfo}
+            citation = {attractionInputs[4].citation}
         />} />
         <Route path='/explore-attractions-ifly' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -226,6 +240,7 @@ function App() {
             image = {attractionInputs[5].image}
             restrictions = {attractionInputs[5].restrictions}
             restrictionInfo = {attractionInputs[5].restrictionInfo}
+            citation = {attractionInputs[5].citation}
         />} />
         <Route path='/explore-attractions-kennedy-space-center' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -237,6 +252,7 @@ function App() {
             image = {attractionInputs[6].image}
             restrictions = {attractionInputs[6].restrictions}
             restrictionInfo = {attractionInputs[6].restrictionInfo}
+            citation = {attractionInputs[6].citation}
         />} />
         <Route path='/explore-attractions-indoor-karting"' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -248,6 +264,7 @@ function App() {
             image = {attractionInputs[7].image}
             restrictions = {attractionInputs[7].restrictions}
             restrictionInfo = {attractionInputs[7].restrictionInfo}
+            citation = {attractionInputs[7].citation}
         />} />
         <Route path='/explore-attractions-science-center' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -259,6 +276,7 @@ function App() {
             image = {attractionInputs[8].image}
             restrictions = {attractionInputs[8].restrictions}
             restrictionInfo = {attractionInputs[8].restrictionInfo}
+            citation = {attractionInputs[8].citation}
         />} />
         <Route path='/explore-attractions-icon-park' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -270,6 +288,7 @@ function App() {
             image = {attractionInputs[9].image}
             restrictions = {attractionInputs[9].restrictions}
             restrictionInfo = {attractionInputs[9].restrictionInfo}
+            citation = {attractionInputs[9].citation}
         />} />
         <Route path='/explore-attractions-universal' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
@@ -281,6 +300,7 @@ function App() {
             image = {attractionInputs[10].image}
             restrictions = {attractionInputs[10].restrictions}
             restrictionInfo = {attractionInputs[10].restrictionInfo}
+            citation = {attractionInputs[10].citation}
         />} />
         <Route path='/explore-attractions-disney' component={DisneyPage} />
         <Route path='/hotels' component={Hotels} />

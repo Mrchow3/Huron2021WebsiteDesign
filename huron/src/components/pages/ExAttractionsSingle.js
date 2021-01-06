@@ -36,6 +36,7 @@ import SingleCard from '../SingleCard.js';
 
 import { foodInputs } from '../inputs/FoodInputs.js'; //jsx inputs for food
 import ExAttractions from './ExAttractions';
+import ArticleCitation from '../ArticleCitation';
 
 function ExAttractionsSingle(props){
     useEffect(() => {
@@ -113,6 +114,7 @@ function ExAttractionsSingle(props){
                             </div>
                             <div className="col">
                                 <img className="img-fluid centered-article article-image" alt="article-image" src={props.image} />
+                                <ArticleCitation citation={props.citation} />
                             </div>
                         </div>
                     </div>

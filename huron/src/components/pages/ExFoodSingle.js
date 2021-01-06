@@ -34,7 +34,7 @@ import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
-import { foodInputs } from '../inputs/FoodInputs.js'; //jsx inputs for food
+import ArticleCitation from '../ArticleCitation';
 
 function ExFoodSingle(props){
     useEffect(() => {
@@ -72,6 +72,7 @@ function ExFoodSingle(props){
                         </div>
                         <div className="col">
                             <img className="img-fluid centered-article article-image" alt="article-image" src={article.image} />
+                            <ArticleCitation citation={article.citation} />
                         </div>
                     </div>
                 </div>

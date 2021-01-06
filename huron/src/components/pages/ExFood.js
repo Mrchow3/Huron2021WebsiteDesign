@@ -123,7 +123,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
-                            <CardCitation citation=""></CardCitation>
+                            <CardCitation citation="Se7en Bites. The Baller. 2020. Se7evn Bites, http://www.se7enbites.com/gallery "></CardCitation>
                         </a>
                     </Card>
                     <Card>

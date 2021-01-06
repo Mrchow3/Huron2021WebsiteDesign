@@ -32,6 +32,7 @@ import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function ExTransportation() {
   useEffect(() => {
@@ -63,7 +64,7 @@ function ExTransportation() {
                                   <p class="left-justified">LYNX bus service provides an expansive system that can accommodate access to the entirety of the city including popular destinations from malls to museums. LYNX buses can be easily tracked either on the <a href="http://golynx.doublemap.com/map/">website</a> or on the mobile app LYNX Bus Tracker which is available in both the App Store and Google Play. Route maps and schedules are available on the website as well. Typically, single-ride fares cost $2.00 and transfers between routes are free. Be sure to inform the operator when you get on if a transfer is needed and make sure to note that transfers are limited to 90 minutes. All-day passes can be purchased at $4.50 and are valid for use between 4:00 AM the day it is issued until 3:00 AM the next day. Bus passes can be purchased online via the Buy Passes page on the <a href="https://www.golynx.com/store/">website</a> to attain a physical copy or via the app LYNX PawPass for digital passes on your smartphone.</p>
                               </div>
                           </div>
-                          <div class="col">
+                          <div class="image-container col">
                               <img src="https://media.bizj.us/view/img/8546982/lynx-1*750xx4496-2529-0-236.jpg" className="img-fluid article-image"></img>
                           </div>
                       </div>
@@ -72,8 +73,9 @@ function ExTransportation() {
                   <h2 className="heading">LYMMO Downtown Circulator</h2>
                   <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md mr-3">
+                        <div class="col-md">
                           <img src="https://live.staticflickr.com/2729/4353513778_bd35dda6f1_b.jpg" className="img-fluid article-image"></img>
+                          <ArticleCitation citation="" />
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -94,6 +96,7 @@ function ExTransportation() {
                         </div>
                         <div class="col">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Orlando_Amtrak_Station%3B_Track_Entrance.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="DanTD. Track-side Entrance of the elaborate Orlando, Florida Amtrak Station. 2008. Wikipedia Commons, https://en.wikipedia.org/wiki/Orlando_Health/Amtrak_station"></ArticleCitation>
                         </div>
                     </div>
                 </div>
@@ -101,8 +104,9 @@ function ExTransportation() {
                     <h2 class="heading">Biking</h2>
                     <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md mr-3">
+                        <div class="col-md">
                             <img src="http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="Baker, Scott. Biking in Orlando. 2014. Orlando Local Guide, http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -148,6 +152,7 @@ function ExTransportation() {
                     <div class="row mt-3 article">
                         <div class="col-md mr-3">
                             <img src="https://media.bizj.us/view/img/10538212/minnie-van-service*1200xx900-506-0-51.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="Walt Disney World. Minnie Van Service. 2020. Walt Disney World, https://disneyworld.disney.go.com/minnie-van/#/drawer=drawerMinnieVanService" />
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -194,7 +199,7 @@ function ExTransportation() {
                   <h2 class="heading">I-Ride Trolley and Pedicab</h2>
                   <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md mr-3">
+                        <div class="col-md">
                             <div class="right-div">
                                 <p class="right-justified">The I-Ride Trolley is perfect for anyone who wishes to ride the Revenge of the Mummy at Universal Studios, visit the Kraken at Seaworld, or get adventurous at the Islands of Adventure. The trolley services destinations in the International Drive area which is home to many attractions that will make your trip eventful and extraordinary. Single ride fare is $2.00 while the price of passes can range from $5.00 per person (1-day pass) to $9.00 per person (5-day pass).</p>
                                 <p class="left-justified">Traveling with a small group and looking for a local’s advice? Pedicabs offer quick eco friendly travel for short distances throughout the city. The drivers are friendly and help tourists get an inside peek of Orlando. Additionally, the payment for your ride depends on the number of people riding and distance traveled, and is typically paid as a tip to your driver. Pedicabs are both a great form of downtown transportation and a fun, informative experience.</p>
