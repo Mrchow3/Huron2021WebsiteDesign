@@ -9,6 +9,8 @@ import '../pages/css/ExFood.css';
 const foodInputs = [
     {
         type: 'Italian',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/fGTjQzu8v60-kcGCij_E7Q/o.jpg',
+        heroCitation: 'J., David. The Bar at Prato Orlando. 2017. Yelp. https://www.yelp.com/biz_photos/prato-winter-park?select=fGTjQzu8v60-kcGCij_E7Q',
         content: [
             {
                 name: 'Prato',
@@ -29,14 +31,15 @@ const foodInputs = [
                 ],
                 image: 'https://www.orlandosentinel.com/resizer/8DlK-WMinQAFP5yn-iZwDQgllCc=/800x449/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N7WUAT45NRC7NN3H7EMFP6WHTQ.jpg'
                 ,
-                citation: [
-                    "Pizarri, Michael. Prato's diavolo pizza is on the Winter Park restaurant's new happy hour menu. 2017. Orlando Sentinel, https://www.orlandosentinel.com/food-restaurants/os-et-prato-happy-hour-20170801-story.html"
-                ]
+                citation:
+                    "Pizarri, Michael. Prato's diavolo pizza is on the Winter Park restaurant's new happy hour menu. 2017. Orlando Sentinel, https://www.orlandosentinel.com/food-restaurants/os-et-prato-happy-hour-20170801-story.html",
             }
         ]
     },
     {
         type: 'Asian',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/Wl6_QdGMZktvZrZvrvQZow/o.jpg',
+        heroCitation: 'S., Michelle. Taste Of Chengdu Restaurant. 2019. Yelp. https://www.yelp.com/biz_photos/taste-of-chengdu-orlando-3?select=bagFSzMMIQNMd8_bcfDoFg',
         content: [
             {
                 name: 'Kadence',
@@ -60,9 +63,7 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/s1080x2048/120229696_3218970118180717_274272401219222733_o.jpg?_nc_cat=106&ccb=2&_nc_sid=a26aad&_nc_ohc=yvjv01xN1O0AX-4Gd1m&_nc_ht=scontent-ort2-1.xx&tp=7&oh=84f782d0ed04ab1f3647a395a62a3433&oe=6017E815',
-                citation: [
-                    "Ausley, Amanda. Chirashi Bowl. 2020. Facebook, https://www.facebook.com/kadenceorlando/"
-                ]
+                citation: "Ausley, Amanda. Chirashi Bowl. 2020. Facebook, https://www.facebook.com/kadenceorlando/",
             },
             {
                 name: 'Taste Of Chengdu',
@@ -86,12 +87,14 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://s3-media0.fl.yelpcdn.com/bphoto/uT1IzQXSfq1PoQ8Fdox0_A/o.jpg',
-                citation: "W., Ellen. Sichuan Cuisine at Taste of Chengdu. 2018. Yelp, https://www.yelp.com/biz_photos/taste-of-cheng du-orlando-3?select=uT1IzQXSfq1PoQ8Fdox0 _A"
+                citation: "W., Ellen. Sichuan Cuisine at Taste of Chengdu. 2018. Yelp, https://www.yelp.com/biz_photos/taste-of-cheng du-orlando-3?select=uT1IzQXSfq1PoQ8Fdox0 _A",
             }
         ]
     },
     {
         type: 'Hispanic',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/KL3INQ6thD_wzD9D8eibnQ/o.jpg',
+        heroCitation: 'L., Kaming. Interior of Black Rooster Taqueria. 2020. Yelp. https://www.yelp.com/biz_photos/black-rooster-taqueria-orlando?select=KL3INQ6thD_wzD9D8eibnQ',
         content: [
             {
                 name: 'Black Rooster Taqueria',
@@ -115,14 +118,16 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://media.timeout.com/images/105247885/380/285/image.jpg',
-                citations: [
+                citation: 
                     "C., Juliana. Tacos at Black Rooster Taqueria. 2020. TimeOut, https://www.timeout.com/orlando/restaurants/best-restaurants-in-orlando"
-                ]
+                ,
             }
         ]
     },
     {
         type: 'Fusion',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/NXNzLM0pFjw1yHbHU-RQ0w/o.jpg',
+        heroCitation: 'R., Chen. Art All Over. 2019. Yelp. https://www.yelp.com/biz_photos/caf%C3%A9-tu-tu-tango-orlando-5?select=NXNzLM0pFjw1yHbHU-RQ0w',
         content: [
             {
                 name: 'Café Tu Tu Tango',
@@ -150,14 +155,14 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://s3-media0.fl.yelpcdn.com/bphoto/UobBp-ZINTJt5r_m1jE-rA/o.jpg',
-                citations: [
-                    "C., Jadhai. Sesame Steak Skewers. 2020. Yelp, https://www.yelp.com/biz_photos/caf%C3 %A9-tu-tu-tango-orlando-5?select=UobB p-ZINTJt5r_m1jE-rA"
-                ]
+                citation: "C., Jadhai. Sesame Steak Skewers. 2020. Yelp, https://www.yelp.com/biz_photos/caf%C3 %A9-tu-tu-tango-orlando-5?select=UobB p-ZINTJt5r_m1jE-rA",
             }
         ]
     },
     {
         type: 'American',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/Wl6_QdGMZktvZrZvrvQZow/o.jpg',
+        heroCitation: 'D., Mark. Great Wall. 2018. Yelp. https://www.yelp.com/biz_photos/se7en-bites-orlando?select=Wl6_QdGMZktvZrZvrvQZow',
         content: [
             {
                 name: 'Se7en Bites',
@@ -181,9 +186,7 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://images.squarespace-cdn.com/content/v1/57c63f3e03596e373290b357/1498861703222-QTE8MV4LMN15OHX2DOEP/ke17ZwdGBToddI8pDm48kIyvoTDOqK6tuLbY8s33gHl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTzjvHSAOXjnTxN2sJb-n4pP61BYfWtluh1bxbCEA7ounr1xKjsq_-rO8kOgOtwYvw/F120FF6B-D9A2-445C-B220-070093E4F14B.jpg?format=500w',
-                citations: [
-                    "Se7en Bites LLC, Chicken and Biscuits. 2018. Se7en Bites, http://www.se7enbites.com/gallery"
-                ]
+                citation: "Se7en Bites LLC, Chicken and Biscuits. 2018. Se7en Bites, http://www.se7enbites.com/gallery",
             },
             {
                 name: 'Maxine’s On Shine',
@@ -211,9 +214,8 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://s3-media0.fl.yelpcdn.com/bphoto/gyTsMaNGwPEaWbjsJ52F5Q/o.jpg',
-                citations: [
-                    "K., Brittany. Vegetarian Blanco at Maxine’s On Shine. 2020. Yelp, https://www.yelp.com/biz_photos/ma xines-on-shine-orlando?select=gyTs MaNGwPEaWbjsJ52F5Q"
-                ]
+                citations: 
+                    "K., Brittany. Vegetarian Blanco at Maxine’s On Shine. 2020. Yelp, https://www.yelp.com/biz_photos/ma xines-on-shine-orlando?select=gyTs MaNGwPEaWbjsJ52F5Q",
             },
             {
                 name: 'Linda’s La Cantina Steakhouse',
@@ -233,14 +235,14 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://media-cdn.tripadvisor.com/media/photo-w/16/af/6a/2e/yummy-ribeye.jpg',
-                citations: [
-                    "A., Gail. Anniversary Dinner. 2019. Trip Advisor, https://www.tripadvisor.es/ShowUserReviews-g34515-d456862-r643263942-Linda_s_La_Cantina-Orlando_Florida.html#UR643263942"
-                ]
+                citation: "A., Gail. Anniversary Dinner. 2019. Trip Advisor, https://www.tripadvisor.es/ShowUserReviews-g34515-d456862-r643263942-Linda_s_La_Cantina-Orlando_Florida.html#UR643263942",
             }
         ]
     },
     {
         type: 'African',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/R0E3DDmy5LHa8FsfKM8TzA/o.jpg',
+        heroCitation: 'G., Lisa. More of the Dining Area. 2018. Yelp. https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=R0E3DDmy5LHa8FsfKM8TzA',
         content: [
             {
                 name: 'Selam Ethiopian & Eritrean Cuisine',
@@ -260,9 +262,7 @@ const foodInputs = [
                     },
                 ],
                 image: 'https://s3-media0.fl.yelpcdn.com/bphoto/RXY7z3SZ97YJSQcX9empiw/o.jpg',
-                citations: [
-                    "B., Shawn. Selam Veggie Special. 2019. Yelp, https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=RXY7z3SZ97YJSQcX9empiw"
-                ]
+                citation: "B., Shawn. Selam Veggie Special. 2019. Yelp, https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=RXY7z3SZ97YJSQcX9empiw",
             }
         ]
     }

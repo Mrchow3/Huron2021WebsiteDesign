@@ -57,26 +57,38 @@ function App() {
         <Route path='/explore-food-italian' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[0].type}
           content = {foodInputs[0].content}
+          hero = {foodInputs[0].hero}
+          heroCitation = {foodInputs[0].heroCitation}
         />} />
         <Route path='/explore-food-asian' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[1].type}
           content = {foodInputs[1].content}
+          hero = {foodInputs[1].hero}
+          heroCitation = {foodInputs[1].heroCitation}
         />} />
         <Route path='/explore-food-hispanic' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[2].type}
           content = {foodInputs[2].content}
+          hero = {foodInputs[2].hero}
+          heroCitation = {foodInputs[2].heroCitation}
         />} />
         <Route path='/explore-food-fusion' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[3].type}
           content = {foodInputs[3].content}
+          hero = {foodInputs[3].hero}
+          heroCitation = {foodInputs[3].heroCitation}
         />} />
         <Route path='/explore-food-american' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[4].type}
           content = {foodInputs[4].content}
+          hero = {foodInputs[4].hero}
+          heroCitation = {foodInputs[4].heroCitation}
         />} />
         <Route path='/explore-food-african' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[5].type}
           content = {foodInputs[5].content}
+          hero = {foodInputs[5].hero}
+          heroCitation = {foodInputs[5].heroCitation}
         />} />
         <Route path='/explore-sightseeing' component={ExSightseeing} />
         <Route path='/explore-sightseeing-harry-p-leu-gardens' component={ExSightseeingSingle} children={ 
