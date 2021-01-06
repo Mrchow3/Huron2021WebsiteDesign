@@ -32,7 +32,7 @@ function ExAttractionsSingle(props){
     const websites = [];
     props.websites.forEach((website) =>
         websites.push(
-            <p><a href={website.site}>Learn More about {website.part}</a></p>
+            <p><a target="_blank" href={website.site}>Learn More about {website.part}</a></p>
         )
     );
 

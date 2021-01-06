@@ -57,7 +57,7 @@ function DisneyPage() {
                           </div>
                           <div class="col">
                               <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image img-disney"></img>
-                              <ArticleCitation citation="Picture Citation: Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html"></ArticleCitation>
+                              <ArticleCitation citation="Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html"></ArticleCitation>
                           </div>
                       </div>
                 </div>
@@ -67,7 +67,7 @@ function DisneyPage() {
                     <div class="row article">
                         <div class="col-md">
                             <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image img-disney"></img>
-                            <ArticleCitation citation="Picture Citation: Tripadvisor Management. Spaceship Earth at Epcot. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d126541-Reviews-Epcot-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=416191029"></ArticleCitation>
+                            <ArticleCitation citation="Tripadvisor Management. Spaceship Earth at Epcot. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d126541-Reviews-Epcot-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=416191029"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -100,5 +100,5 @@ function DisneyPage() {
     </div>
   );
 }
-/* = "vh-100 d-flex flex-column justify-content-between align-items-center">*/
+
 export default DisneyPage;

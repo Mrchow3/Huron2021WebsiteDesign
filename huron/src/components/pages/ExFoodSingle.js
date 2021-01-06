@@ -34,10 +34,10 @@ function ExFoodSingle(props){
                                 {article.description}
                             </p>
                             <p className="">
-                                <a href={article.website}>Learn More</a>
+                                <a target="_blank" href={article.website}>Learn More</a>
                             </p>
                             <p> Address: {article.address}</p>
-                            <p><a href= {article.menu}>Menu</a>{article.menuInfo}</p>
+                            <p><a target="_blank" href={article.menu}>Menu</a>{article.menuInfo}</p>
                             <p>
                                 Hours:
                             </p>

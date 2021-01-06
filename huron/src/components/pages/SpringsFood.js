@@ -28,7 +28,7 @@ function SpringsFood() {
       
         <div class="overdiv">
             <div class="container mx-auto">
-                <HCitation citation="Picture Citation: Disney. Art for Gran Destino Tower. 2018. Watsons Do Disney, https://watsonsdodisney.com/2018/11/24/disneys-coronado-springs-resort-update-gran-destino-tower/"></HCitation>
+                <HCitation citation="Disney. Art for Gran Destino Tower. 2018. Watsons Do Disney, https://watsonsdodisney.com/2018/11/24/disneys-coronado-springs-resort-update-gran-destino-tower/"></HCitation>
                 <div class="alt-1"> 
                     <h2 className="heading">Siestas Cantina</h2>
                     <hr className="the-hr"></hr>
@@ -55,7 +55,7 @@ function SpringsFood() {
                         </div>
                         <div class="col">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/3TRwzmWdJry2SLu6tvvPgg/o.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Picture Citation: C., Christopher. Siestas Cantina. 2015. Yelp, https://www.yelp.com/biz_photos/siestas-cantina-lake-buena-vista?select=3TRwzmWdJry2SLu6tvvPgg"></ArticleCitation>
+                            <ArticleCitation citation="C., Christopher. Siestas Cantina. 2015. Yelp, https://www.yelp.com/biz_photos/siestas-cantina-lake-buena-vista?select=3TRwzmWdJry2SLu6tvvPgg"></ArticleCitation>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ function SpringsFood() {
                     <div class="row article">
                         <div class="col-md mr-3">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/XjbCE4taoeoOe87Zy8xjAw/o.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Picture Citation: C., Amy. Barcelona Lounge. 2020. Yelp, https://www.yelp.com/biz_photos/barcelona-lounge-orlando?select=XjbCE4taoeoOe87Zy8xjAw"></ArticleCitation>
+                            <ArticleCitation citation="C., Amy. Barcelona Lounge. 2020. Yelp, https://www.yelp.com/biz_photos/barcelona-lounge-orlando?select=XjbCE4taoeoOe87Zy8xjAw"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -115,7 +115,7 @@ function SpringsFood() {
                         </div>
                         <div class="col-md mr-3">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/a8qmXLKSyLCY0FW2pU-LYg/o.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Picture Citation: S., Bill. Three Bridges Bar & Grill. 2020. Yelp, https://www.yelp.com/biz_photos/three-bridges-bar-and-grill-orlando-2?select=a8qmXLKSyLCY 0FW2pU-LYg"></ArticleCitation>
+                            <ArticleCitation citation="S., Bill. Three Bridges Bar & Grill. 2020. Yelp, https://www.yelp.com/biz_photos/three-bridges-bar-and-grill-orlando-2?select=a8qmXLKSyLCY 0FW2pU-LYg"></ArticleCitation>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function SpringsFood() {
                     <div class="row article">
                         <div class="col-md mr-3">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/9UVoeCGjmnkxFk5RqQ9m9g/o.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Picture Citation: H., Joel. El Mercado de Coronado. 2019. Yelp, https://www.yelp.com/biz_photos/el-mercado-de-coronado-orlando-2?select=9UVoeCGjmnkxFk5RqQ9m9g"></ArticleCitation>
+                            <ArticleCitation citation="H., Joel. El Mercado de Coronado. 2019. Yelp, https://www.yelp.com/biz_photos/el-mercado-de-coronado-orlando-2?select=9UVoeCGjmnkxFk5RqQ9m9g"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -169,7 +169,7 @@ function SpringsFood() {
                         </div>
                         <div class="col-md mr-3">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/zS-e1bYjpjbYxDLZqx8sFw/o.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Picture Citation: Walt Disney World. Maya Grill. 2016. Yelp, https://www.yelp.com/biz_photos/maya-grill-orlando-2?select=zS-e1bYjpjbYxDLZqx8sFw"></ArticleCitation>
+                            <ArticleCitation citation="Walt Disney World. Maya Grill. 2016. Yelp, https://www.yelp.com/biz_photos/maya-grill-orlando-2?select=zS-e1bYjpjbYxDLZqx8sFw"></ArticleCitation>
                         </div>
                     </div>
                 </div>

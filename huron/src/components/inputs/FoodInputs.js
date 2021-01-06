@@ -11,6 +11,7 @@ const foodInputs = [
         type: 'Italian',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/fGTjQzu8v60-kcGCij_E7Q/o.jpg',
         heroCitation: 'J., David. The Bar at Prato Orlando. 2017. Yelp. https://www.yelp.com/biz_photos/prato-winter-park?select=fGTjQzu8v60-kcGCij_E7Q',
+        route: '/explore-food-italian',
         content: [
             {
                 name: 'Prato',
@@ -40,6 +41,7 @@ const foodInputs = [
         type: 'Asian',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/bagFSzMMIQNMd8_bcfDoFg/o.jpg',
         heroCitation: 'S., Michelle. Taste Of Chengdu Restaurant. 2019. Yelp. https://www.yelp.com/biz_photos/taste-of-chengdu-orlando-3?select=bagFSzMMIQNMd8_bcfDoFg',
+        route: '/explore-food-asian',
         content: [
             {
                 name: 'Kadence',
@@ -95,6 +97,7 @@ const foodInputs = [
         type: 'Hispanic',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/KL3INQ6thD_wzD9D8eibnQ/o.jpg',
         heroCitation: 'L., Kaming. Interior of Black Rooster Taqueria. 2020. Yelp. https://www.yelp.com/biz_photos/black-rooster-taqueria-orlando?select=KL3INQ6thD_wzD9D8eibnQ',
+        route: '/explore-food-hispanic',
         content: [
             {
                 name: 'Black Rooster Taqueria',
@@ -128,6 +131,7 @@ const foodInputs = [
         type: 'Fusion',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/NXNzLM0pFjw1yHbHU-RQ0w/o.jpg',
         heroCitation: 'R., Chen. Art All Over. 2019. Yelp. https://www.yelp.com/biz_photos/caf%C3%A9-tu-tu-tango-orlando-5?select=NXNzLM0pFjw1yHbHU-RQ0w',
+        route: '/explore-food-fusion',
         content: [
             {
                 name: 'Café Tu Tu Tango',
@@ -163,6 +167,7 @@ const foodInputs = [
         type: 'American',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/Wl6_QdGMZktvZrZvrvQZow/o.jpg',
         heroCitation: 'D., Mark. Great Wall. 2018. Yelp. https://www.yelp.com/biz_photos/se7en-bites-orlando?select=Wl6_QdGMZktvZrZvrvQZow',
+        route: '/explore-food-american',
         content: [
             {
                 name: 'Se7en Bites',
@@ -242,6 +247,7 @@ const foodInputs = [
         type: 'African',
         hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/R0E3DDmy5LHa8FsfKM8TzA/o.jpg',
         heroCitation: 'G., Lisa. More of the Dining Area. 2018. Yelp. https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=R0E3DDmy5LHa8FsfKM8TzA',
+        route: '/explore-food-african',
         content: [
             {
                 name: 'Selam Ethiopian & Eritrean Cuisine',

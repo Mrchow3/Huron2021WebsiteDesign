@@ -30,7 +30,7 @@ function ExSightseeing(){
                 </div>
             </div>
             <div className="container">
-                <HCitation citation="Picture Citation: Durso, Shannon. The Other Orlando. 2018. One Travel, https://www.onetravel.com/going-places/orlando-beyond-the-theme-parks/"></HCitation>
+                <HCitation citation="Durso, Shannon. The Other Orlando. 2018. One Travel, https://www.onetravel.com/going-places/orlando-beyond-the-theme-parks/"></HCitation>
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-harry-p-leu-gardens">

@@ -70,7 +70,7 @@ function YachtFood() {
                         </div>
                         <div class="col">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/imrXulfFkg11gRWfEnYHQQ/o.jpg" className="img-fluid article-image cropped-500"></img>
-                            <ArticleCitation citation="Picture Citation: A., Christina. Buffet Sample. 2019. Yelp, https://www.yelp.com/biz_photos/ale-and-compass-restaurant-orlando?select=imrXulfFkg11gRWfEnYHQQ"></ArticleCitation>
+                            <ArticleCitation citation="A., Christina. Buffet Sample. 2019. Yelp, https://www.yelp.com/biz_photos/ale-and-compass-restaurant-orlando?select=imrXulfFkg11gRWfEnYHQQ"></ArticleCitation>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ function YachtFood() {
                     <div class="row article">
                         <div class="col-md">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/QocyYmrRjNx0O8JkUUWPFA/o.jpg" className="img-fluid article-image cropped-400"></img>
-                            <ArticleCitation citation="Picture Citation: Walt Disney World. Beaches and Cream Soda Shop. 2020. Yelp, https://www.yelp.com/biz_photos/beaches-and-cream-soda-shop-orlando-4?select=QocyYmrRjNx0O8JkUUWPFA"></ArticleCitation>
+                            <ArticleCitation citation="Walt Disney World. Beaches and Cream Soda Shop. 2020. Yelp, https://www.yelp.com/biz_photos/beaches-and-cream-soda-shop-orlando-4?select=QocyYmrRjNx0O8JkUUWPFA"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -156,7 +156,7 @@ function YachtFood() {
                         </div>
                         <div class="col">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/AUgwAC7ofMggCB7P0JlJKA/o.jpg" className="img-fluid article-image cropped-400"></img>
-                            <ArticleCitation citation="Picture Citation: M., Will. Breakfast at The Beach Club Marketplace. 2017. Yelp, https://www.yelp.com/biz_photos/beach-club-marketplace-lake-buena-vista?select=AUgwAC7ofMggCB7P0JlJKA"></ArticleCitation>
+                            <ArticleCitation citation="M., Will. Breakfast at The Beach Club Marketplace. 2017. Yelp, https://www.yelp.com/biz_photos/beach-club-marketplace-lake-buena-vista?select=AUgwAC7ofMggCB7P0JlJKA"></ArticleCitation>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ function YachtFood() {
                     <div class="row article">
                         <div class="col-md">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/sbDfCbvfuwgtNVikhcOsTQ/o.jpg" className="img-fluid article-image cropped-400"></img>
-                            <ArticleCitation citation="Picture Citation: Walt Disney World. Cape May Cafe. 2016. Yelp, https://www.yelp.com/biz_photos/cape-may-cafe-orlando-3?select=sbDfCbvfuwgtNVikhcOsTQ"></ArticleCitation>
+                            <ArticleCitation citation="Walt Disney World. Cape May Cafe. 2016. Yelp, https://www.yelp.com/biz_photos/cape-may-cafe-orlando-3?select=sbDfCbvfuwgtNVikhcOsTQ"></ArticleCitation>
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -233,7 +233,7 @@ function YachtFood() {
                         </div>
                         <div class="col">
                             <img src="https://s3-media0.fl.yelpcdn.com/bphoto/cc8mAhritBoc5hA--ggpkA/o.jpg" className="img-fluid article-image cropped-400"></img>
-                            <ArticleCitation citation="Picture Citation: Walt Disney World. Yachtsman Steakhouse. 2016. Yelp, https://www.yelp.com/biz_photos/yachtsman-steakhouse-orlando-4?select=cc8mAhritBoc5hA--ggpkA"></ArticleCitation>
+                            <ArticleCitation citation="Walt Disney World. Yachtsman Steakhouse. 2016. Yelp, https://www.yelp.com/biz_photos/yachtsman-steakhouse-orlando-4?select=cc8mAhritBoc5hA--ggpkA"></ArticleCitation>
                         </div>
                     </div>
                 </div>

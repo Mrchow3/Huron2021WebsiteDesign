@@ -42,7 +42,7 @@ function ExFoodSingle(props){
                                     {props.prices}
                                 </p>
                                 <p className="">
-                                    <a href={props.website}>Learn More</a>
+                                    <a target="_blank" href={props.website}>Learn More</a>
                                 </p>
                             </div>
                             <div className="col">

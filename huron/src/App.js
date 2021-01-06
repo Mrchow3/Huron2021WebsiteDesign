@@ -45,6 +45,57 @@ import Travel from './components/pages/Travel';
 import Schedule from './components/pages/Schedule';
 
 function App() {
+  const templatedPages = [];
+  foodInputs.forEach((article) => {
+    templatedPages.push(
+      <Route path={article.route} component={ExFoodSingle} children={ 
+        <ExFoodSingle
+          type = {article.type}
+          content = {article.content}
+          hero = {article.hero}
+          heroCitation = {article.heroCitation}
+        />
+      } />
+    );
+  });
+  
+  sightseeingInputs.forEach((article) => {
+    templatedPages.push(
+      <Route path={article.route} component={ExSightseeingSingle} children={ 
+        <ExSightseeingSingle
+          title = {article.title}
+          blurb = {article.blurb}
+          website = {article.website}
+          prices = {article.prices}
+          hours = {article.hours}
+          image = {article.image}
+          citation = {article.citation}
+          hero = {article.hero}
+          heroCitation = {article.heroCitation}
+        />
+      } />
+    );
+  });
+
+  attractionInputs.forEach((article) => {
+    templatedPages.push(
+      <Route path={article.route} component={ExAttractionsSingle} children={ 
+        <ExAttractionsSingle
+          title = {article.title}
+          description = {article.description}
+          websites = {article.websites}
+          pricing = {article.pricing}
+          hours = {article.hours}
+          image = {article.image}
+          restrictions = {article.restrictions}
+          restrictionInfo = {article.restrictionInfo}
+          citation = {article.citation}
+          hero = {article.hero}
+          heroCitation = {article.heroCitation}
+        />
+      } />
+    );
+  });
   return (
     <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <HNavBar />
@@ -52,7 +103,37 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/explore-transportation' component={ExTransportation} />
         <Route path='/explore-food' component={ExFood} />
-        <Route path='/explore-food-italian' component={ExFoodSingle} children={ <ExFoodSingle
+        <Route path='/explore-sightseeing' component={ExSightseeing} />
+        <Route path='/explore-attractions' component={ExAttractions} />
+        {templatedPages}
+        <Route path='/explore-attractions-disney' component={DisneyPage} />
+        <Route path='/hotels' component={Hotels} />
+        <Route path='/corondo-springs-food' component={SpringsFood} />
+        <Route path='/corondo-springs-recreation' component={SpringsRec} />
+        <Route path='/yacht-club-food' component={YachtFood} />
+        <Route path='/yacht-club-recreation' component={YachtRec} />
+        <Route path='/general-info' component={GeneralInfo} />
+        <Route path='/schedule' component={Schedule} />
+        <Route path='/travel' component={Travel} />
+      </Switch>
+      <footer>
+        <HFooter />
+      </footer>
+    </HashRouter>
+  );
+}
+
+export default App;
+/*      
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} />
+*/
+
+
+/*
+Old Routes: FOOD
+<Route path='/explore-food-italian' component={ExFoodSingle} children={ <ExFoodSingle
           type = {foodInputs[0].type}
           content = {foodInputs[0].content}
           hero = {foodInputs[0].hero}
@@ -88,8 +169,10 @@ function App() {
           hero = {foodInputs[5].hero}
           heroCitation = {foodInputs[5].heroCitation}
         />} />
-        <Route path='/explore-sightseeing' component={ExSightseeing} />
-        <Route path='/explore-sightseeing-harry-p-leu-gardens' component={ExSightseeingSingle} children={ 
+
+
+SIGHTSEEING:
+<Route path='/explore-sightseeing-harry-p-leu-gardens' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
             title = {sightseeingInputs[0].title}
             blurb = {sightseeingInputs[0].blurb}
@@ -197,8 +280,10 @@ function App() {
             hero = {sightseeingInputs[8].hero}
             heroCitation = {sightseeingInputs[8].heroCitation}
         />} />
-        <Route path='/explore-attractions' component={ExAttractions} />
-        <Route path='/explore-attractions-water-attractions' component={ExAttractionsSingle} children={ 
+
+
+ATTRACTIONS
+<Route path='/explore-attractions-water-attractions' component={ExAttractionsSingle} children={ 
           <ExAttractionsSingle
             title = {attractionInputs[0].title}
             description = {attractionInputs[0].description}
@@ -352,26 +437,4 @@ function App() {
             hero = {attractionInputs[10].hero}
             heroCitation = {attractionInputs[10].heroCitation}
         />} />
-        <Route path='/explore-attractions-disney' component={DisneyPage} />
-        <Route path='/hotels' component={Hotels} />
-        <Route path='/corondo-springs-food' component={SpringsFood} />
-        <Route path='/corondo-springs-recreation' component={SpringsRec} />
-        <Route path='/yacht-club-food' component={YachtFood} />
-        <Route path='/yacht-club-recreation' component={YachtRec} />
-        <Route path='/general-info' component={GeneralInfo} />
-        <Route path='/schedule' component={Schedule} />
-        <Route path='/travel' component={Travel} />
-      </Switch>
-      <footer>
-        <HFooter />
-      </footer>
-    </HashRouter>
-  );
-}
-
-export default App;
-/*      
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
 */

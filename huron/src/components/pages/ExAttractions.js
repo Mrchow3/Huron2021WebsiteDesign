@@ -30,7 +30,7 @@ function ExAttractions(){
                 </div>
             </div>
             <div className="container">
-                <HCitation citation="Picture Citation: Nell, Jacqueline. Walt Disney World Resort Celebrates 45th Anniversary to Colorful Fanfare. 2016. Florida News, https://www.wtxl.com/news/florida-news/on-this-day-in-history-walt-disney-world-opened-in-orlando" />
+                <HCitation citation="Nell, Jacqueline. Walt Disney World Resort Celebrates 45th Anniversary to Colorful Fanfare. 2016. Florida News, https://www.wtxl.com/news/florida-news/on-this-day-in-history-walt-disney-world-opened-in-orlando" />
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-disney">
@@ -131,7 +131,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                     <Card>
-                        <a className="card-link" href="#/explore-attractions-escape-room">
+                        <a className="card-link" href="#/explore-attractions-escape-game">
                             <Card.Img variant="top" className="card-top food-image" src="https://media2.fdncms.com/orlando/imager/escapology/u/zoom/2372600/escapology.jpg" />
                             <Card.ImgOverlay className="food-overlay">
                                 <Card.Body>

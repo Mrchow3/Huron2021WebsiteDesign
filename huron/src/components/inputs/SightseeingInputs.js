@@ -1,6 +1,7 @@
 const sightseeingInputs = [
     {
         title: 'Harry P. Leu Gardens',
+        route: '/explore-sightseeing-harry-p-leu-gardens',
         blurb: 'Looking to get out in nature? Come explore the paths at Leu Gardens any day of the week. Pick up a guide and map at the Garden House Welcome Center to prepare for your self-guided tour of the grounds. The garden is handicap accessible, and wheelchairs are available at the welcome center.',
         website: 'https://www.leugardens.org/',
         prices: 'Prices - $10 per adult, $5 per child (ages 4-17), Free for children under 3 years',
@@ -12,6 +13,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Florida Dolphin Tours/Florida Adventure Tour',
+        route: '/explore-sightseeing-florida-tours',
         blurb: 'Escape the city and explore the Flordian wilderness on a boat tour led by local experts. Try snorkeling in the crisp rivers and springs. Don’t forget to keep an eye out for manatees! These ECO tours last 12 hours and fill whole days with outdoor adventures.',
         website: 'https://www.floridadolphintours.com/en/florida-adventure-tour',
         prices: 'Prices - $139 per adult, $109 per child (ages 3-9), free for children under 3 years',
@@ -23,6 +25,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Tibet-Butler Preserve',
+        route: '/explore-sightseeing-tibet-butler-preserve',
         blurb: 'Strap on some water proof shoes to go hiking at the Tibet-Butler Preserve. Get together ten or more friends and sign up for eco-education, where you can learn about Florida plants, wildlife and conservation. Additionally free educational programs are offered on Saturdays for children and their parents.',
         website: 'http://www.orangecountyfl.net/cultureparks/parks.aspx?m=dtlvw&d=39#.X-0dWapKigR',
         prices: 'Prices - Hiking is free, programs cost between $2-8 per person',
@@ -34,6 +37,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Lake Eola Park',
+        route: '/explore-sightseeing-lake-eola-park',
         blurb: 'Located in the heart of downtown Orlando, Lake Eola Park is a great place to get some steps in or enjoy a view of the city . A sidewalk surrounds Lake Eola and is 0.9 miles long, perfect for keeping track of mileage. You can even rent a 5-person, wheelchair accessible swan boat on the West side of the park.',
         website: 'https://www.orlando.gov/Parks-the-Environment/Directory/Lake-Eola-Park',
         prices: 'Prices - $15 for a 30 minute boat rental',
@@ -45,6 +49,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Exotic Animal Experience',
+        route: '/explore-sightseeing-exotic-animals',
         blurb: 'In this seven acre privately-owned zoo, you not only get to see exotic, endangered animals but can pet and hold them as well. All of the animals are raised in captivity from birth and are friendly with people. The zoo caters to your preferences and offers several experiences that vary in price and length.',
         website: 'https://www.exoticanimalexperience.net/',
         prices: 'Prices - from $150 per person to $750 per person',
@@ -56,6 +61,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Butler Chain of Lakes',
+        route: '/explore-sightseeing-butler-chain-lakes',
         blurb: 'Enjoy the translucent beauty of lakes at the Butler Chain of Lakes. Consisting of 13 lakes that are connected via channels and canals, go for a relaxing boat journey around this spectacular habitat. Catch a ride at sunrise or sunset for something different since you can boat the entire day. Access is available either through R.D Keene Park and Boat Ramp or Lake Down across from the main entrance on Conroy-Windermere Road.',
         website: 'https://www.exoticanimalexperience.net/',
         prices: 'Prices of boat rentals vary across agencies',
@@ -67,6 +73,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Kissimmee Swamp Tours',
+        route: '/explore-sightseeing-kissimmee-swamp-tours',
         blurb: 'Located on Lake Kissimmee, lay eyes on the unique Florida wildlife for an adventure away from the city. Explore the Florida Everglades on 60 or 90 minute airboat rides. Engulf yourself in the serenity of nature with the guidance of a trained captain.',
         website: 'https://www.kissimmeeswamptours.com/',
         prices: 'Prices - $49 for a 60 minute tour, $64 for a 90 minute tour',
@@ -78,6 +85,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Winter Park Scenic Boat Tour',
+        route: '/explore-sightseeing-winter-park-boat-tour',
         blurb: 'Sail on a one-hour, narrated, cruise to dive into the tranquility of Winter Park. On any tour, you may see cranes, fishes, and alligators with the guarantee of greenery such as palms, ferns, cypress trees, and other sub-tropical flowers.',
         website: 'https://www.scenicboattours.com/',
         prices: 'Prices - $14',
@@ -89,6 +97,7 @@ const sightseeingInputs = [
     },
     {
         title: 'Central Florida Zoo and Botanical Gardens',
+        route: '/explore-sightseeing-wildlife-attractions',
         blurb: 'With over 500 animals in its care, you get to encounter a variety of wildlife from rhinoceros to servals. Marvel at the wonder of life through the rich display of both flora and fauna. Observe the biodiversity of nature through the eyes of a butterfly in the Butterfly Garden or the other 23 acres of native gardens accessible to the public.',
         website: 'https://www.centralfloridazoo.org/',
         prices: 'Prices - $19.50',

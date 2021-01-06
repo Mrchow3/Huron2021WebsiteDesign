@@ -33,7 +33,7 @@ function Home() {
             <h1 className="centered-title">Plan Your Trip to Nationals</h1>
           </div>
           <div className="centered-citation">
-          Picture Citation: ICON Park. The Wheel. 2020. ICON Park Orlando, https://www.iconparkorlando.com/
+          Photo Credit: ICON Park. The Wheel. 2020. ICON Park Orlando, https://www.iconparkorlando.com/
           </div>
         </HeroSection>
       </div>
@@ -67,7 +67,7 @@ function Home() {
                             </Card.Body>
                         </Card.ImgOverlay>
                         <div className="card-citation">
-                        Picture Citation: Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
+                        Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
                         </div>
                     </a>
                 </Card>
@@ -83,7 +83,7 @@ function Home() {
                             </Card.Body>
                         </Card.ImgOverlay>
                         <div className="card-citation">
-                        Picture Citation: University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
+                        University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
                         </div>
                     </a>
                 </Card>
@@ -99,7 +99,7 @@ function Home() {
                             </Card.Body>
                         </Card.ImgOverlay>
                         <div className="card-citation">
-                        Picture Citation: Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
+                        Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
                         </div>
                     </a>
                 </Card>
