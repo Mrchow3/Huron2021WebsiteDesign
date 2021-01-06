@@ -33,7 +33,7 @@ let carouselItemHeight = 100;
 const carouselInputs = [
   {
     image:
-      'http://www.cityoforlando.net/wp-content/uploads/2014/09/SunRail_Train.jpg',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/SunRail_train_leaving_Winter_Park_Station.JPG/1920px-SunRail_train_leaving_Winter_Park_Station.JPG',
     height: carouselItemHeight,
     carouselFilter: 65,
     title: 'Getting Around',
@@ -41,7 +41,7 @@ const carouselInputs = [
     captionText: 'Compare some options and find the most convenient way to travel around the metropolis.',
     button: 'See Options',
     ref:'#/explore-transportation/',
-    citation: 'Picture Citation: City of Orlando. Downtown Transportation. 2015. City of Orlando, http://www.cityoforlando.net/blog/downtown-transportation-tips-for-march-8/'
+    citation: 'Picture Citation: Artystyk386. A southbound SunRail train leaving Winter Park Station, en route to downtown Orlando. 2014. Wikipedia, https://en.wikipedia.org/wiki/SunRail#/media/File:SunRail_train_leaving_Winter_Park_Station.JPG'
   },
   {
     image:

@@ -30,6 +30,7 @@ import '../css/main.css';
 
 import HeroSection from '../HeroSection.js';
 import ArticleCitation from '../ArticleCitation';
+import HCitation from '../HCitation';
 
 function ExFoodSingle(props){
     useEffect(() => {
@@ -39,7 +40,7 @@ function ExFoodSingle(props){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+                    image={props.hero}
                     height='60'
                     filter='70'
                 ></HeroSection>
@@ -49,8 +50,8 @@ function ExFoodSingle(props){
             </div>
             <div className="overdiv-2">
                 <div className="container mb-4">
+                    <HCitation citation={props.heroCitation} />
                     <div className="alt-1">
-                        <hr className="the-hr"></hr>
                         <div className="row article mb-4">
                             <div className="col-md mr-3">
                                 <p>

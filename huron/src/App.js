@@ -100,6 +100,8 @@ function App() {
             hours = {sightseeingInputs[0].hours}
             image = {sightseeingInputs[0].image}
             citation = {sightseeingInputs[0].citation}
+            hero = {sightseeingInputs[0].hero}
+            heroCitation = {sightseeingInputs[0].heroCitation}
         />} />
         <Route path='/explore-sightseeing-florida-tours' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -110,6 +112,8 @@ function App() {
             hours = {sightseeingInputs[1].hours}
             image = {sightseeingInputs[1].image}
             citation = {sightseeingInputs[1].citation}
+            hero = {sightseeingInputs[1].hero}
+            heroCitation = {sightseeingInputs[1].heroCitation}
         />} />
         <Route path='/explore-sightseeing-tibet-butler-preserve' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -120,6 +124,8 @@ function App() {
             hours = {sightseeingInputs[2].hours}
             image = {sightseeingInputs[2].image}
             citation = {sightseeingInputs[2].citation}
+            hero = {sightseeingInputs[2].hero}
+            heroCitation = {sightseeingInputs[2].heroCitation}
         />} />
         <Route path='/explore-sightseeing-lake-eola-park' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -130,6 +136,8 @@ function App() {
             hours = {sightseeingInputs[3].hours}
             image = {sightseeingInputs[3].image}
             citation = {sightseeingInputs[3].citation}
+            hero = {sightseeingInputs[3].hero}
+            heroCitation = {sightseeingInputs[3].heroCitation}
         />} />
         <Route path='/explore-sightseeing-exotic-animals' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -140,6 +148,8 @@ function App() {
             hours = {sightseeingInputs[4].hours}
             image = {sightseeingInputs[4].image}
             citation = {sightseeingInputs[4].citation}
+            hero = {sightseeingInputs[4].hero}
+            heroCitation = {sightseeingInputs[4].heroCitation}
         />} />
         <Route path='/explore-sightseeing-butler-chain-lakes' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -150,6 +160,8 @@ function App() {
             hours = {sightseeingInputs[5].hours}
             image = {sightseeingInputs[5].image}
             citation = {sightseeingInputs[5].citation}
+            hero = {sightseeingInputs[5].hero}
+            heroCitation = {sightseeingInputs[5].heroCitation}
         />} />
         <Route path='/explore-sightseeing-kissimmee-swamp-tours' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -160,6 +172,8 @@ function App() {
             hours = {sightseeingInputs[6].hours}
             image = {sightseeingInputs[6].image}
             citation = {sightseeingInputs[6].citation}
+            hero = {sightseeingInputs[6].hero}
+            heroCitation = {sightseeingInputs[6].heroCitation}
         />} />
         <Route path='/explore-sightseeing-winter-park-boat-tour' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -170,6 +184,8 @@ function App() {
             hours = {sightseeingInputs[7].hours}
             image = {sightseeingInputs[7].image}
             citation = {sightseeingInputs[7].citation}
+            hero = {sightseeingInputs[7].hero}
+            heroCitation = {sightseeingInputs[7].heroCitation}
         />} />
         <Route path='/explore-sightseeing-wildlife-attractions' component={ExSightseeingSingle} children={ 
           <ExSightseeingSingle
@@ -180,6 +196,8 @@ function App() {
             hours = {sightseeingInputs[8].hours}
             image = {sightseeingInputs[8].image}
             citation = {sightseeingInputs[8].citation}
+            hero = {sightseeingInputs[8].hero}
+            heroCitation = {sightseeingInputs[8].heroCitation}
         />} />
         <Route path='/explore-attractions' component={ExAttractions} />
         <Route path='/explore-attractions-water-attractions' component={ExAttractionsSingle} children={ 
