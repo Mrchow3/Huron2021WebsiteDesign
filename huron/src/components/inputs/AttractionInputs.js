@@ -34,8 +34,8 @@ const attractionInputs = [
         restrictionInfo: ['https://seaworld.com/orlando/park-info/park-safety/'],
         image: 'https://cache.undercovertourist.com/blog/2016/05/Aquatica-800x450.jpg',
         citation: "Picture Citation: Mommy Frog. Aquatica by SeaWorld. 2020. Undercover tourist, https://www.undercovertourist.com/blog/orlando-top-water-parks/",
-        hero: 'https://www.clickorlando.com/resizer/1ThPt-CkQ00GREPkgeZFnMosw1s=/1600x1064/smart/filters:format(jpeg):strip_exif(true):strip_icc(true):no_upscale(true):quality(65)/cloudfront-us-east-1.images.arcpublishing.com/gmg/57UHQ5TEDFBDRBUDAPEIK76TDE.webp',
-        heroCitation: 'SeaWorld Orlando. SeaWorld Orlando Manta Roller Coaster. 2020. Click Orlando, https://www.clickorlando.com/news/local/2020/08/31/visit-seaworld-orlando-for-rest-of-2020-all-of-2021-for-110/'
+        hero: 'https://t2conline.com/wp-content/uploads/2019/10/orlando-3577183_960_720-900x600.jpg',
+        heroCitation: 'Times Square Chronicles. SeaWorld Orlando Park Guide. 2019. Time Square Chronicles, https://t2conline.com/seaworld-orlando-park-guide/'
     },
     {
         title: 'Ripley’s Believe it or Not',
