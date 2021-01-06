@@ -69,10 +69,17 @@ function DisneyPage() {
                                         $170 for a one day ticket 
                                         </li>
                                     </ul>
+                                    <p>Security Restrictions: </p>
+                                    <ul>
+                                        <li>Trained Service Animals are permitted in all Disney parks and resorts, but other pets are only permitted in pet-friendly resorts.</li>
+                                        <li>Every bag, person, or suitcase is subject to screenings and security checks.</li>
+                                        <li>Guests must wear masks and have a temperature lower that 100.4°F</li>
+                                        <li><a target="_blank" href="https://disneyworld.disney.go.com/park-rules/">More Information</a></li>
+                                    </ul>
                               </div>
                           </div>
                           <div class="col">
-                              <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image"></img>
+                              <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image cropped-500"></img>
                           </div>
                       </div>
                 </div>
@@ -81,7 +88,7 @@ function DisneyPage() {
                     <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md mr-3">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image"></img>
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image cropped-500"></img>
                             </div>
                         <div class="col">
                             <div class="right-div">
@@ -97,6 +104,13 @@ function DisneyPage() {
                                         <li>
                                         $109 (ticket prices may vary based on when you visit)
                                         </li>
+                                    </ul>
+                                    <p>Security Restrictions: </p>
+                                    <ul>
+                                        <li>Trained Service Animals are permitted in all Disney parks and resorts, but other pets are only permitted in pet-friendly resorts.</li>
+                                        <li>Every bag, person, or suitcase is subject to screenings and security checks.</li>
+                                        <li>Guests must wear masks and have a temperature lower that 100.4°F</li>
+                                        <li><a target="_blank" href="https://disneyworld.disney.go.com/park-rules/">More Information</a></li>
                                     </ul>
                             </div>
                         </div>

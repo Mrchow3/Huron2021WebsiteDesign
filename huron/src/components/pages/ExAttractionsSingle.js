@@ -63,6 +63,18 @@ function ExAttractionsSingle(props){
         )
     );
 
+    const restrictions = [];
+    props.restrictions.forEach((restriction) =>
+        restrictions.push(
+            <div><li>{restriction}</li></div>
+        )
+    );
+    const info = [];
+    props.restrictionInfo.forEach((link) =>
+        info.push(
+            <div><li><a target="_blank" href={link}>More Information</a></li></div>
+        )
+    );
     return (
         <div>
             <div className="head-hero">
@@ -87,14 +99,13 @@ function ExAttractionsSingle(props){
                                 <p>
                                     Hours:
                                 </p>
+                                <ul>{hours}</ul>
+                                <p>Pricing: </p>
+                                <ul>{prices}</ul>
+                                <p>Security Restrictions:</p>
                                 <ul>
-                                    {hours}
-                                </ul>
-                                <p>
-                                    Pricing: 
-                                </p>
-                                <ul>
-                                    {prices}
+                                    {restrictions}
+                                    {info}
                                 </ul>
                                 <p className="">
                                     {websites}

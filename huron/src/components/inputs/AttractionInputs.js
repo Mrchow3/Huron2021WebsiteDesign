@@ -25,6 +25,13 @@ const attractionInputs = [
         hours: [
             'Most days, 10:00am - 6:00pm'
         ],
+        restrictions: [
+            'All guests over the age of two years must wear a mask with no vents or mesh and must have a temperature lower than 100.4°F.',
+            'Guests are required to wear appropriate clothing (shirt and shorts) when not swimming at Aquatica.',
+            'No outside food or beverages are permitted in Seaworld.',
+            'Service animals are welcomed at Seaworld, but other animals are not permitted.'
+        ],
+        restrictionInfo: ['https://seaworld.com/orlando/park-info/park-safety/'],
         image: 'https://cache.undercovertourist.com/blog/2016/05/Aquatica-800x450.jpg',
         citation: "Picture Citation: Mommy Frog. Aquatica by SeaWorld. 2020. Undercover tourist, https://www.undercovertourist.com/blog/orlando-top-water-parks/",
     },
@@ -43,6 +50,8 @@ const attractionInputs = [
         hours: [
             'Daily, 10:00am - 12:00am'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://media-cdn.tripadvisor.com/media/photo-w/02/4b/b7/6f/ripley-s-believe-it-or.jpg',
         citation: 'Picture Citation: Tripadvisor Management. Front View of Ripley’s Believe It or Not. 2012. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d124551-Reviews-Ripley_s_Believe_It_or_Not_Orlando-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=38516591',
     },
@@ -61,6 +70,10 @@ const attractionInputs = [
         hours: [
             'Daily, 10:00am - 4:00pm'
         ],
+        restrictions: [
+            'Flash photography, video cameras, tripods, and special photography equipment are not permitted in the Orlando Museum of Art.'
+        ],
+        restrictionInfo: [],
         image: 'https://thermanstatom.com/site/wp-content/uploads/2014/12/ORLANDO-MUSEUM-OF-ART.jpg',
         citation: 'Picture Citation: Reid, Tom. Orlando Museum of Art. 2009. Therman Statom, https://thermanstatom.com/portfolio_page/orlando-museum-of-art/',
     },
@@ -79,6 +92,8 @@ const attractionInputs = [
         hours: [
             'Daily, 12:00pm - 4:00pm'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/dfOMgkZuV_3UzZPqk2NDzw/o.jpg',
         citation: 'Picture Citation: H., Michelle. Photos for Chocolate Kingdom-Factory Adventure Tour. 2019. Yelp, https://www.yelp.com/biz_photos/chocolate-kingdom-factory-adventure-tour-orlando?select=dfOMgkZuV_3UzZPqk2NDzw',
     },
@@ -97,12 +112,14 @@ const attractionInputs = [
         hours: [
             'Daily, 8:00am - 11:45pm'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://orlandoinformer.com/wp-content/uploads/2018/01/Edit-11-1024x683.jpg',
         citation: 'Picture Citation: Rupp, Madison. I’m Still Talking About Gold Rush Months After We Played. 2018. Orlando Informer, https://orlandoinformer.com/blog/guide-escape-rooms-orlando',
     },
     { /* MAY NOT APPLY */
         title: 'iFLY Orlando Indoor Skydiving',
-        description: '',
+        description: 'Experience the thrill of skydiving without worrying about extreme heights. No jumping or falling, just step in a wind tunnel that creates a cushion from wall-to-wall. IFLY is committed to safety, so first-time flyers have to take a mandatory training session. iFLY will also provide gear and a certified instructor, so all you have to do is show up and get ready to fly.',
         websites: [
             {
                 part: 'iFLY Orlando Indoor Skydiving',
@@ -120,6 +137,8 @@ const attractionInputs = [
             'Friday - Saturday: 8:30am - 10:30pm',
             'Sunday: 8:30am - 10:30pm'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://instagram.fdet1-2.fna.fbcdn.net/v/t51.2885-15/e35/89270883_202145167668875_2178344007128352351_n.jpg?_nc_ht=instagram.fdet1-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=fqBk06csybYAX-qPthy&tp=1&oh=ac23e4a9d80d7d5af2fc2df2e36139bf&oe=601DCB2A',
         citation: 'Picture Citation: iFLY Orlando. Piper’s Third Birthday. 2020. Instagram, https://www.instagram.com/p/B9Sf4swphPN/',
     },
@@ -138,6 +157,8 @@ const attractionInputs = [
         hours: [
             'Daily, 10:00am - 4:00pm'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://www.kennedyspacecenter.com/-/media/DNC/KSCVC/Attraction-Images/NASA-Now-and-Next/Hero-images/NASA-NOW-MAIN-banner.ashx?h=950&w=1875&la=en&hash=CC088C0A78F1B2F1C5E224F384F6DCDB03AE7905',
         citation: 'Picture Citation: DNC Parks and Resort. NASA Now + Next. 2020. Kennedy Space Center Visitor Complex, https://www.kennedyspacecenter.com/explore-attractions',
     },
@@ -162,6 +183,8 @@ const attractionInputs = [
             'Saturday: 11:00am - 1:00am',
             'Sunday: 11:00am - 12:00am'
         ],
+        restrictions: ['No major restrictions'],
+        restrictionInfo: [],
         image: 'https://img.grouponcdn.com/deal/3NQPF9BhzT5En1c4hY4CdgNDRxoZ/3N-774x464/v1/c700x420.webp',
         citation: 'Picture Citation: Andretti Karting. Andretti Indoor Karting And Games Orlando. 2020. Groupon, https://www.groupon.com/deals/andretti-indoor-karting-and-games-orlando-2',
     },
@@ -180,6 +203,8 @@ const attractionInputs = [
         hours: [
             '10:00am - 5:00pm'
         ],
+        restrictions: [],
+        restrictionInfo: [],
         image: '',
         citation: 'Picture Citation: Orlando Science Center. STEM Discover Center. 2020. Orlando Science Center, https://www.osc.org/learn/education/stem2go/',
     },
@@ -201,11 +226,17 @@ const attractionInputs = [
         hours: [
             'Daily, 10:00am - 2:00am'
         ],
+        restrictions: [
+            'Trained Service Animals are permitted at ICON park, but other pets are not.',
+            'Every bag, person, or parcel may be subjected to screenings and security checks.',
+            'Proper attire must be worn at all times, including shoes and shirts.',
+        ],
+        restrictionInfo: ['https://www.iconparkorlando.com/terms-conditions/'],
         image: 'https://i1.wp.com/partiudisneyparks.com/wp-content/uploads/2020/05/icon-park-orlando.png?w=1392&ssl=1',
         citation: 'Picture Citation: Braga, Carlos. Icon-park-orlando. 2020. Partiu Disney Parks, https://partiudisneyparks.com/en/icon-park-orlando/',
     },
     {
-        title: 'Universal Studios Florida, Islands of Adventure, and Volcano Bay',
+        title: 'Universal Theme Park',
         description: 'Featuring rides and restaurants based on your favorite TV shows and movies, Universal Studios is the ultimate Hollywood experience. Dive into the Wizarding World of Harry Potter in the Diagon Alley and the Escape from Gringotts ride. After checking out the rides and shops at Universal Studios Florida, you can take the Hogwarts Express across to another park, the Islands of Adventure, which features Marvel superhero roller coasters and water rides that are fun for the whole family. Located right next door is Universal’s Volcano Bay. This water theme park filled with winding rivers, wave pools, and slides is the perfect way to cool off after a hot day in the other parks.',
         websites: [
             {
@@ -232,6 +263,12 @@ const attractionInputs = [
             'Islands of Adventure: Most days, 10:00am - 6:00pm',
             'Volcano Bay: Most days, 10:00 AM - 5:00 PM (Closed in the winter)'
         ],
+        restrictions: [
+            'COVID-19 restrictions: People with a temperature over 100.4°F will not be allowed into the parks and everyone must wear a mask while in the parks.',
+            'Everyone must walk through metal detectors and bags are subject to x-rays when entering the park.',
+            'Trained Service Animals are permitted in parks and resorts, but other pets are not.',
+        ],
+        restrictionInfo: ['https://www.universalorlando.com/web/en/us/plan- your-visit/hours-information/policies-restrictions'],
         image: 'https://www.visitflorida.com/content/dam/visitflorida/en-us/images/articles/2016/listicles/family-universal/universal-orlando-resort-harry-potter-diagon-alley.jpg.1020.680.imagerendition',
         citation: 'Picture Citation: Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html',
     },
