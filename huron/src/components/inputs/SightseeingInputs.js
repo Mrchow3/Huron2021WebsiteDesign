@@ -7,7 +7,7 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, 9:00am - 5:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/mukaTitS7owa18BKD3xfjg/o.jpg',
         citation: 'O., Crystal. Kopsia Fruticosa at Harry P. Leu Gardens. 2020. Yelp. https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=mukaTitS7owa18BKD3xfjg',
-        hero: 'https://cdn.ventrata.com/image/upload/ar_3,c_fill,dpr_2.0,f_jpg,w_1100/v1542990996/manatee_with_snorkeler_lic_g4uqhr.jpg',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/gOFZNzJDCFGM3p9G22zs9g/o.jpg',
         heroCitation: 'S., Jennifer. Lake at Harry P. Leu Garden. 2018. Yelp, https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=gOFZNzJDCFGM3p9G22zs9g'
     },
     {
@@ -18,8 +18,8 @@ const sightseeingInputs = [
         hours: 'Hours - Tuesdays and Fridays, 8:00am - 8:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/N6V8IeiagxIEwpYoa9-eZw/o.jpg',
         citation: 'Florida Dolphin Tours. Swim with manatees excursion. 2014. Yelp. https://www.yelp.com/biz_photos/florida-dolphin-tours-orlando?select=N6V8IeiagxIEwpYoa9-eZw',
-        hero: 'https://media-cdn.tripadvisor.com/media/photo-w/1c/20/05/46/lake-eola-park.jpg',
-        heroCitation: 'Lapertosa, Sandra. Lake Eola Park. 2020. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d292254-Reviews-Lake_Eola_Park-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=471860550'
+        hero: 'https://cdn.ventrata.com/image/upload/ar_3,c_fill,dpr_2.0,f_jpg,w_1100/v1542990996/manatee_with_snorkeler_lic_g4uqhr.jpg',
+        heroCitation: 'City Sightseeing Orlando. Florida Adventure Tour. 2021. City Sightseeing Orlando, https://www.floridadolphintours.com/en/florida-adventure-tour'
     },
     {
         title: 'Tibet-Butler Preserve',
@@ -40,8 +40,8 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, Boat rentals: 11:00am - 6:00pm, Park: 6am-midnight',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/RxdlAuS_9-rcOO1L1O-JIw/o.jpg',
         citation: 'L., Angel. Lake Eola Park at Night. 2020. Yelp. https://www.yelp.com/biz_photos/lake-eola-park-orlando?select=RxdlAuS_9-rcOO1L1O-JIw',
-        hero: 'https://cdn.ventrata.com/image/upload/ar_3,c_fill,dpr_2.0,f_jpg,w_1100/v1542990996/manatee_with_snorkeler_lic_g4uqhr.jpg',
-        heroCitation: 'City Sightseeing Orlando. Florida Adventure Tour. 2021. City Sightseeing Orlando, https://www.floridadolphintours.com/en/florida-adventure-tour'
+        hero: 'https://media-cdn.tripadvisor.com/media/photo-w/1c/20/05/46/lake-eola-park.jpg',
+        heroCitation: 'Lapertosa, Sandra. Lake Eola Park. 2020. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d292254-Reviews-Lake_Eola_Park-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=471860550'
     },
     {
         title: 'Exotic Animal Experience',

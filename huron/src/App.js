@@ -24,7 +24,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HNavBar from './components/HNavBar.js';
 import HFooter from './components/HFooter.js';
 import Home from './components/pages/Home.js';
-import Food from './components/pages/Food';
 import Hotels from './components/pages/Hotels';
 import ExTransportation from './components/pages/ExTransportation';
 import ExFood from './components/pages/ExFood';
@@ -51,7 +50,6 @@ function App() {
       <HNavBar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/food' component={Food} />
         <Route path='/explore-transportation' component={ExTransportation} />
         <Route path='/explore-food' component={ExFood} />
         <Route path='/explore-food-italian' component={ExFoodSingle} children={ <ExFoodSingle

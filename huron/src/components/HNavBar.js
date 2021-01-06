@@ -2,17 +2,11 @@ import React, { useState, useEffect } from 'react';
 import {
   Navbar,
   Nav,
-  Container,
   NavDropdown,
-  Form,
-  FormControl,
   Button,
-  Modal,
 } from 'react-bootstrap';
 import './css/HNavBar.css';
-import logo from './gmegv3da01.svg';
 import palmlogo from './peter_black-1.jpg';
-import HModal from './HModal.js';
 /*
 function MyVerticallyCenteredModal(props) {
   return (

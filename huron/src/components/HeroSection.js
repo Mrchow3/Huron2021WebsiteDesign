@@ -1,13 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from 'react-bootstrap';
 import './css/HeroSection.css';
 
 //const Navbar;

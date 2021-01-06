@@ -1,36 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Image,
-  Carousel,
-  CarouselItem,
-  Card,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
-} from 'react-bootstrap';
-
-import { Button as ButtonM } from '@material-ui/core';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 
 import HeroSection from '../HeroSection.js';
-import TextSection from '../TextSection.js';
-import CarouselSection from '../CarouselSection.js';
-import CardSection from '../CardSection.js';
-import SingleCard from '../SingleCard.js';
-
-import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
 import ArticleCitation from '../ArticleCitation';
 

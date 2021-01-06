@@ -1,26 +1,4 @@
 import React, { useState, useEffect, Component } from 'react';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Image,
-  Carousel,
-  CarouselItem,
-  Card,
-  ListGroup,
-  ListGroupItem,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
-} from 'react-bootstrap';
-
-import { Button as ButtonM, Divider } from '@material-ui/core';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
@@ -29,10 +7,6 @@ import './css/ExFood.css';
 import '../css/main.css';
 
 import HeroSection from '../HeroSection.js';
-import TextSection from '../TextSection.js';
-import CarouselSection from '../CarouselSection.js';
-import CardSection from '../CardSection.js';
-import SingleCard from '../SingleCard.js';
 
 import ArticleCitation from '../ArticleCitation';
 import HCitation from '../HCitation';

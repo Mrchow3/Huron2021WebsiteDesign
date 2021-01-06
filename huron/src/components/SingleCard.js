@@ -1,32 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Image,
-  Carousel,
-  CarouselItem,
   Card,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Button as ButtonM } from '@material-ui/core';
 
 import './css/SingleCard.css';
-
-import HeroSection from './HeroSection.js';
-import TextSection from './TextSection.js';
-import CarouselSection from './CarouselSection.js';
-import CardSection from './CardSection.js';
 
 function SingleCard() {
   return (

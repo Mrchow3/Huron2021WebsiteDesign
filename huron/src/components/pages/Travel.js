@@ -1,30 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-  Image,
-  Carousel,
-  CarouselItem,
-  Card,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
-} from 'react-bootstrap';
-
-import { Button as ButtonM } from '@material-ui/core';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import conferenceImg from '../the-hard-way.jpeg';
 
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';

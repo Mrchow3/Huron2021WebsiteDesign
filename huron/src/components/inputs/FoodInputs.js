@@ -38,7 +38,7 @@ const foodInputs = [
     },
     {
         type: 'Asian',
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/Wl6_QdGMZktvZrZvrvQZow/o.jpg',
+        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/bagFSzMMIQNMd8_bcfDoFg/o.jpg',
         heroCitation: 'S., Michelle. Taste Of Chengdu Restaurant. 2019. Yelp. https://www.yelp.com/biz_photos/taste-of-chengdu-orlando-3?select=bagFSzMMIQNMd8_bcfDoFg',
         content: [
             {
@@ -214,8 +214,7 @@ const foodInputs = [
                     }
                 ],
                 image: 'https://s3-media0.fl.yelpcdn.com/bphoto/gyTsMaNGwPEaWbjsJ52F5Q/o.jpg',
-                citations: 
-                    "K., Brittany. Vegetarian Blanco at Maxine’s On Shine. 2020. Yelp, https://www.yelp.com/biz_photos/ma xines-on-shine-orlando?select=gyTs MaNGwPEaWbjsJ52F5Q",
+                citation: "K., Brittany. Vegetarian Blanco at Maxine’s On Shine. 2020. Yelp, https://www.yelp.com/biz_photos/ma xines-on-shine-orlando?select=gyTs MaNGwPEaWbjsJ52F5Q",
             },
             {
                 name: 'Linda’s La Cantina Steakhouse',
