@@ -28,6 +28,7 @@ import conferenceImg from '../the-hard-way.jpeg';
 
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function GeneralInfo() {
     useEffect(() => {
@@ -128,11 +129,13 @@ function GeneralInfo() {
                             </div>
                             <div class="col">
                                 <img src="https://www.huronbpa.com/uploads/1/2/2/4/122481140/img-0553_orig.jpg" className="img-fluid article-image cropped-500"></img>
+                                <ArticleCitation citation="Huron BPA. Nathan Lee and Anay Laddha on Stage, 2019. Huron BPA, https://www.huronbpa.com/"></ArticleCitation>
                             </div>
                         </div>
                         <div class="row mt-3 article">
-                            <div class="col-md mr-3">
+                            <div class="col-md">
                                 <img src="https://www.huronbpa.com/uploads/1/2/2/4/122481140/dsc-0614_orig.jpg" className="img-fluid article-image cropped-500"></img>
+                                <ArticleCitation citation="Huron BPA. People at BPA. 2019. Huron BPA, https://www.huronbpa.com/"></ArticleCitation>
                             </div>
                             <div class="col-md mr-3">
                                 <div class="right-div">

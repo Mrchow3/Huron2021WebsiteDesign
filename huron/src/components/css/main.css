@@ -78,6 +78,11 @@ iframe {
     -webkit-overflow-scrolling: touch;
 }
 
+.img-disney{
+    width: 100%;
+    height: 550px;
+}
+
 @media only screen and (max-width: 768) {
     iframe {
         max-height: 60vh;

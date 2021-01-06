@@ -50,8 +50,6 @@ function ExTransportation() {
           <h1 className="centered-title">Transportation</h1>
         </div>
       </div>
-        
-      
         <div class="overdiv">
             <div class="container mx-auto">
                 <HCitation citation='Picture Citation: Taxi 4 Hire. Orlando Public Transportation. 2011. Taxi 4 Hire, https://www.taxi4hire.com/orlando-public-transportation.html' />
@@ -66,6 +64,7 @@ function ExTransportation() {
                           </div>
                           <div class="image-container col">
                               <img src="https://media.bizj.us/view/img/8546982/lynx-1*750xx4496-2529-0-236.jpg" className="img-fluid article-image"></img>
+                              <ArticleCitation citation="Carchidi, Jim. Mass Transit is Maintained at the Lynx Operations Center. 2016. Orlando Business Journal, https://www.bizjournals.com/orlando/blog/2016/02/photos-mass-transit-maintenance-at-the-lynx.html"></ArticleCitation>
                           </div>
                       </div>
                 </div>
@@ -75,7 +74,7 @@ function ExTransportation() {
                     <div class="row mt-3 article">
                         <div class="col-md">
                           <img src="https://live.staticflickr.com/2729/4353513778_bd35dda6f1_b.jpg" className="img-fluid article-image"></img>
-                          <ArticleCitation citation="" />
+                          <ArticleCitation citation="So Cal Metro. Lymmo. 2008. Flickr, https://www.flickr.com/photos/southerncalifornian/4353513778/" />
                         </div>
                         <div class="col">
                             <div class="right-div">
@@ -85,64 +84,51 @@ function ExTransportation() {
                         </div>
                     </div>
                 </div>
-                <div class="alt-1">
-                  <h2 class="heading">SunRail (Amtrak Station)</h2>
-                  <hr className="the-hr"></hr>
-                    <div class="row mt-3 article">
-                        <div class="col-md mr-3">
-                            <div class="right-div">
-                                <p class="right-justified">Sunrail, a commuter rail service, runs north and south for 49 miles through central Florida. The train operates Monday-Friday, and the <a href="https://sunrail.com/">website’s</a> schedule and map allow for easy planning. With four stations in Orlando -AdventHealth, LYNX Central, Church Street, and Orlando Health/Amtrak-, it’s an ideal way to quickly travel from one side of the city to another. Sunrail trains are both bike friendly and ADA compliant and include power outlets, free wifi, and restrooms. If you’re staying in the city round trip tickets range from $1.75-$3.75.</p>
-                            </div> 
-                        </div>
-                        <div class="col">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Orlando_Amtrak_Station%3B_Track_Entrance.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="DanTD. Track-side Entrance of the elaborate Orlando, Florida Amtrak Station. 2008. Wikipedia Commons, https://en.wikipedia.org/wiki/Orlando_Health/Amtrak_station"></ArticleCitation>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="alt-1"> 
                     <h2 class="heading">Biking</h2>
                     <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md">
-                            <img src="http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Baker, Scott. Biking in Orlando. 2014. Orlando Local Guide, http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg"></ArticleCitation>
-                        </div>
-                        <div class="col">
-                            <div class="right-div">
-                                <p class="right-justified">Cycling is one of the easiest ways to explore, and Orlando is filled with many safe, scenic paths that surround breathtaking lakes and parks. HOPR, the official bike share of Orlando, has hundreds of bikes scattered throughout the city at various locations. Their <a href="https://gohopr.com/orlando/">app</a> allows for easy bike rental and is available for download in both the App Store and Google Play. With one QR code scan, all that’s left to do is choose your rental type and be on your way. </p>
-                                <section>
-                                  <p>There are four rental options available to cater to your needs:</p>
-                                  <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
-                                      <li>
-                                        Per Ride - $1 to unlock, $.25 per minute
-                                      </li>
-                                      <li>
-                                        1 Day Pass - $20 for unlimited riding until midnight, 20¢ per min thereafter.
-                                      </li>
-                                      <li>
-                                        30 Day Pass - $25 for 60 minutes of daily ride time, 20¢ per min thereafter.
-                                      </li>
-                                      <li>
-                                        Annual Pass - $99 for 60 minutes of daily ride time, 20¢ per min thereafter.
-                                      </li>
-                                  </ul>
-                                </section>
-                            </div>
-                        </div>
+                        <div class="col-md mr-3">
+                          <div class="right-div">
+                              <p class="right-justified">Cycling is one of the easiest ways to explore, and Orlando is filled with many safe, scenic paths that surround breathtaking lakes and parks. HOPR, the official bike share of Orlando, has hundreds of bikes scattered throughout the city at various locations. Their <a href="https://gohopr.com/orlando/">app</a> allows for easy bike rental and is available for download in both the App Store and Google Play. With one QR code scan, all that’s left to do is choose your rental type and be on your way. </p>
+                              <section>
+                                <p>There are four rental options available to cater to your needs:</p>
+                                <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
+                                    <li>
+                                      Per Ride - $1 to unlock, $.25 per minute
+                                    </li>
+                                    <li>
+                                      1 Day Pass - $20 for unlimited riding until midnight, 20¢ per min thereafter.
+                                    </li>
+                                    <li>
+                                      30 Day Pass - $25 for 60 minutes of daily ride time, 20¢ per min thereafter.
+                                    </li>
+                                    <li>
+                                      Annual Pass - $99 for 60 minutes of daily ride time, 20¢ per min thereafter.
+                                    </li>
+                                </ul>
+                              </section>
+                          </div>
+                      </div>
+                      <div class="col">
+                          <img src="http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg" className="img-fluid article-image"></img>
+                          <ArticleCitation citation="Baker, Scott. Biking in Orlando. 2014. Orlando Local Guide, http://djuebnzkopryn.cloudfront.net/wp-content/uploads/2014/02/soco.jpg"></ArticleCitation>
+                      </div> 
                     </div>
                 </div>
                 <div class="alt-1">
                   <h2 class="heading">Taxis</h2>
                   <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md mr-3">
+                        <div class="col-md">
+                            <img src="http://3.bp.blogspot.com/-gYGxymZphLc/VG-oX-AZeKI/AAAAAAAAVPk/BXU6Tl9wLko/s1600/taxi-orlando-transporte.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="Dicas de Orlando. Custos de Usar Taxi em Orlando. 2014. Discas de Orlando, http://orlandoinesquecivel.blogspot.com/2014/11/custos-de-usar-taxi-em-orlando.html"></ArticleCitation>
+                        </div>
+                        <div class="col-md">
                             <div class="right-div">
                                 <p class="right-justified">Taxis are typically available at hotels and surrounding large attractions. But if you don’t prefer to hail your own cab, call 407-422-2222 for Mears Orlando Taxi Services. Started in 1939, Mears offers both sedans and vans, each equipped with drivers that are local experts and will help you arrive at your destination safely and on time. Additionally, Mears’ partnership with Uber provides luxury rides available on the Uber app, making their taxis more accessible for you. While prices vary depending on type of vehicle and distance traveled, on average Mears taxis are more affordable than other ride sharing options.</p>
                             </div> 
-                        </div>
-                        <div class="col">
-                            <img src="http://3.bp.blogspot.com/-gYGxymZphLc/VG-oX-AZeKI/AAAAAAAAVPk/BXU6Tl9wLko/s1600/taxi-orlando-transporte.jpg" className="img-fluid article-image"></img>
                         </div>
                     </div>
                 </div>
@@ -151,10 +137,6 @@ function ExTransportation() {
                     <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
                         <div class="col-md mr-3">
-                            <img src="https://media.bizj.us/view/img/10538212/minnie-van-service*1200xx900-506-0-51.jpg" className="img-fluid article-image"></img>
-                            <ArticleCitation citation="Walt Disney World. Minnie Van Service. 2020. Walt Disney World, https://disneyworld.disney.go.com/minnie-van/#/drawer=drawerMinnieVanService" />
-                        </div>
-                        <div class="col">
                             <div class="right-div">
                                 <p class="right-justified"><a href="https://auth.uber.com/login/?uber_client_name=riderSignUp&city_id=7&utm_source=AdWords_Brand&utm_campaign=search-google-brand_1_7_us-chicago_d_txt_acq_cpc_en-us_uber_kwd-169801042_320236091175_22880476120_e_c_track-jan22urlupdate-sl42391-1114_restructure&cid=271787680&adg_id=22880476120&fi_id=5028672018&match=e&net=g&dev=c&dev_m=&cre=320236091175&kwid=kwd-169801042&kw=uber&placement=&tar=&gclsrc=aw.ds&&gclid=EAIaIQobChMI3KS0oYHV3wIVVTVpCh3gPgtTEAAYASABEgK6hvD_BwE&gclsrc=aw.ds">Uber</a> and <a href="https://www.lyft.com/rider">Lyft</a> offer on-demand rides throughout Orlando. With both apps effortless to use, all that is required to get a ride to your destination is a couple clicks. Rates and availability are available on both platforms.</p>
                                 <section>
@@ -193,20 +175,25 @@ function ExTransportation() {
                                 </section>
                             </div>
                         </div>
+                        <div class="col">
+                            <img src="https://media.bizj.us/view/img/10538212/minnie-van-service*1200xx900-506-0-51.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="Walt Disney World. Minnie Van Service. 2020. Walt Disney World, https://disneyworld.disney.go.com/minnie-van/#/drawer=drawerMinnieVanService" />
+                        </div>
                     </div>
                 </div>
                 <div class="alt-1">
                   <h2 class="heading">I-Ride Trolley and Pedicab</h2>
                   <hr className="the-hr"></hr>
                     <div class="row mt-3 article">
-                        <div class="col-md">
+                        <div class="col-md mr-3">
+                            <img src="https://www.peppertreebay.com/wp-content/uploads/2020/07/siesta-key-transportation-1.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="Peppertree Bay. Siesta Trolley. 2021. Peppertree Bay on Siesta Key, https://www.peppertreebay.com/navigating-siesta-key/ "></ArticleCitation>
+                        </div>
+                        <div class="col">
                             <div class="right-div">
                                 <p class="right-justified">The I-Ride Trolley is perfect for anyone who wishes to ride the Revenge of the Mummy at Universal Studios, visit the Kraken at Seaworld, or get adventurous at the Islands of Adventure. The trolley services destinations in the International Drive area which is home to many attractions that will make your trip eventful and extraordinary. Single ride fare is $2.00 while the price of passes can range from $5.00 per person (1-day pass) to $9.00 per person (5-day pass).</p>
                                 <p class="left-justified">Traveling with a small group and looking for a local’s advice? Pedicabs offer quick eco friendly travel for short distances throughout the city. The drivers are friendly and help tourists get an inside peek of Orlando. Additionally, the payment for your ride depends on the number of people riding and distance traveled, and is typically paid as a tip to your driver. Pedicabs are both a great form of downtown transportation and a fun, informative experience.</p>
                             </div> 
-                        </div>
-                        <div class="col">
-                            <img src="https://www.peppertreebay.com/wp-content/uploads/2020/07/siesta-key-transportation-1.jpg" className="img-fluid article-image"></img>
                         </div>
                     </div>
                 </div>
@@ -226,4 +213,21 @@ export default ExTransportation;
       </Container> 
       
 <p>Enjoy sightseeing through downtown Orlando on foot. Take in views of local restaurants and shops while exploring the city and getting your steps in.</p>
+
+
+                <div class="alt-1">
+                  <h2 class="heading">SunRail (Amtrak Station)</h2>
+                  <hr className="the-hr"></hr>
+                    <div class="row mt-3 article">
+                        <div class="col-md mr-3">
+                            <div class="right-div">
+                                <p class="right-justified">Sunrail, a commuter rail service, runs north and south for 49 miles through central Florida. The train operates Monday-Friday, and the <a href="https://sunrail.com/">website’s</a> schedule and map allow for easy planning. With four stations in Orlando -AdventHealth, LYNX Central, Church Street, and Orlando Health/Amtrak-, it’s an ideal way to quickly travel from one side of the city to another. Sunrail trains are both bike friendly and ADA compliant and include power outlets, free wifi, and restrooms. If you’re staying in the city round trip tickets range from $1.75-$3.75.</p>
+                            </div> 
+                        </div>
+                        <div class="col">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Orlando_Amtrak_Station%3B_Track_Entrance.jpg" className="img-fluid article-image"></img>
+                            <ArticleCitation citation="DanTD. Track-side Entrance of the elaborate Orlando, Florida Amtrak Station. 2008. Wikipedia Commons, https://en.wikipedia.org/wiki/Orlando_Health/Amtrak_station"></ArticleCitation>
+                        </div>
+                    </div>
+                </div>
 */

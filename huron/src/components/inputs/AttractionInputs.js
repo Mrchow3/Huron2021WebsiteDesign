@@ -106,11 +106,11 @@ const attractionInputs = [
         heroCitation: 'Monaleese. A Chocoholic’s Delight. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d8353042-Reviews-Chocolate_Kingdom_Factory_Tours-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=396804796'
     },
     {
-        title: 'The Escape Room Orlando',
+        title: 'The Escape Game Orlando',
         description: 'Immerse yourself in a 60-minute adventure that requires you to use wits, communication, and teamwork to solve for your way out through puzzles and clues.  Enjoy a fully enticing escapade that keeps you on your toes until the very last minute. Check out Gold Rush or The Heist and get your chance to save the day.',
         websites: [
             {
-                part: 'The Escape Room Orlando',
+                part: 'The Escape Game Orlando',
                 site: 'https://theescapegame.com/orlando/'
             }
         ],
@@ -125,7 +125,7 @@ const attractionInputs = [
         image: 'https://orlandoinformer.com/wp-content/uploads/2018/01/Edit-11-1024x683.jpg',
         citation: 'Picture Citation: Rupp, Madison. I’m Still Talking About Gold Rush Months After We Played. 2018. Orlando Informer, https://orlandoinformer.com/blog/guide-escape-rooms-orlando',
         hero: 'https://booking.theescapegame.com/slir/h500/https://booking.theescapegame.com/media/experiences/5ba0f7bfe3ac9f0c248b4584.jpg',
-        heroCitation: 'The Escape Room Orlando. Prison Break #2. 2021. The Escape Room, https://theescapegame.com/orlando/'
+        heroCitation: 'The Escape Game Orlando. Prison Break #2. 2021. The Escape Game, https://theescapegame.com/orlando/'
     },
     { /* MAY NOT APPLY */
         title: 'iFLY Orlando Indoor Skydiving',

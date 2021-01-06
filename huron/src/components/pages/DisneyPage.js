@@ -32,6 +32,7 @@ import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function DisneyPage() {
   useEffect(() => {
@@ -81,7 +82,8 @@ function DisneyPage() {
                               </div>
                           </div>
                           <div class="col">
-                              <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image cropped-500"></img>
+                              <img src="https://business.time.com/wp-content/uploads/sites/2/2012/09/disneyworld1.jpg?w=600&h=400&crop=1" className="img-fluid article-image img-disney"></img>
+                              <ArticleCitation citation="Picture Citation: Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html"></ArticleCitation>
                           </div>
                       </div>
                 </div>
@@ -89,9 +91,10 @@ function DisneyPage() {
                     <h2 className="heading">Disney’s Epcot</h2>
                     <hr className="the-hr"></hr>
                     <div class="row article">
-                        <div class="col-md mr-3">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image cropped-500"></img>
-                            </div>
+                        <div class="col-md">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/18/ce/92/35/spaceship-earth-at-epcot.jpg" className="img-fluid article-image img-disney"></img>
+                            <ArticleCitation citation="Picture Citation: Tripadvisor Management. Spaceship Earth at Epcot. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d126541-Reviews-Epcot-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=416191029"></ArticleCitation>
+                        </div>
                         <div class="col">
                             <div class="right-div">
                                     <p class="left-justified">The Experimental Prototype Community of Tomorrow (Epcot) features rides that throw you right in the middle of France or under the sea! Consists of Future World on one side, full of space and nautical travels, and 11 pavilions each themed to different countries from Norway to China, let your imagination roam through countless possibilities! Visit Arendelle aboard a Viking boat or go aboard a spaceship and explore your role as an astronaut on Missions: SPACE. Immerse yourself in different cultures in boat rides around the place!</p>
