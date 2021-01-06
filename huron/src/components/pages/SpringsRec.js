@@ -29,8 +29,8 @@ import TextSection from '../TextSection.js';
 import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
-
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function SpringsRec() {
   useEffect(() => {
@@ -42,7 +42,7 @@ function SpringsRec() {
         <HeroSection
           image='https://attractionsmagazine.com/wp-content/uploads/2017/02/CoronadoSprings-at-WaltDisneyWorldResort-Rendering.jpeg'
           height='92'
-          style="filter: brightness(50%)">
+          filter="70">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Coronando Springs Recreation</h1>
@@ -50,8 +50,8 @@ function SpringsRec() {
       </div>
         <div class="overdiv">
             <div class="container mx-auto">
+                <HCitation citation="Picture Citation: Disney. Art for Gran Destino Tower. 2018. Watsons Do Disney, https://watsonsdodisney.com/2018/11/24/disneys-coronado-springs-resort-update-gran-destino-tower/"></HCitation>
                 <div class="alt-1"> 
-                    <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md mr-3">
                             <div class="right-div">

@@ -205,8 +205,8 @@ const attractionInputs = [
         ],
         restrictions: [],
         restrictionInfo: [],
-        image: '',
-        citation: 'Picture Citation: Orlando Science Center. STEM Discover Center. 2020. Orlando Science Center, https://www.osc.org/learn/education/stem2go/',
+        image: 'https://www.osc.org/wp-content/uploads/2018/09/Shot-by-Harry-Aaron_599.jpg',
+        citation: 'Picture Citation: Aaron, Harry. T-Rex Holding a Wedding Sign in its Mouth. 2020. Orlando Science Center, https://www.osc.org/shot-by-harry-aaron_599/',
     },
     {
         title: 'ICON Park',

@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function YachtFood() {
   useEffect(() => {
@@ -42,7 +43,7 @@ function YachtFood() {
         <HeroSection
           image='https://images.trvl-media.com/hotels/1000000/20000/11300/11250/6ab397ec_z.jpg'
           height='92'
-          style="filter: brightness(50%)">
+          filter="70">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Yacht Club Food</h1>
@@ -50,6 +51,7 @@ function YachtFood() {
       </div>
         <div class="overdiv">
             <div class="container mx-auto">
+                <HCitation citation="Walt Disney World. Yacht Cllub Resort. 2020. Walt Disney World, https://www.disneyworld.eu/resorts/yacht-club-resort/" />
                 <div class="alt-1"> 
                     <h2 className="heading">Ale & Compass Restaurant</h2>
                     <hr className="the-hr"></hr>

@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function SpringsFood() {
   useEffect(() => {
@@ -42,7 +43,7 @@ function SpringsFood() {
         <HeroSection
           image='https://attractionsmagazine.com/wp-content/uploads/2017/02/CoronadoSprings-at-WaltDisneyWorldResort-Rendering.jpeg'
           height='92'
-          style="filter: brightness(50%)">
+          filter="70">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Coronando Springs Food</h1>
@@ -52,6 +53,7 @@ function SpringsFood() {
       
         <div class="overdiv">
             <div class="container mx-auto">
+                <HCitation citation="Picture Citation: Disney. Art for Gran Destino Tower. 2018. Watsons Do Disney, https://watsonsdodisney.com/2018/11/24/disneys-coronado-springs-resort-update-gran-destino-tower/"></HCitation>
                 <div class="alt-1"> 
                     <h2 className="heading">Siestas Cantina</h2>
                     <hr className="the-hr"></hr>

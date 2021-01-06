@@ -27,6 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import conferenceImg from '../the-hard-way.jpeg';
 
 import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
 
 function GeneralInfo() {
     useEffect(() => {
@@ -46,6 +47,7 @@ function GeneralInfo() {
             </div>
             <div class="overdiv-2">
                 <div class="container mx-auto">
+                    <HCitation citation="Picture Citation: Oklahoma BPA. Something I Learned at BPA/DECA FLC. 2018. Oklahoma BPA, https://bpaok.org/2018/12/03/something-i-learned-at-oklahoma-bpa-deca-fall-leadership-conference-2018/"></HCitation>
                     <div class="alt-1"> 
                         <h2 className="heading">Preparation</h2>
                         <hr className="the-hr"></hr>

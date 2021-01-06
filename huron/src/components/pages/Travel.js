@@ -27,6 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import conferenceImg from '../the-hard-way.jpeg';
 
 import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
 
 function Travel() {
     useEffect(() => {
@@ -46,6 +47,7 @@ function Travel() {
             </div>
             <div class="overdiv">
                 <div class="container mx-auto">
+                    <HCitation citation="Picture Citation: Gent, Edd. “Will Electric Planes Ever Happen? Here’s an Update on Their Status.” Singularity Hub, 16 Dec. 2018, https://singularityhub.com/2018/12/16/will-electric-planes-ever-happen-heres-an-update-on-their-status/"></HCitation>
                     <div class="alt-1"> 
                         <h2 className="heading">Getting there by Plane</h2>
                         <hr className="the-hr"></hr>

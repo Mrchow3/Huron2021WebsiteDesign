@@ -34,6 +34,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function ExSightseeing(){
     useEffect(() => {
@@ -43,7 +44,7 @@ function ExSightseeing(){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+                    image='https://www.onetravel.com/going-places/wp-content/uploads/2011/09/Orlando-Attractions.jpg'
                     height='92'
                     filter='70'
                 ></HeroSection>
@@ -52,7 +53,7 @@ function ExSightseeing(){
                 </div>
             </div>
             <div className="container">
-                <hr />
+                <HCitation citation="Picture Citation: Durso, Shannon. The Other Orlando. 2018. One Travel, https://www.onetravel.com/going-places/orlando-beyond-the-theme-parks/"></HCitation>
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-harry-p-leu-gardens">

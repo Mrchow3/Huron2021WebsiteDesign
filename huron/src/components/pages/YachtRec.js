@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function YachtRec() {
   useEffect(() => {
@@ -42,7 +43,7 @@ function YachtRec() {
         <HeroSection
           image='https://mickeyblog.com/wp-content/uploads/2018/08/Yacht-Club.jpg'
           height='92'
-          style="filter: brightness(50%)">
+          filter="70">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Yacht Club Recreation</h1>
@@ -50,8 +51,8 @@ function YachtRec() {
       </div>
         <div class="overdiv">
             <div class="container mx-auto">
+              <HCitation citation="Mickey Blog. Disney's Yacht Club. 2018. Mickey Blog, https://mickeyblog.com/2018/08/20/6-reasons-must-stay-yacht-club/" />
                 <div class="alt-1"> 
-                    <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md mr-3">
                             <div class="right-div">

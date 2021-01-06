@@ -34,6 +34,8 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
+import CardCitation from '../CardCitation';
 
 function ExFood(){
     useEffect(() => {
@@ -43,7 +45,7 @@ function ExFood(){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg'
+                    image='https://media-cdn.tripadvisor.com/media/photo-o/07/77/96/fe/the-ritz-carlton-orlando.jpg'
                     height='92'
                     filter='70'
                 ></HeroSection>
@@ -52,7 +54,7 @@ function ExFood(){
                 </div>
             </div>
             <div className="container">
-                <hr />
+                <HCitation citation="Picture Citation: Ritz-Carlton Orlando. NORMAN’s Patio. 2015. Trip Advisor, https://www.tripadvisor.com/Hotel_Review-g34515-d258647-Reviews-The_Ritz_Carlton_Orlando_Grande_Lakes-Orlando_Florida.html#/media/258647/125277950:p/?albumid=101&type=0&category=101"></HCitation>
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-food-italian">
@@ -65,6 +67,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Pizarri, Michael. Prato's diavolo pizza is on the Winter Park restaurant's new happy hour menu, 2017. Orlando Sentinel, https://www.orlandosentinel.com/food-restaurants/os-et-prato-happy-hour-20170801-story.html"></CardCitation>
                         </a>
                     </Card>
                     <Card>
@@ -78,6 +81,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="Kadence. Koala Mama Holiday Gifts. 2020. Facebook, https://www.facebook.com/kadenceorlando/"></CardCitation>
                         </a>
                     </Card>
                     <Card>
@@ -91,6 +95,7 @@ function ExFood(){
                                 </Card.Text>
                             </Card.Body>
                         </Card.ImgOverlay>
+                        <CardCitation citation="Universal Orlando. Familiar Yet Unexpected. 2021. Universal Orlando Resort Meetings and Events, https://www.uomeetingsandevents.com/Event-Options/Overview/Universal-Citywalk/Antojitos-Authentic-Mexican-Food.html"></CardCitation>
                         </a>
                     </Card>
                     <Card>
@@ -104,6 +109,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="J., Travis. Spiced Alligator Bites. 2018. Yelp, https://www.yelp.com/biz_photos/caf%C3%A9-tu-tu-tango-orlando-5?select=cg7APOHAHFv7ArDfJDSMXA"></CardCitation>
                         </a>
                     </Card>
                     <Card>
@@ -117,6 +123,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation=""></CardCitation>
                         </a>
                     </Card>
                     <Card>
@@ -130,6 +137,7 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
+                            <CardCitation citation="D., Kiana. Selam Veggie Special. 2020. Yelp, https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=SOuQiNnbjzcKiNUo5nP84Q"></CardCitation>
                         </a>
                     </Card>
                 </CardSection>

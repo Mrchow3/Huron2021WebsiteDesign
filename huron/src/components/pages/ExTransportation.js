@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+import HCitation from '../HCitation';
 
 function ExTransportation() {
   useEffect(() => {
@@ -40,9 +41,9 @@ function ExTransportation() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://desktopwalls.net/wp-content/uploads/2015/09/Tropical%20Beach%20Palm%20Trees%204K%20Desktop%20Wallpaper.jpg'
+          image='https://www.taxi4hire.com/wp-content/uploads/2011/01/disney-world-0.jpg'
           height='92'
-          style="filter: brightness(50%)">
+          filter='70'>
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Transportation</h1>
@@ -52,6 +53,7 @@ function ExTransportation() {
       
         <div class="overdiv">
             <div class="container mx-auto">
+                <HCitation citation='Picture Citation: Taxi 4 Hire. Orlando Public Transportation. 2011. Taxi 4 Hire, https://www.taxi4hire.com/orlando-public-transportation.html' />
                 <div class="alt-1"> 
                     <h2 className="heading">Lynx Bus Service</h2>
                     <hr className="the-hr"></hr>
