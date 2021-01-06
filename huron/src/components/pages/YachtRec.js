@@ -32,6 +32,7 @@ import SingleCard from '../SingleCard.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function YachtRec() {
   useEffect(() => {
@@ -78,11 +79,13 @@ function YachtRec() {
                         </div>
                         <div class="col">
                             <img src="http://4.bp.blogspot.com/_zSWJkb_7Edw/S7RTARKUIoI/AAAAAAAAAms/_LzIq6HzAjE/s1600/Stormalong+Bay.JPG" className="img-fluid article-image cropped-400"></img>
+                            <ArticleCitation citation="Disney, Marcio. Stormalong Bay at Night. 2014. Marcio Disney Pictures, http://fashionforwork.blogspot.com/2012/03/attention-guys.html"></ArticleCitation>
                         </div>
                     </div>
                     <div class="row article">
                         <div class="col-md mr-3">
                             <img src="https://www.themainstreetmouse.com/wp-content/uploads/2018/09/fullsizeoutput_3153.jpeg" className="img-fluid article-image cropped-400"></img>
+                            <ArticleCitation citation="Adani, Janel. Fantasia Gardens and Miniature Golf. 2018. The Main Street Mouse, https://www.themainstreetmouse.com/2018/09/03/fantasia-gardens-and-fairways-miniature-golf/"></ArticleCitation>
                         </div>
                         <div class="col-md mr-3">
                             <div class="right-div">

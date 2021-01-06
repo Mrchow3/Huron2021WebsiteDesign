@@ -61,6 +61,16 @@ div.card-citation{
     text-align: center;
 }
 
+.hotel-card{
+    background-color: #242124;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 6px;
+    opacity: 0.6;
+}
+
 iframe {
     overflow: auto;
     width: 100%;

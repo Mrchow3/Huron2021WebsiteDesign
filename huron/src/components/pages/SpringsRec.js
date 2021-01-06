@@ -31,6 +31,7 @@ import CardSection from '../CardSection.js';
 import SingleCard from '../SingleCard.js';
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
 import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 function SpringsRec() {
   useEffect(() => {
@@ -77,6 +78,7 @@ function SpringsRec() {
                         </div>
                         <div class="col">
                             <img src="https://d3bo0mk5kk7egf.cloudfront.net/imgstore/ElementGalleryItems/resorts/Fullsize/Disneys-Coronado-Springs-Resort_Full_8204.jpg?width=1600&quality=80&encoder=freeimage&progressive=true" className="img-fluid article-image cropped-400"></img>
+                            <ArticleCitation citation="Walt Disney World. The Dig Site Feature Pool. 2018. Walt Disney World Magic, https://www.wdwmagic.com/resorts/disneys-coronado-springs-resort/news/08aug2018-main-feature-pool-area-at-disneys-coronado-springs-resort-closing-for-lengthy-refurbishment-this-fall.htm"></ArticleCitation>
                         </div>
                     </div>
                 </div>
