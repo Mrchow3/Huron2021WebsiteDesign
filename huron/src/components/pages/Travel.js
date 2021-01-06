@@ -47,7 +47,7 @@ function Travel() {
             <div class="overdiv">
                 <div class="container mx-auto">
                     <div class="alt-1"> 
-                        <h2 className="heading">Getting their by Plane</h2>
+                        <h2 className="heading">Getting there by Plane</h2>
                         <hr className="the-hr"></hr>
                         <div class="row article">
                             <div class="col-md mr-3">

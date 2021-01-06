@@ -41,6 +41,7 @@ const carouselInputs = [
     captionText: 'Compare some options and find the most convenient way to travel around the metropolis.',
     button: 'See Options',
     ref:'#/explore-transportation/',
+    citation: 'http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg'
   },
   {
     image:
@@ -52,6 +53,7 @@ const carouselInputs = [
     captionText: 'Experience Orlando to the fullest and immerse yourself in the real city experience.',
     button: 'See Options',
     ref:'#/explore-sightseeing/',
+    citation: 'http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg'
   },
   {
     image:
@@ -63,6 +65,7 @@ const carouselInputs = [
     captionText: 'Orlando offers one of the most multicultural food scenes in the world. Pick any choice from Italian to Ethiopian.',
     button: 'See Options',
     ref:'#/explore-food/',
+    citation: 'http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg'
   },
   {
     image: /*searched orlando attractions for image*/
@@ -74,6 +77,7 @@ const carouselInputs = [
     captionText: 'Orlando is known for its many exciting attractions. Learn about the best visits from the unique Museum of Art to the amazing Universal Theme Park.',
     button: 'See Options',
     ref:'#/explore-attractions/',
+    citation: 'http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg'
   },
 ];
 
@@ -85,6 +89,7 @@ carouselInputs.forEach((element) =>
           <div className="">
               <img className="img-fluid d-block w-100 carousel-image" alt={element.title} src={element.image} />
           </div>
+          <div className="centered-citation">{element.citation}</div>
         <div className="carousel-heading bg-transparent overflow-hidden py-4 py-md-5 h-100">
           <div class="container-fluid mx-auto py-4 py-md-5">
             <div class="row d-flex align-items-md-center justify-content-between">
