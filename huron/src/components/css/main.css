@@ -10,7 +10,7 @@
     object-fit: cover;
 }
 
-div.centered-citation{
+.carousel-citation, div.centered-citation{
     background-color: #242124;
     color: white;
     position: absolute;
@@ -20,13 +20,25 @@ div.centered-citation{
     border-radius: 0.6em 0.6em 0 0;
     text-align: center;
     padding: 0.5em 0.5em 0.5em 0.5em;
-    min-width: 55vw;
     font-size: 0.8em;
     opacity: 0.6;
 }
+
+div.centered-citation{
+    min-width: 55vw;
+}
+
+.carousel-citation{
+    min-width: 70vw;
+}
+
 @media only screen and (max-width: 768px) {
     .centered-citation{
         font-size: 8px;
+        width: 100%;
+    }
+    .carousel-citation{
+        font-size: 5px;
         width: 100%;
     }
 }
