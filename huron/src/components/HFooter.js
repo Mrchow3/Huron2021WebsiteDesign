@@ -1,3 +1,7 @@
+/*
+Footer component to be used on every page with routing to social media pages
+*/
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faPaperPlane } from "@fortawesome/free-solid-svg-icons";

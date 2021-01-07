@@ -1,3 +1,7 @@
+/*
+Navbar component to be reused on every page
+*/
+
 import React, { useState, useEffect } from 'react';
 import {
   Navbar,

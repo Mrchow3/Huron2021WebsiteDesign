@@ -1,3 +1,7 @@
+/*
+Component to display a hero image banner and change the background opactity and image
+*/
+
 import React, { useState, useEffect } from 'react';
 import './css/HeroSection.css';
 

@@ -1,3 +1,7 @@
+/*
+Component to organize and create citations for hero image sections
+*/
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/main.css'
 function HCitation(props) {

@@ -1,3 +1,7 @@
+/*
+Component to store carousel sections
+*/
+
 import React, { useState, useEffect } from 'react';
 import {
   Navbar,
