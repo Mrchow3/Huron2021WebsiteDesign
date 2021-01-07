@@ -1,13 +1,17 @@
+/*
+Travel options page
+Simple alternating article
+*/
+
 import React, { useState, useEffect } from 'react';
+import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import HeroSection from '../HeroSection.js';
-import HCitation from '../HCitation';
-import ArticleCitation from '../ArticleCitation';
 
 function Travel() {
     useEffect(() => {

@@ -1,3 +1,4 @@
+//JSON storing info for sightseeing pages
 const sightseeingInputs = [
     {
         title: 'Harry P. Leu Gardens',

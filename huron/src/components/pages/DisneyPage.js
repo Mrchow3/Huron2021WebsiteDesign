@@ -1,12 +1,16 @@
+/* 
+Disney Attraction Page
+This is not templated due to being slightly different then the other attraction pages.
+*/
+
 import React, { useState, useEffect } from 'react';
+import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
-
-import HeroSection from '../HeroSection.js';
-import HCitation from '../HCitation';
-import ArticleCitation from '../ArticleCitation';
 
 function DisneyPage() {
   useEffect(() => {

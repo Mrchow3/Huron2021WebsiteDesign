@@ -1,12 +1,16 @@
+/*
+Schedule page
+In-page iframe containing schedule - doesn't work well on mobile, so a link option is provided
+*/
 import React, { useState, useEffect, Component } from 'react';
+import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import './css/Hotels.css'
 import '../css/main.css'
 
-import HeroSection from '../HeroSection.js';
-import HCitation from '../HCitation';
 
 function Schedule() {
     useEffect(() => {

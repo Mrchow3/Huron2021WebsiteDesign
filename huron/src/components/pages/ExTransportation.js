@@ -1,13 +1,16 @@
+/*
+Transportation page
+Article with alternating rows under each heading where pictures and information swap sides.
+*/
+
 import React, { useState, useEffect } from 'react';
+import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
-
-import HeroSection from '../HeroSection.js';
-
-import HCitation from '../HCitation';
-import ArticleCitation from '../ArticleCitation';
 
 function ExTransportation() {
   useEffect(() => {

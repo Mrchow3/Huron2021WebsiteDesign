@@ -1,17 +1,21 @@
+/*
+Branching Attraction page 
+Contains cards which branch to templated pages
+*/
+
 import React, { useState, useEffect, Component } from 'react';
 import {
   Card
 } from 'react-bootstrap';
+import HeroSection from '../HeroSection.js';
+import CardSection from '../CardSection.js';
+import HCitation from '../HCitation';
+import CardCitation from '../CardCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import './css/Hotels.css'
 import './css/ExFood.css';
-
-import HeroSection from '../HeroSection.js';
-import CardSection from '../CardSection.js';
-import HCitation from '../HCitation';
-import CardCitation from '../CardCitation';
 
 function ExAttractions(){
     useEffect(() => {

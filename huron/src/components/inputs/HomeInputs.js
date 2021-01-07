@@ -1,43 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
   Button,
-  Image,
-  Carousel,
-  CarouselItem,
-  Card,
-  CardColumns,
-  CardGroup,
-  CardDeck,
-  Jumbotron,
-  Figure,
+  Carousel
 } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import '../css/CarouselSection.css';
 import '../css/main.css';
-import HeroSection from '../HeroSection.js';
-import TextSection from '../TextSection.js';
-import CarouselSection from '../CarouselSection.js';
-import CardSection from '../CardSection.js';
-import SingleCard from '../SingleCard.js';
 
 let carouselItemHeight = 100;
 
+//JSON storing carousel info
 const carouselInputs = [
   {
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/SunRail_train_leaving_Winter_Park_Station.JPG/1920px-SunRail_train_leaving_Winter_Park_Station.JPG',
     height: carouselItemHeight,
-    carouselFilter: 65,
     title: 'Getting Around',
-    captionTitle: 'First Slide',
     captionText: 'Compare some options and find the most convenient way to travel around the metropolis.',
     button: 'See Options',
     ref:'#/explore-transportation/',
@@ -47,9 +26,7 @@ const carouselInputs = [
     image:
       'https://108pkt40d39i1mdq4v41ganb-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/best-cities-for-nurses-orlando.jpg',
     height: carouselItemHeight,
-    carouselFilter: 40,
     title: 'Sightseeing',
-    captionTitle: '',
     captionText: 'Experience Orlando to the fullest and immerse yourself in the real city experience.',
     button: 'See Options',
     ref:'#/explore-sightseeing/',
@@ -59,9 +36,7 @@ const carouselInputs = [
     image:
       'https://1.bp.blogspot.com/-N9ZvPlmBjZM/WVq3H5bZWBI/AAAAAAABJBA/vR5uST6xsvYWOlYM1nkhGKStdTbxsYAgACLcBGAs/s1600/Belgian%2BWaffle%2Barrangement.jpg',
     height: carouselItemHeight,
-    carouselFilter: 60,
     title: 'Local Food',
-    captionTitle: 'Third Slide',
     captionText: 'Orlando offers one of the most multicultural food scenes in the world. Pick any choice from Italian to Ethiopian.',
     button: 'See Options',
     ref:'#/explore-food/',
@@ -71,9 +46,7 @@ const carouselInputs = [
     image: /*searched orlando attractions for image*/
       'https://cdn.newsday.com/polopoly_fs/1.11408063.1454597559!/httpImage/image.jpeg_gen/derivatives/display_960/image.jpeg',
     height: carouselItemHeight,
-    carouselFilter: 60,
     title: 'Attractions',
-    captionTitle: 'Fourth Slide',
     captionText: 'Orlando is known for its many exciting attractions. Learn about the best visits from the unique Museum of Art to the amazing Universal Theme Park.',
     button: 'See Options',
     ref:'#/explore-attractions/',

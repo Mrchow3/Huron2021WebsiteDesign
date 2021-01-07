@@ -1,17 +1,22 @@
+/*
+Hotel Page
+Uses states to create the option of reading about one hotel or the other (through clickable buttons)
+Info page which links to recreation and food options article for each hotel
+*/
+
 import React, { useState, useEffect, Component } from 'react';
 import {
   Card,
   CardDeck,
 } from 'react-bootstrap';
+import HeroSection from '../HeroSection.js';
+import ArticleCitation from '../ArticleCitation';
+import HCitation from '../HCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import './css/Hotels.css'
 import '../css/main.css';
-
-import HeroSection from '../HeroSection.js';
-import ArticleCitation from '../ArticleCitation';
-import HCitation from '../HCitation';
 
 class Hotels extends Component{
     HOTEL = {

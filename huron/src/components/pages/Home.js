@@ -1,20 +1,23 @@
+/*
+Home Page
+Uses carousel inputs to construct carousel which points to Explore Orlando Pages
+Creates card section pointing to the Convention Info pages
+*/
+
 import React, { useState, useEffect } from 'react';
 import {
   Card
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LazyLoader from 'react-lazyload'
-
-import './css/Home.css';
-import '../css/main.css';
-import './css/ExFood.css';
-
 import HeroSection from '../HeroSection.js';
 import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 import conferenceImg from '../the-hard-way.jpeg';
-
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
+
+import './css/Home.css';
+import '../css/main.css';
+import './css/ExFood.css';
 
 function Home() {
   useEffect(() => {

@@ -1,4 +1,11 @@
+/*
+Templated food page
+Renders html differently based on props parameter
+*/
 import React, { useState, useEffect, Component } from 'react';
+import HeroSection from '../HeroSection.js';
+import ArticleCitation from '../ArticleCitation';
+import HCitation from '../HCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
@@ -6,11 +13,7 @@ import './css/Hotels.css'
 import './css/ExFood.css';
 import '../css/main.css';
 
-import HeroSection from '../HeroSection.js';
-
-import ArticleCitation from '../ArticleCitation';
-import HCitation from '../HCitation';
-
+//input: props - contains variable information to input into template
 function ExFoodSingle(props){
     useEffect(() => {
         window.scrollTo(0, 0);

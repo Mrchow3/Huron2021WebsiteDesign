@@ -13,10 +13,7 @@
   object-fit: cover;
 }
 
-
 .carousel-image{
-  /*filter: brightness(45%);*/
-  /*height: 94vh;*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,8 +23,6 @@
   max-height: 93vh;
   object-fit: cover;
 }
-
-
 
 #carousel-title{
   filter: brightness(100%);

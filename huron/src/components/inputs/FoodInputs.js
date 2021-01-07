@@ -1,11 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
-
-import '../pages/css/ExTransportation.css';
-import '../pages/css/Home.css';
-import '../pages/css/Hotels.css'
-import '../pages/css/ExFood.css';
-
-
+//JSON storing information for food pages
 const foodInputs = [
     {
         type: 'Italian',

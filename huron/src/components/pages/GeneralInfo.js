@@ -1,16 +1,20 @@
+/*
+General Info page
+Gives general info about convention, dress attire, and other NLC things
+*/
+
 import React, { useState, useEffect } from 'react';
 import {
   Button,
 } from 'react-bootstrap';
+import HeroSection from '../HeroSection.js';
+import HCitation from '../HCitation';
+import ArticleCitation from '../ArticleCitation';
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import HeroSection from '../HeroSection.js';
-import HCitation from '../HCitation';
-import ArticleCitation from '../ArticleCitation';
 
 function GeneralInfo() {
     useEffect(() => {

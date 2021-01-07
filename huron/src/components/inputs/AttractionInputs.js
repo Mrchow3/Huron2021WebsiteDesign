@@ -1,3 +1,4 @@
+//JSON storing information for attraction pages
 const attractionInputs = [
     {
         title: 'Seaworld, Aquatica, Discovery Cove',
