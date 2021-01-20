@@ -26,26 +26,32 @@ class Hotels extends Component{
     
     constructor() {
         super();
+        var savedState = localStorage.getItem('savedState') || this.HOTEL.YACHT;
         this.state = {
-            hotel: this.HOTEL.YACHT,
+            hotel: savedState,
         };
+        
     }
 
     switchHotelsToSprings() {
         this.setState({
             hotel: this.HOTEL.SPRINGS
         });
+        localStorage.setItem('savedState', this.state.hotel);
     }
 
     switchHotelsToYacht() {
         this.setState({
             hotel: this.HOTEL.YACHT
         });
+        localStorage.setItem('savedState', this.state.hotel);
     }
 
     componentDidMount() {
         window.scrollTo(0, 0);
     }
+
+    
 
     render() {
         return (

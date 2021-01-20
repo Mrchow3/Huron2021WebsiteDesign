@@ -25,7 +25,7 @@ function SpringsRec() {
           filter="70">
         </HeroSection>
         <div className='centered-child'>
-          <h1 className="centered-title">Coronando Springs Recreation</h1>
+          <h1 className="centered-title">Coronado Springs Recreation</h1>
         </div>
       </div>
         <div class="overdiv">

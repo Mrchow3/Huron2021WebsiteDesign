@@ -25,7 +25,7 @@ function SpringsFood() {
           filter="70">
         </HeroSection>
         <div className='centered-child'>
-          <h1 className="centered-title">Coronando Springs Food</h1>
+          <h1 className="centered-title">Coronado Springs Food</h1>
         </div>
       </div>
         
