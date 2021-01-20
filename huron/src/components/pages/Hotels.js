@@ -23,35 +23,34 @@ class Hotels extends Component{
         YACHT: "yacht club resort",
         SPRINGS: "corondo springs resort",
     }
-    
+
     constructor() {
         super();
-        var savedState = localStorage.getItem('savedState') || this.HOTEL.YACHT;
         this.state = {
-            hotel: savedState,
+            hotel: localStorage.getItem('savedState'),
         };
         
     }
-
+    
     switchHotelsToSprings() {
         this.setState({
             hotel: this.HOTEL.SPRINGS
+        }, () => {
+            localStorage.setItem('savedState', this.state.hotel)
         });
-        localStorage.setItem('savedState', this.state.hotel);
     }
 
     switchHotelsToYacht() {
         this.setState({
             hotel: this.HOTEL.YACHT
+        }, () => {
+            localStorage.setItem('savedState', this.state.hotel)
         });
-        localStorage.setItem('savedState', this.state.hotel);
     }
 
     componentDidMount() {
         window.scrollTo(0, 0);
     }
-
-    
 
     render() {
         return (
