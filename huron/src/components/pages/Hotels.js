@@ -27,7 +27,7 @@ class Hotels extends Component{
     constructor() {
         super();
         this.state = {
-            hotel: localStorage.getItem('savedState'),
+            hotel: sessionStorage.getItem('savedState') || this.HOTEL.YACHT,
         };
         
     }
@@ -36,7 +36,7 @@ class Hotels extends Component{
         this.setState({
             hotel: this.HOTEL.SPRINGS
         }, () => {
-            localStorage.setItem('savedState', this.state.hotel)
+            sessionStorage.setItem('savedState', this.state.hotel)
         });
     }
 
@@ -44,7 +44,7 @@ class Hotels extends Component{
         this.setState({
             hotel: this.HOTEL.YACHT
         }, () => {
-            localStorage.setItem('savedState', this.state.hotel)
+            sessionStorage.setItem('savedState', this.state.hotel)
         });
     }
 
