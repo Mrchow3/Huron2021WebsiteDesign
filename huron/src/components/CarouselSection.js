@@ -17,15 +17,18 @@ import {
 
 import './css/CarouselSection.css';
 import HeroSection from './HeroSection.js';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 function CarouselSection(props) {
   const CarouselStyles = {
     height: `${props.height}px`,
   };
-
+  const [prevIcon] = useState(<span><FontAwesomeIcon size='3x' icon={faChevronLeft} /></span>);
+  const [nextIcon] = useState(<span><FontAwesomeIcon size='3x' icon={faChevronRight} /></span>);
   return (
     <div className='carousel'>
-      <Carousel> {props.children}</Carousel>
+      <Carousel prevIcon={prevIcon} nextIcon={nextIcon}> {props.children}</Carousel>
     </div>
   );
 }
