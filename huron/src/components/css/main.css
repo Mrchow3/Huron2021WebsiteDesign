@@ -83,6 +83,22 @@ iframe {
     height: 550px;
 }
 
+
+.card-hover{
+    height: 100%;
+    width: 0%;
+    background-color: #242124;
+    opacity: 0.5;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transition: all 1s ease;
+}
+
+.food-overlay:hover > .card-hover{
+    width: 100%;
+}
+
 @media only screen and (max-width: 768) {
     iframe {
         max-height: 60vh;

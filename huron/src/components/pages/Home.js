@@ -68,6 +68,7 @@ function Home() {
                                     All you need to know about the National Conference!
                                 </Card.Text>
                             </Card.Body>
+                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
@@ -84,6 +85,7 @@ function Home() {
                                     When are your events? Let's find out.
                                 </Card.Text>
                             </Card.Body>
+                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
@@ -100,6 +102,7 @@ function Home() {
                                     Learn about the two options for your stay in Orlando.
                                 </Card.Text>
                             </Card.Body>
+                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
