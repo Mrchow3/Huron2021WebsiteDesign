@@ -4,9 +4,11 @@ Article with alternating rows under each heading where pictures and information 
 */
 
 import React, { useState, useEffect } from 'react';
+import GoogleMapReact from 'google-map-react'
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';
 import ArticleCitation from '../ArticleCitation';
+import GoogleMap from "../Goo"
 
 import './css/ExTransportation.css';
 import './css/Home.css';
@@ -31,6 +33,11 @@ function ExTransportation() {
         <div class="overdiv">
             <div class="container mx-auto">
                 <HCitation citation='Picture Citation: Taxi 4 Hire. Orlando Public Transportation. 2011. Taxi 4 Hire, https://www.taxi4hire.com/orlando-public-transportation.html' />
+                <div class="alt-1">
+                  <p>Checking if this is working</p>
+                </div>
+
+          
                 <div class="alt-1"> 
                     <h2 className="heading">Lynx Bus Service</h2>
                     <hr className="the-hr"></hr>

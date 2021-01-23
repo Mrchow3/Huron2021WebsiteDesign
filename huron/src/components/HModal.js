@@ -19,7 +19,7 @@ function CenteredModal(props) {
     return (
       <Modal
         {...props}
-        size="lg"
+        size="inherit"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
@@ -27,32 +27,18 @@ function CenteredModal(props) {
           <Modal.Title id="contained-modal-title-vcenter" className="">
             Book your trip now!
           </Modal.Title>
-          <Nav className="modal-nav ml-3" variant="tabs" defaultActiveKey="#first">
-            <div class="row">
-              <Nav.Item className="mx-3">
-                <Nav.Link href="#first">Active</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="mr-3">
-                <Nav.Link href="#link">Link</Nav.Link>
-              </Nav.Item>
-              <Nav.Item className="mr-3">
-              <Nav.Link href="#boop">Link</Nav.Link>
-              </Nav.Item>
-            </div>
-          </Nav>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            BLAH BLAH BLAH
-          </p>
+        <div id="searchWidget" className="expedia-widget"><iframe id="widgetIframe" className="expedia-frame"src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=1&tp1=79938273458&tp2=&lob=F&des=Orlando, Fl&wbi=2&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=FFCB00&wbf=4&bfc=3D3100&wws=2&sfs=H300FW600F&langid=1033" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
-        </Modal.Footer>
       </Modal>
     );
   }
-
+  /*
+  <div id="searchWidget" style="width:300px;height:600px;">
+        <iframe id="widgetIframe" src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=1&tp1=&tp2=&lob=H,FH,F&des=Orlando, Fl&wbi=1&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=0000FF&wbf=4&bfc=3D3100&wws=1&sfs=H600FW300F&langid=1033" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>
+  </div>
+         */
   function HModal(){
     const [modalShow, setModalShow] = React.useState(false);  
     return(

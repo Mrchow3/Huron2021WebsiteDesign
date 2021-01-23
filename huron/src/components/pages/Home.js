@@ -14,7 +14,7 @@ import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 import conferenceImg from '../the-hard-way.jpeg';
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
-
+import hero from '../interesting.jpg';
 import './css/Home.css';
 import '../css/main.css';
 import './css/ExFood.css';
@@ -27,7 +27,7 @@ function Home() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
+          image= 'https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
           height='92'
           filter='70'
         >
@@ -110,6 +110,7 @@ function Home() {
                     </a>
                 </Card>
             </CardSection>
+            <div id="searchWidget" className="expedia-widget"><iframe id="widgetIframe" className="expedia-frame"src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=1&tp1=79938273458&tp2=&lob=F&des=Orlando, Fl&wbi=2&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=FFCB00&wbf=4&bfc=3D3100&wws=2&sfs=H300FW600F&langid=1033" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
       </div>
       
     </div>

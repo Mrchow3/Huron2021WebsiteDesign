@@ -12,3 +12,11 @@
 .debug{
     background-color: red;
 }
+
+.expedia-widget{
+    width: 700px;
+    max-height: 400px;
+}
+.expedia-frame{
+    max-height: 300px;
+}

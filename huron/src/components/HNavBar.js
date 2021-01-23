@@ -11,6 +11,7 @@ import {
 } from 'react-bootstrap';
 import './css/HNavBar.css';
 import palmlogo from './peter_black-1.jpg';
+import HModal from './HModal';
 /*
 function MyVerticallyCenteredModal(props) {
   return (
