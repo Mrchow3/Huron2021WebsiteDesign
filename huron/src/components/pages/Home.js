@@ -62,13 +62,13 @@ function Home() {
                     <a className="card-link" href="#/general-info">
                         <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
                         <Card.ImgOverlay className="food-overlay">
-                            <Card.Body>
+                          <div className="card-hover"></div>
+                            <Card.Body className="over-body">
                                 <Card.Title>General Info</Card.Title>
                                 <Card.Text>
                                     All you need to know about the National Conference!
                                 </Card.Text>
                             </Card.Body>
-                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
@@ -79,13 +79,13 @@ function Home() {
                     <a className="card-link" href="#/schedule">
                         <Card.Img variant="top" className="card-top food-image" src="http://cs.utdallas.edu/wp-content/uploads/2016/11/DSC_0125.jpg" />
                         <Card.ImgOverlay className="food-overlay">
-                            <Card.Body>
+                            <div className="card-hover"></div>
+                            <Card.Body className="over-body">
                                 <Card.Title>Schedule</Card.Title>
                                 <Card.Text>
                                     When are your events? Let's find out.
                                 </Card.Text>
                             </Card.Body>
-                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
@@ -96,13 +96,13 @@ function Home() {
                     <a className="card-link" href="#/hotels">
                         <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
                         <Card.ImgOverlay className="food-overlay">
-                            <Card.Body>
+                            <div className="card-hover"></div>
+                            <Card.Body className="over-body">
                                 <Card.Title>Hotels</Card.Title>
                                 <Card.Text>
                                     Learn about the two options for your stay in Orlando.
                                 </Card.Text>
                             </Card.Body>
-                            <div className="card-hover"></div>
                         </Card.ImgOverlay>
                         <div className="card-citation">
                         Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
