@@ -8,7 +8,7 @@ import GoogleMapReact from 'google-map-react'
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';
 import ArticleCitation from '../ArticleCitation';
-import GoogleMap from "../Goo"
+import GoogleMap from "../GoogleMap.js";
 
 import './css/ExTransportation.css';
 import './css/Home.css';
