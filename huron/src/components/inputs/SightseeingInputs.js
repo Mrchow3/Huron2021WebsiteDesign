@@ -1,3 +1,12 @@
+import harry_p_leu from '../pages/assets/harry-p-leu.jpg';
+import adventure from '../pages/assets/adventure.jpg';
+import tibet from '../pages/assets/tibet.jpg';
+import lakeEola from '../pages/assets/lake_eola.jpg';
+import exoticAnimal from '../pages/assets/exotic_animal.jpg';
+import kissimmee from '../pages/assets/kissimmee.jpg';
+import zoo from '../pages/assets/florida_zoo.jpg';
+import butler from '../pages/assets/butler.webp';
+
 //JSON storing info for sightseeing pages
 const sightseeingInputs = [
     {
@@ -9,11 +18,11 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, 9:00am - 5:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/mukaTitS7owa18BKD3xfjg/o.jpg',
         citation: 'O., Crystal. Kopsia Fruticosa at Harry P. Leu Gardens. 2020. Yelp. https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=mukaTitS7owa18BKD3xfjg',
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/gOFZNzJDCFGM3p9G22zs9g/o.jpg',
-        heroCitation: 'S., Jennifer. Lake at Harry P. Leu Garden. 2018. Yelp, https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=gOFZNzJDCFGM3p9G22zs9g'
+        hero: harry_p_leu,
+        heroCitation: "Harry P. Leu Gardens. 2020. Eventective. https://www.eventective.com/orlando-fl/harry-p-leu-gardens-679003.html"
     },
     {
-        title: 'Florida Dolphin Tours/Florida Adventure Tour',
+        title: 'Adventure Tours',
         route: '/explore-sightseeing-florida-tours',
         blurb: 'Escape the city and explore the Flordian wilderness on a boat tour led by local experts. Try snorkeling in the crisp rivers and springs. Don’t forget to keep an eye out for manatees! These ECO tours last 12 hours and fill whole days with outdoor adventures.',
         website: 'https://www.floridadolphintours.com/en/florida-adventure-tour',
@@ -21,8 +30,8 @@ const sightseeingInputs = [
         hours: 'Hours - Tuesdays and Fridays, 8:00am - 8:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/N6V8IeiagxIEwpYoa9-eZw/o.jpg',
         citation: 'Florida Dolphin Tours. Swim with manatees excursion. 2014. Yelp. https://www.yelp.com/biz_photos/florida-dolphin-tours-orlando?select=N6V8IeiagxIEwpYoa9-eZw',
-        hero: 'https://cdn.ventrata.com/image/upload/ar_3,c_fill,dpr_2.0,f_jpg,w_1100/v1542990996/manatee_with_snorkeler_lic_g4uqhr.jpg',
-        heroCitation: 'City Sightseeing Orlando. Florida Adventure Tour. 2021. City Sightseeing Orlando, https://www.floridadolphintours.com/en/florida-adventure-tour'
+        hero: adventure,
+        heroCitation: 'jc.winkler. Bayou Corne in Louisiana. 2010. Wikipedia. https://en.wikipedia.org/wiki/Bayou#/media/File:Bayou_Corne.jpg '
     },
     {
         title: 'Tibet-Butler Preserve',
@@ -33,8 +42,8 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, 8:00am - 6:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/aRFbqu6cDfFst4MxvVb1PA/o.jpg',
         citation: 'D., Mark. Tibet-Butler Preserve Boardwalk. 2017. Yelp. https://www.yelp.com/biz_photos/tibet-butler-preserve-orlando?select=aRFbqu6cDfFst4MxvVb1PA',
-        hero: 'https://media-cdn.tripadvisor.com/media/photo-w/18/11/5e/26/photo2jpg.jpg',
-        heroCitation: 'S., Danny. Love it. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d557369-Reviews-Tibet_Butler_Preserve-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=403791398'
+        hero: tibet, //'https://media-cdn.tripadvisor.com/media/photo-w/18/11/5e/26/photo2jpg.jpg',
+        heroCitation: 'Florida Hikes. Tibet-Butler Preserve. 2021. Florida Hikes, https://floridahikes.com/tibetbutler'
         
     },
     {
@@ -46,8 +55,8 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, Boat rentals: 11:00am - 6:00pm, Park: 6am-midnight',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/RxdlAuS_9-rcOO1L1O-JIw/o.jpg',
         citation: 'L., Angel. Lake Eola Park at Night. 2020. Yelp. https://www.yelp.com/biz_photos/lake-eola-park-orlando?select=RxdlAuS_9-rcOO1L1O-JIw',
-        hero: 'https://media-cdn.tripadvisor.com/media/photo-w/1c/20/05/46/lake-eola-park.jpg',
-        heroCitation: 'Lapertosa, Sandra. Lake Eola Park. 2020. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d292254-Reviews-Lake_Eola_Park-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=471860550'
+        hero: lakeEola,
+        heroCitation: 'Cwolfsheep. Lake Eola park in Orlando. 2016. Wikipedia. https://en.wikipedia.org/wiki/Lake_Eola_Park#/media/File:Lakeeola_09232006_trees.jpg '
     },
     {
         title: 'Exotic Animal Experience',
@@ -58,8 +67,8 @@ const sightseeingInputs = [
         hours: 'Hours - Thursday-Sunday, 10:00am - 2:00pm (must book appointment)',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/t2SbThGWcxE2VGVi6Jj5vw/o.jpg',
         citation: 'Exotic Animal Experience. Sloths cuddling at the Exotic Animal Experience. 2017. Yelp. https://www.yelp.com/biz_photos/exotic-animal-experience- orlando?select=t2SbThGWcxE2VGVi6Jj5vw',
-        hero: 'https://media-cdn.tripadvisor.com/media/photo-o/0a/e4/77/25/sweet-baby-blossom.jpg',
-        heroCitation: 'Exotic Animal Experience. Sweet Baby Blossom. 2016. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34515-d6877757-Reviews-Exotic_Animal_Experience-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=182744869'
+        hero: exoticAnimal, //'https://media-cdn.tripadvisor.com/media/photo-o/0a/e4/77/25/sweet-baby-blossom.jpg',
+        heroCitation: 'USDA. Wilderness Areas.  2017. USDA Forest Service. https://www.fs.usda.gov/detail/ocala/about-forest/?cid=FSBDEV3_008628'
     },
     {
         title: 'Butler Chain of Lakes',
@@ -70,7 +79,7 @@ const sightseeingInputs = [
         hours: 'Hours - Available 24/7',
         image: 'https://www.orangeobserver.com/sites/default/files/styles/sliders_and_planned_story_image_870x580/public/51707_standard.jpeg?itok=tyvbG1EI',
         citation: 'Nesslar, Jennifer. Lake Tibet-Butler. 2016. Orange Observer, https://www.orangeobserver.com/photo-gallery/final-piece-butler-chain-lakes#photo-5',
-        hero: 'https://getmyboat-user-images1.imgix.net/images/5f34740df0913/boat-rentals-windermere-florida-veranda-vr20rc-processed.jpg?auto=format%2Cenhance%2Credeye&fit=crop&h=None&ixlib=python-3.1.2&quality=80&w=None',
+        hero: butler,
         heroCitation: 'Mike. Pontoon Rental on the Butler Chain of Lakes in Orlando. 2020. Get My Boat, https://www.getmyboat.com/trips/BN9pLD4K/'
     },
     {
@@ -82,7 +91,7 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, 8:00am - 5:00pm',
         image: 'https://media-cdn.tripadvisor.com/media/photo-w/18/a5/a5/be/kissimmee-swamp-tours.jpg',
         citation: "S., Roy. Beautiful Location. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34337-d677214-Reviews-Kissimmee_Swamp_Tours-Kenansville_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=413509054https://www.kissimmeeswamptours.com/",
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/m5VPaO9Zz-Ai1_Etkn7AGA/o.jpg',
+        hero: kissimmee, //'https://s3-media0.fl.yelpcdn.com/bphoto/m5VPaO9Zz-Ai1_Etkn7AGA/o.jpg',
         heroCitation: 'O., Crystal. Red Flowers. 2020. Yelp, https://s3-media0.fl.yelpcdn.com/bphoto/m5VPaO9Zz-Ai1_Etkn7AGA/o.jpg'
     },
     {
@@ -106,8 +115,8 @@ const sightseeingInputs = [
         hours: 'Hours - Daily, 9:00am - 5:00pm',
         image: 'https://s3-media0.fl.yelpcdn.com/bphoto/gRCn7w3srUXekBsxuZrdNA/o.jpg',
         citation: 'O., Crystal. More French. 2019. Yelp, https://www.yelp.com/biz_photos/central-florida-zoo-and-botanical-gardens-sanford-3?select=ulNgS8n58167rm9L6ym2TQ',
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/kTohZdrlDXPHiAz4pWME0g/o.jpg',
-        heroCitation: 'Central Florida Zoo. Giraffe. 2018. Yelp, https://www.yelp.com/biz_photos/central-florida-zoo-and-botanical-gardens-sanford-3?select=kTohZdrlDXPHiAz4pWME0g'
+        hero: zoo, //'https://s3-media0.fl.yelpcdn.com/bphoto/kTohZdrlDXPHiAz4pWME0g/o.jpg',
+        heroCitation: 'Orlando Bride Guide Directory. Best Place to Take Photographs near Orlando --- Central Florida Zoo & Botanical Gardens. 2017. Orlando Bride Guide Directory, http://orlandobrideguide.com/best-places-take-photographs-near-orlando-central-florida-zoo-botanical-gardens/'
     }
 ];
 

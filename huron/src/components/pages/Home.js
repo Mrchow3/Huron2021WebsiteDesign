@@ -12,9 +12,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroSection from '../HeroSection.js';
 import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
-import conferenceImg from '../the-hard-way.jpeg';
+
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
-import hero from '../interesting.jpg';
+import hero from './assets/home_hero.jpg';
+import conferenceImg from './assets/convention_info_card.jpeg';
+import scheduleImg from './assets/schedule_card.jpg';
+import hotelsImg from './assets/hotels_card.jpg';
 import './css/Home.css';
 import '../css/main.css';
 import './css/ExFood.css';
@@ -27,7 +30,7 @@ function Home() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image= 'https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
+          image= {hero}//'https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
           height='92'
           filter='70'
         >
@@ -77,7 +80,7 @@ function Home() {
                 </Card>
                 <Card>
                     <a className="card-link" href="#/schedule">
-                        <Card.Img variant="top" className="card-top food-image" src="http://cs.utdallas.edu/wp-content/uploads/2016/11/DSC_0125.jpg" />
+                        <Card.Img variant="top" className="card-top food-image" src={scheduleImg} />
                         <Card.ImgOverlay className="food-overlay">
                             <div className="card-hover"></div>
                             <Card.Body className="over-body">
@@ -94,7 +97,7 @@ function Home() {
                 </Card>
                 <Card>
                     <a className="card-link" href="#/hotels">
-                        <Card.Img variant="top" className="card-top food-image" src="http://www.disneyonwheels.com/wp-content/uploads/2013/10/2574copy.jpg" />
+                        <Card.Img variant="top" className="card-top food-image" src={hotelsImg} />
                         <Card.ImgOverlay className="food-overlay">
                             <div className="card-hover"></div>
                             <Card.Body className="over-body">
@@ -109,14 +112,13 @@ function Home() {
                         </div>
                     </a>
                 </Card>
-            </CardSection>
-            <div id="searchWidget" className="expedia-widget"><iframe id="widgetIframe" className="expedia-frame"src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=1&tp1=79938273458&tp2=&lob=F&des=Orlando, Fl&wbi=2&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=FFCB00&wbf=4&bfc=3D3100&wws=2&sfs=H300FW600F&langid=1033" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
+            </CardSection> 
       </div>
-      
     </div>
   );
 }
-/* = "vh-100 d-flex flex-column justify-content-between align-items-center">*/
+/* expedia widget: <div id="searchWidget" className="expedia-widget"><iframe id="widgetIframe" className="expedia-frame"src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=1&tp1=79938273458&tp2=&lob=F&des=Orlando, Fl&wbi=2&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=FFCB00&wbf=4&bfc=3D3100&wws=2&sfs=H300FW600F&langid=1033" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
+= "vh-100 d-flex flex-column justify-content-between align-items-center">*/
 export default Home;
 /*      <Container>
         <Navbar expand="lg" variant="tabs" bg="dark">

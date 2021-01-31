@@ -13,6 +13,11 @@ import './css/Home.css';
 import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import travelOptionsRide from './assets/travel_options_ride.jpg';
+import hero from './assets/travel_options_hero.jpg';
+import airplane from './assets/travel_options_airplane.jpg';
+
+
 function Travel() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -21,7 +26,7 @@ function Travel() {
         <div>
             <div className="head-hero">
                 <HeroSection
-                            image='https://singularityhub.com/wp-content/uploads/2018/12/airplane-flying-above-clouds_shutterstock_553131187.jpg'
+                            image={hero}
                             height='92'
                             filter='60'>
                 </HeroSection>
@@ -57,7 +62,7 @@ function Travel() {
                                 </div>
                             </div>
                             <div class="col">
-                                <img src="https://cdn.britannica.com/s:800x1000/69/155469-131-14083F59/airplane-flight.jpg" className="img-fluid article-image"></img>
+                                <img src={airplane} className="img-fluid article-image"></img>
                                 <ArticleCitation citation="Fotolia, Eray. Aeroplane. 2016. Encyclopedia Britannica, https://www.britannica.com/list/7-puzzling-plane-disappearances" />
                             </div>
                         </div>
@@ -67,8 +72,8 @@ function Travel() {
                         <hr className="the-hr"></hr>
                         <div class="row article">
                             <div class="col-md mr-3">
-                                <img src="https://mapasdecostarica.info/wp-content/uploads/sites/8/2017/12/tips-for-renting-a-car-in-Costa-Rica-770x430.jpg" className="img-fluid article-image"></img>
-                                <ArticleCitation citation="Garcia, Jessica. Travel Tips. 2017. Maps of Costa Rica, https://mapasdecostarica.info/tips-for-renting-a-car-in-costa-rica" />
+                                <img src={travelOptionsRide} className="img-fluid article-image"></img>
+                                <ArticleCitation citation="Mears Transportation Group. Orlando Shared Ride Shuttle Vans. 2019. Yelp. https://www.yelp.com/biz_photos/mears-transportation-group-orlando-3?select=QEeNWpnv_GelCUlYMzGF8A" />
                             </div>
                             <div class="col">
                                 <div class="right-div">

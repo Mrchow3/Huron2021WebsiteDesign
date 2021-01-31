@@ -20,10 +20,10 @@
     object-fit: cover;
     border-radius: 0.6em;
     position: relative;
+    width: 100%;
 }
 
 .image-container{
-    
     background-size: cover;
 }
 

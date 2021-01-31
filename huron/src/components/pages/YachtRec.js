@@ -12,6 +12,8 @@ import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 
+import hero from './assets/yacht-club-rec-hero.webp'
+
 function YachtRec() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,7 +22,7 @@ function YachtRec() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://mickeyblog.com/wp-content/uploads/2018/08/Yacht-Club.jpg'
+          image={hero}//'https://mickeyblog.com/wp-content/uploads/2018/08/Yacht-Club.jpg'
           height='92'
           filter="70">
         </HeroSection>

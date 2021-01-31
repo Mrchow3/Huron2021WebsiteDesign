@@ -18,6 +18,17 @@ import './css/Home.css';
 import './css/Hotels.css'
 import '../css/main.css';
 
+import hero from './assets/hotels_hero.jpg';
+import map from './assets/coronado_map.jpg';
+import coronadoFirst from './assets/hotel_c_1.jpg';
+import coronadoSecond from './assets/hotel_c_2.jpg';
+import coronadoFood from './assets/hotel_c_food.jpg';
+import coronadoRec from './assets/hotel_c_rec.webp';
+import yachtFirst from './assets/hotel_y_1.jpg';
+import yachtSecond from './assets/hotel_y_2.jpg';
+import yachtFood from './assets/hotel_y_food.png';
+import yachtRec from './assets/hotel_y_rec.jpg';
+
 class Hotels extends Component{
     HOTEL = {
         YACHT: "yacht club resort",
@@ -57,7 +68,7 @@ class Hotels extends Component{
             <div>
                 <div className="head-hero">
                     <HeroSection
-                                image='https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
+                                image={hero}//'https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
                                 height='92'
                                 filter='70'>
                     </HeroSection>
@@ -94,7 +105,7 @@ class Hotels extends Component{
                                     </div>
                                 </div>
                             </div>
-                            <img className="img-fluid article-image" src="https://d3bo0mk5kk7egf.cloudfront.net/imgstore/ElementGalleryItems/other/Fullsize/Maps_Full_30016.jpg?width=2400&quality=80&encoder=freeimage&progressive=true"></img>
+                            <img className="img-fluid article-image" src={map}></img>
                             <ArticleCitation citation="Walt Disney Company. Disney’s Coronado Springs Resort. 2017. Walt Disney World Magic, https://www.wdwmagic.com/other/maps/gallery/07apr2017-april-2017-walt-disney-world-resort-hotel-maps/30016.htm"></ArticleCitation>
                             <hr></hr>
                             <div class="alt-1"> 
@@ -151,15 +162,15 @@ class Hotels extends Component{
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/bXq6MdJETZkkn5NxhcjgCg/o.jpg" className="cropped-400 img-fluid article-image"></img>
+                                        <img src={coronadoFirst} className="cropped-400 img-fluid article-image"></img>
                                         <ArticleCitation citation="Citation: L., Heather. Giant pyramid and waterslide. 2019. Yelp, https://www.yelp.com/biz_photos/disneys-corona do-springs-resort-orlando-2?select=bXq6MdJETZ kkn5NxhcjgCg" />
                                     </div>
                                 </div>
                             </div>
                             <div class="alt-1"> 
                                 <div class="row mt-3 article">
-                                    <div class="col-md mr-3">
-                                    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/vjzzQCs8c2CCVrgXdOVoZA/o.jpg" className="img-fluid article-image"></img>
+                                    <div class="col-md">
+                                    <img src={coronadoSecond} className="img-fluid article-image"></img>
                                     <ArticleCitation citation="Citation: W., Teressa. Disney’s Coronado Springs Resort. 2020. Yelp, https://www.yelp.com/biz_ photos/disneys-coronado-springs-resort-orlando -2?select=vjzzQCs8c2CCVrgXdOVoZA"></ArticleCitation>
                                     </div>
                                     <div class="col">
@@ -213,7 +224,7 @@ class Hotels extends Component{
                             <CardDeck className="mb-4">
                                 <Card>
                                     <a className="card-link" href="#/corondo-springs-food">
-                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/zS-e1bYjpjbYxDLZqx8sFw/o.jpg" />
+                                        <Card.Img variant="top" className="card-top" src={coronadoFood} />
                                         <div className="hotel-card">Picture Citation: Walt Disney World. Maya Grill. 2016. Yelp, https://www.yelp.com/biz_photos/maya-grill-orlando-2?select=zS-e1bYjpjbYxDLZqx8sFw</div>
                                         <Card.Body>
                                             <Card.Title>Food</Card.Title>
@@ -226,7 +237,7 @@ class Hotels extends Component{
                                 </Card>
                                 <Card href="#recreation">
                                     <a className="card-link" href="#corondo-springs-recreation">
-                                    <Card.Img variant="top" className="card-top" src="https://i2.wp.com/www.disneytouristblog.com/wp-content/uploads/2018/10/construction-coronado-springs-resort-disney-world-hotel-880.jpg?w=800&ssl=1"></Card.Img>
+                                    <Card.Img variant="top" className="card-top" src={coronadoRec}></Card.Img>
                                     <div className="hotel-card">Picture Citation: Bricker, Tom. Stopped By the Pool. 2018. Disney Tourist Blog, https://www.disneytouristblog.com/coronado-springs-resort-update-october-2018/</div>
                                     <Card.Body>
                                         <Card.Title>Recreation</Card.Title>
@@ -324,15 +335,15 @@ class Hotels extends Component{
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <img src="https://royaltreatmenttravel.com/wp-content/uploads/2018/02/yc-15.jpg" className="img-fluid article-image cropped-500"></img>
+                                        <img src={yachtFirst} className="img-fluid article-image cropped-500"></img>
                                         <ArticleCitation citation="Clark, Vicki. Pool. 2020. Royal Treatment Travel, https://royaltreatmenttravel.com/disneys-yacht-club-resort/"></ArticleCitation>
                                     </div>
                                 </div>
                             </div>
                             <div class="alt-1"> 
                                 <div class="row mt-3 article">
-                                    <div class="col-md mr-3">
-                                    <img src="https://mickeyblog.com/wp-content/uploads/2018/07/Beach-Club-Pool-Disney.jpg" className="img-fluid article-image"></img>
+                                    <div class="col-md">
+                                    <img src={yachtSecond} className="img-fluid article-image"></img>
                                     <ArticleCitation citation="Citation: Blog, Mickey. Stormalong Bay at Disney Yacht Club Resort. 2018. Mickey Blog, https://mickeyblog.com/2018/08/20/6-reasons-must-stay-yacht-club/"></ArticleCitation>
                                     </div>
                                     <div class="col">
@@ -383,7 +394,7 @@ class Hotels extends Component{
                             <CardDeck className="mb-4">
                                 <Card href="#food">
                                     <a className="card-link" href="#/yacht-club-food">
-                                        <Card.Img variant="top" className="card-top" src="https://s3-media0.fl.yelpcdn.com/bphoto/Qq9LDQx6PkaHeS74GQxHqw/o.jpg" />
+                                        <Card.Img variant="top" className="card-top" src={yachtFood} />
                                         <div className="hotel-card">Picture Citation: Walt Disney World. Ale & Compass Restaurant. 2019. Yelp, https://www.yelp.com/biz_photos/ale-and-compass-restaurant-orlando?select=Qq9LDQx6PkaHeS74GQxHqw</div>
                                         <Card.Body>
                                             <Card.Title>Food</Card.Title>
@@ -395,7 +406,7 @@ class Hotels extends Component{
                                 </Card>
                                 <Card href="#recreation">
                                     <a className="card-link" href="#/yacht-club-recreation">
-                                        <Card.Img variant="top" className="card-top" src="http://4.bp.blogspot.com/_zSWJkb_7Edw/S7RTARKUIoI/AAAAAAAAAms/_LzIq6HzAjE/s1600/Stormalong+Bay.JPG" />
+                                        <Card.Img variant="top" className="card-top" src={yachtRec} />
                                         <div className="hotel-card">Disney, Marcio. Stormalong Bay at Night. 2014. Marcio Disney Pictures, http://fashionforwork.blogspot.com/2012/03/attention-guys.html</div>
                                         <Card.Body>
                                             <Card.Title>Recreation</Card.Title>

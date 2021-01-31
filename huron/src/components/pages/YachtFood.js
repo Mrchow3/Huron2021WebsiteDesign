@@ -12,6 +12,13 @@ import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 
+import hero from './assets/yacht-hero.jpg';
+import ale from './assets/ale.jpg';
+import beachesAndCream from './assets/beaches_and_cream.jpg'
+import stakehouse from './assets/yachtsman_stakehouse.jpg';
+import beachClub from './assets/beach_Club_Marketplace.jpg';
+import capeMay from './assets/cape_may.jpg';
+
 function YachtFood() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,7 +27,7 @@ function YachtFood() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://images.trvl-media.com/hotels/1000000/20000/11300/11250/6ab397ec_z.jpg'
+          image={hero}//'https://images.trvl-media.com/hotels/1000000/20000/11300/11250/6ab397ec_z.jpg'
           height='92'
           filter="70">
         </HeroSection>
@@ -72,7 +79,7 @@ function YachtFood() {
                             </div>
                         </div>
                         <div class="col">
-                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/imrXulfFkg11gRWfEnYHQQ/o.jpg" className="img-fluid article-image cropped-500"></img>
+                            <img src={ale} className="img-fluid article-image cropped-500"></img>
                             <ArticleCitation citation="A., Christina. Buffet Sample. 2019. Yelp, https://www.yelp.com/biz_photos/ale-and-compass-restaurant-orlando?select=imrXulfFkg11gRWfEnYHQQ"></ArticleCitation>
                         </div>
                     </div>
@@ -82,7 +89,7 @@ function YachtFood() {
                     <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md">
-                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/QocyYmrRjNx0O8JkUUWPFA/o.jpg" className="img-fluid article-image cropped-400"></img>
+                            <img src={beachesAndCream} className="img-fluid article-image cropped-400"></img>
                             <ArticleCitation citation="Walt Disney World. Beaches and Cream Soda Shop. 2020. Yelp, https://www.yelp.com/biz_photos/beaches-and-cream-soda-shop-orlando-4?select=QocyYmrRjNx0O8JkUUWPFA"></ArticleCitation>
                         </div>
                         <div class="col">
@@ -158,7 +165,7 @@ function YachtFood() {
                             </div>
                         </div>
                         <div class="col">
-                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/AUgwAC7ofMggCB7P0JlJKA/o.jpg" className="img-fluid article-image cropped-400"></img>
+                            <img src={beachClub} className="img-fluid article-image cropped-400"></img>
                             <ArticleCitation citation="M., Will. Breakfast at The Beach Club Marketplace. 2017. Yelp, https://www.yelp.com/biz_photos/beach-club-marketplace-lake-buena-vista?select=AUgwAC7ofMggCB7P0JlJKA"></ArticleCitation>
                         </div>
                     </div>
@@ -168,7 +175,7 @@ function YachtFood() {
                     <hr className="the-hr"></hr>
                     <div class="row article">
                         <div class="col-md">
-                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/sbDfCbvfuwgtNVikhcOsTQ/o.jpg" className="img-fluid article-image cropped-400"></img>
+                            <img src={capeMay} className="img-fluid article-image cropped-400"></img>
                             <ArticleCitation citation="Walt Disney World. Cape May Cafe. 2016. Yelp, https://www.yelp.com/biz_photos/cape-may-cafe-orlando-3?select=sbDfCbvfuwgtNVikhcOsTQ"></ArticleCitation>
                         </div>
                         <div class="col">
@@ -235,8 +242,8 @@ function YachtFood() {
                             </div>
                         </div>
                         <div class="col">
-                            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/cc8mAhritBoc5hA--ggpkA/o.jpg" className="img-fluid article-image cropped-400"></img>
-                            <ArticleCitation citation="Walt Disney World. Yachtsman Steakhouse. 2016. Yelp, https://www.yelp.com/biz_photos/yachtsman-steakhouse-orlando-4?select=cc8mAhritBoc5hA--ggpkA"></ArticleCitation>
+                            <img src={stakehouse} className="img-fluid article-image cropped-400"></img>
+                            <ArticleCitation citation="Porterhouse for Two at Yachtsman Steakhouse. 2014. The Disney Food Blog. https://www.disneyfoodblog.com/2014/11/25/review-porterhouse-for-two-at-yachtsman-steakhouse-in-disneys-yacht-club-resort/"></ArticleCitation>
                         </div>
                     </div>
                 </div>
