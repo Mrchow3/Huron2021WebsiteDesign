@@ -1,4 +1,10 @@
-//JSON storing information for attraction pages
+
+import ifly from '../pages/assets/iflyy.jpg';
+import universal from '../pages/assets/universal_hero.jpg';
+import icon from '../pages/assets/icon_hero.jpg';
+import seaworld from '../pages/assets/seaworld_hero.webp';
+
+// JSON storing information for attraction pages
 const attractionInputs = [
     {
         title: 'Seaworld, Aquatica, Discovery Cove',
@@ -36,8 +42,8 @@ const attractionInputs = [
         restrictionInfo: ['https://seaworld.com/orlando/park-info/park-safety/'],
         image: 'https://cache.undercovertourist.com/blog/2016/05/Aquatica-800x450.jpg',
         citation: "Mommy Frog. Aquatica by SeaWorld. 2020. Undercover tourist, https://www.undercovertourist.com/blog/orlando-top-water-parks/",
-        hero: 'https://t2conline.com/wp-content/uploads/2019/10/orlando-3577183_960_720-900x600.jpg',
-        heroCitation: 'Times Square Chronicles. SeaWorld Orlando Park Guide. 2019. Time Square Chronicles, https://t2conline.com/seaworld-orlando-park-guide/'
+        hero: seaworld, //'https://t2conline.com/wp-content/uploads/2019/10/orlando-3577183_960_720-900x600.jpg',
+        heroCitation: 'Grow, Kory. Orca Show at Seaworld Orlando. 2018. Rolling Stone. https://www.rollingstone.com/culture/culture-news/pink-seaworld-battle-over-killer-whale-captivity-628545/'
     },
     {
         title: 'Ripley’s Believe it or Not',
@@ -158,8 +164,8 @@ const attractionInputs = [
         restrictionInfo: [],
         image: 'https://instagram.fdet1-2.fna.fbcdn.net/v/t51.2885-15/e35/89270883_202145167668875_2178344007128352351_n.jpg?_nc_ht=instagram.fdet1-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=fqBk06csybYAX-qPthy&tp=1&oh=ac23e4a9d80d7d5af2fc2df2e36139bf&oe=601DCB2A',
         citation: 'iFLY Orlando. Piper’s Third Birthday. 2020. Instagram, https://www.instagram.com/p/B9Sf4swphPN/',
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/QZ46y-f4XZRa1uqS4sGKMQ/o.jpg',
-        heroCitation: 'R., Allyssa. What a Blast!. 2019. Yelp. https://www.yelp.com/biz_photos/ifly-indoor-skydiving-orlando-orlando-2?select=QZ46y-f4XZRa1uqS4sGKMQ'
+        hero: ifly, //'https://s3-media0.fl.yelpcdn.com/bphoto/QZ46y-f4XZRa1uqS4sGKMQ/o.jpg',
+        heroCitation: 'iDrive Orlando. iFly Indoor Skydiving - I-Drive Orlando. 2021. iDrive Orlando, https://idriveorlando.com/attractions/ifly-indoor-skydiving-i-drive-orlando'
     },
     {
         title: 'Kennedy Space Center',
@@ -263,7 +269,7 @@ const attractionInputs = [
         restrictionInfo: ['https://www.iconparkorlando.com/terms-conditions/'],
         image: 'https://i1.wp.com/partiudisneyparks.com/wp-content/uploads/2020/05/icon-park-orlando.png?w=1392&ssl=1',
         citation: 'Braga, Carlos. Icon-park-orlando. 2020. Partiu Disney Parks, https://partiudisneyparks.com/en/icon-park-orlando/',
-        hero: 'https://a.cdn-hotels.com/gdcs/production50/d1181/2c4b122e-9291-4b8e-93b9-5ea6136b8ea0.jpg',
+        hero: icon, //'https://a.cdn-hotels.com/gdcs/production50/d1181/2c4b122e-9291-4b8e-93b9-5ea6136b8ea0.jpg',
         heroCitation: 'Clark, Rusty. The New I-Drive 360. 2015. Hotels, https://ua.hotels.com/go/usa/icon-orlando'
     },
     {
@@ -303,8 +309,8 @@ const attractionInputs = [
         restrictionInfo: ['https://www.universalorlando.com/web/en/us/plan- your-visit/hours-information/policies-restrictions'],
         image: 'https://www.visitflorida.com/content/dam/visitflorida/en-us/images/articles/2016/listicles/family-universal/universal-orlando-resort-harry-potter-diagon-alley.jpg.1020.680.imagerendition',
         citation: 'Universal Orlando Resort. Explore the streets of Diagon Alley at Universal Studios Florida. 2020. Visit Florida, https://www.visitflorida.com/en-us/things-to-do/attractions/experience-diagon-alley-universal-studios.html',
-        hero: 'https://s3-media0.fl.yelpcdn.com/bphoto/eKsSxXPhSj3bG1QXzDaDmg/o.jpg',
-        heroCitation: 'Royal Family Tours VIP. Orlando Studios Theme Park. 2020. Yelp. https://www.yelp.com/biz_photos/royal-family-tours-vip-orlando?select=eKsSxXPhSj3bG1QXzDaDmg'
+        hero: universal, //'https://s3-media0.fl.yelpcdn.com/bphoto/eKsSxXPhSj3bG1QXzDaDmg/o.jpg',
+        heroCitation: 'World Class Vacations. Orlando, Florida. 2020. World Class Vacations, https://www.wcv.com/trip/orlando-florida/'
     },
 ];
 

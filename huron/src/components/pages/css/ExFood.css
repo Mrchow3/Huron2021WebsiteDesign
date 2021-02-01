@@ -4,4 +4,9 @@
 
 .food-image{
     filter: brightness(70%);
+    height: 400px;
+}
+
+.p-card {
+    height: 400px;
 }

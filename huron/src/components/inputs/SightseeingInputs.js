@@ -3,7 +3,7 @@ import adventure from '../pages/assets/adventure.jpg';
 import tibet from '../pages/assets/tibet.jpg';
 import lakeEola from '../pages/assets/lake_eola.jpg';
 import exoticAnimal from '../pages/assets/exotic_animal.jpg';
-import kissimmee from '../pages/assets/kissimmee.jpg';
+import kissimmee from '../pages/assets/kissimmee_hero.jpg';
 import zoo from '../pages/assets/florida_zoo.jpg';
 import butler from '../pages/assets/butler.webp';
 
@@ -92,7 +92,7 @@ const sightseeingInputs = [
         image: 'https://media-cdn.tripadvisor.com/media/photo-w/18/a5/a5/be/kissimmee-swamp-tours.jpg',
         citation: "S., Roy. Beautiful Location. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34337-d677214-Reviews-Kissimmee_Swamp_Tours-Kenansville_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=413509054https://www.kissimmeeswamptours.com/",
         hero: kissimmee, //'https://s3-media0.fl.yelpcdn.com/bphoto/m5VPaO9Zz-Ai1_Etkn7AGA/o.jpg',
-        heroCitation: 'O., Crystal. Red Flowers. 2020. Yelp, https://s3-media0.fl.yelpcdn.com/bphoto/m5VPaO9Zz-Ai1_Etkn7AGA/o.jpg'
+        heroCitation: 'Experience Kissimmee. Girl and Boy in Boat. 2021. Experience Kissimmee Florida, https://www.experiencekissimmee.com/things-to-do/outdoor-adventures-activities/kissimmee-swamp-tours'
     },
     {
         title: 'Winter Park Scenic Boat Tour',

@@ -11,6 +11,7 @@ import './css/Home.css';
 import './css/Hotels.css'
 import '../css/main.css'
 
+import hero from './assets/presentation-team.jpg'
 
 function Schedule() {
     useEffect(() => {
@@ -20,7 +21,7 @@ function Schedule() {
         <div>
             <div className="head-hero">
                 <HeroSection
-                image='https://thenextweb.com/wp-content/blogs.dir/1/files/2014/02/presentation-team.jpg'
+                image={hero}
                 height='92'
                 style="filter: brightness(50%)">
                 </HeroSection>

@@ -16,6 +16,7 @@ import './css/Home.css';
 import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import hero from './assets/general_info_hero.jpg';
 function GeneralInfo() {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -24,7 +25,7 @@ function GeneralInfo() {
         <div>
             <div className="head-hero">
                 <HeroSection
-                            image='https://bpaok.org/wp-content/uploads/2018/12/DpJ2VYOU0AEK9H9.jpg-large.jpeg'
+                            image={hero}
                             height='92'
                             filter='70'>
                 </HeroSection>

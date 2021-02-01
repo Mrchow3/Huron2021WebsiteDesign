@@ -12,6 +12,8 @@ import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 
+import hero from './assets/springs_rec_hero.jpg';
+
 function SpringsRec() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,7 +22,7 @@ function SpringsRec() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://attractionsmagazine.com/wp-content/uploads/2017/02/CoronadoSprings-at-WaltDisneyWorldResort-Rendering.jpeg'
+          image={hero}
           height='92'
           filter="70">
         </HeroSection>

@@ -17,6 +17,13 @@ import './css/Home.css';
 import './css/Hotels.css'
 import './css/ExFood.css';
 
+import hero from './assets/food_hero.jpg';
+import asian from './assets/asian.webp';
+import italian from './assets/prato.jpg';
+import hispanic from './assets/hispanic.jpg';
+import fusion from './assets/fusion.jpg';
+import african from './assets/african.jpg';
+
 function ExFood(){
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -25,7 +32,7 @@ function ExFood(){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://media-cdn.tripadvisor.com/media/photo-o/07/77/96/fe/the-ritz-carlton-orlando.jpg'
+                    image={hero}//'https://media-cdn.tripadvisor.com/media/photo-o/07/77/96/fe/the-ritz-carlton-orlando.jpg'
                     height='92'
                     filter='70'
                 ></HeroSection>
@@ -34,11 +41,11 @@ function ExFood(){
                 </div>
             </div>
             <div className="container">
-                <HCitation citation="Picture Citation: Ritz-Carlton Orlando. NORMAN’s Patio. 2015. Trip Advisor, https://www.tripadvisor.com/Hotel_Review-g34515-d258647-Reviews-The_Ritz_Carlton_Orlando_Grande_Lakes-Orlando_Florida.html#/media/258647/125277950:p/?albumid=101&type=0&category=101"></HCitation>
+                <HCitation citation="NAIC. Norman’s. 2019. NAIC, https://content.naic.org/article/daily_news_welcome_orlando.htm"></HCitation>
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-food-italian">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.orlandosentinel.com/resizer/8DlK-WMinQAFP5yn-iZwDQgllCc=/800x449/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/N7WUAT45NRC7NN3H7EMFP6WHTQ.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={italian} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -53,7 +60,7 @@ function ExFood(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-food-asian">
-                            <Card.Img variant="top" className="card-top food-image" src="https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/s1080x2048/130491457_3434886849922375_3272524920808879175_o.jpg?_nc_cat=100&ccb=2&_nc_sid=a26aad&_nc_ohc=80eBUoydHMUAX8mV_Ab&_nc_ht=scontent.fdet1-1.fna&tp=7&oh=3d8788d0abb88df986362eb86e06acd5&oe=60143B77" />
+                            <Card.Img variant="top" className="card-top food-image" src={asian} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -63,12 +70,12 @@ function ExFood(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
-                            <CardCitation citation="Kadence. Koala Mama Holiday Gifts. 2020. Facebook, https://www.facebook.com/kadenceorlando/"></CardCitation>
+                            <CardCitation citation="Home is a Kitchen. Kung Pao Chicken. 2019. Home is a Kitchen, https://homeisakitchen.com/2019/10/06/chengdu-taste-szechuan-review/"></CardCitation>
                         </a>
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-food-hispanic">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.uomeetingsandevents.com/Images/Tacos_tcm90-49974.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={hispanic} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -83,7 +90,7 @@ function ExFood(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-food-fusion">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/cg7APOHAHFv7ArDfJDSMXA/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={fusion} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -113,7 +120,7 @@ function ExFood(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-food-african">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/SOuQiNnbjzcKiNUo5nP84Q/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={african} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">

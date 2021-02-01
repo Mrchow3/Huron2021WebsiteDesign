@@ -59,13 +59,13 @@ function ExAttractionsSingle(props){
                 <HeroSection
                     image={props.hero}
                     height='60'
-                    filter='70'
+                    filter='65'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">{props.title}</h1>
                 </div>
             </div>
-            <div className="overdiv-2">
+            <div className="overdiv">
                 <div className="container mb-4">
                     <HCitation citation={props.heroCitation}></HCitation>
                     <div className="alt-1">

@@ -17,6 +17,20 @@ import './css/Home.css';
 import './css/Hotels.css'
 import './css/ExFood.css';
 
+import hero from './assets/attractions_hero.jpg';
+import disney from './assets/disney_hero.jpg';
+import ripleys from './assets/ripleys_card.jpg';
+import universal from './assets/universal.jpg';
+import seaworld from './assets/seaworld.jpg';
+import icon from './assets/icon_park.jpg';
+import museum from './assets/museum.jpg';
+import chocolate from './assets/chocolate.webp';
+import escape from './assets/escapology.jpg';
+import iFly from './assets/iFly.jpg';
+import kennedy from './assets/kennedy.jpg';
+import andretti from './assets/andretti.jpg';
+import science from './assets/science_center.jpg';
+
 function ExAttractions(){
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -25,7 +39,7 @@ function ExAttractions(){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://ewscripps.brightspotcdn.com/dims4/default/5302b3f/2147483647/strip/true/crop/0x0+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fwww.dontwasteyourmoney.com%2Fwp-content%2Fuploads%2F2019%2F07%2F611910256_walt-disney-world-e1563453095573.jpg'
+                    image={hero}//'https://ewscripps.brightspotcdn.com/dims4/default/5302b3f/2147483647/strip/true/crop/0x0+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fwww.dontwasteyourmoney.com%2Fwp-content%2Fuploads%2F2019%2F07%2F611910256_walt-disney-world-e1563453095573.jpg'
                     height='92'
                     filter='70'
                 ></HeroSection>
@@ -38,7 +52,7 @@ function ExAttractions(){
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-disney">
-                            <Card.Img variant="top" className="card-top food-image" src="https://i.ytimg.com/vi/mOtp_w1BDDA/maxresdefault.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={disney} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -53,7 +67,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-universal">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.travelcaffeine.com/wp-content/uploads/2014/12/universal-studios-florida-entrance.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={universal} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -68,7 +82,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-water-attractions">
-                            <Card.Img variant="top" className="card-top food-image" src="http://littleinspiration.com/wp-content/uploads/2017/06/img_6608.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={seaworld} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -83,7 +97,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-icon-park">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.iconparkorlando.com/wp-content/uploads/185164_up_high1.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={icon} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -98,7 +112,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-ripleys">
-                            <Card.Img variant="top" className="card-top food-image" src="https://media.dayoutwiththekids.co.uk/media/12950/38231-ripleys-believe-it-or-not-london-09.jpg?mode=crop&width=1680&height=940" />
+                            <Card.Img variant="top" className="card-top food-image" src={ripleys} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -113,7 +127,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-museum-of-art">
-                            <Card.Img variant="top" className="card-top food-image" src="https://thermanstatom.com/site/wp-content/uploads/2014/12/orlando-art-museum2.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={museum} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -128,7 +142,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-chocolate-kingdom">
-                            <Card.Img variant="top" className="card-top food-image" src="https://thumbnails.trvl-media.com/dtxTyWcWUaV8Ak9zL6txLOrDko0=/cdn.lemediavault.com/images/d0fbe092c5a36096b0a23f15257188de.jpeg" />
+                            <Card.Img variant="top" className="card-top food-image" src={chocolate} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -143,7 +157,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-escape-game">
-                            <Card.Img variant="top" className="card-top food-image" src="https://media2.fdncms.com/orlando/imager/escapology/u/zoom/2372600/escapology.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={escape} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -158,7 +172,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-ifly">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.indoorskydivingsource.com/wp-content/uploads/2015/11/ifly-orlando-dual-inside.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={iFly} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -173,7 +187,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-kennedy-space-center">
-                            <Card.Img variant="top" className="card-top food-image" src="https://image.cnbcfm.com/api/v1/image/105425499-15356580044102_rocket-garden-at-the-kennedy-space-center-visitor--complex_photo_kennedy-space-center-complex.jpg?v=1535658045" />
+                            <Card.Img variant="top" className="card-top food-image" src={kennedy} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -188,7 +202,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-indoor-karting">
-                            <Card.Img variant="top" className="card-top food-image" src="https://orlandoinformer.com/wp-content/uploads/2020/04/Andretti-Indoor-Karting-Games-Orlando-racing-1024x684.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={andretti} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -203,7 +217,7 @@ function ExAttractions(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-attractions-science-center">
-                            <Card.Img variant="top" className="card-top food-image" src="http://www.todaysorlando.com/sites/default/files/styles/cover/public/Orlando_science_center_osc_front.jpg?itok=KPmvtMdB" />
+                            <Card.Img variant="top" className="card-top food-image" src={science} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">

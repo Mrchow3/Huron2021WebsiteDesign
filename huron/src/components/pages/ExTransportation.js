@@ -8,11 +8,13 @@ import GoogleMapReact from 'google-map-react'
 import HeroSection from '../HeroSection.js';
 import HCitation from '../HCitation';
 import ArticleCitation from '../ArticleCitation';
-import GoogleMap from "../GoogleMap.js";
+import TMap from "../TMap.js";
 
 import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
+
+import hero from './assets/transportation.jpg';
 
 function ExTransportation() {
   useEffect(() => {
@@ -22,7 +24,7 @@ function ExTransportation() {
     <div className='App'>
       <div className="head-hero">
         <HeroSection
-          image='https://www.taxi4hire.com/wp-content/uploads/2011/01/disney-world-0.jpg'
+          image={hero}//'https://www.taxi4hire.com/wp-content/uploads/2011/01/disney-world-0.jpg'
           height='92'
           filter='70'>
         </HeroSection>
@@ -32,12 +34,8 @@ function ExTransportation() {
       </div>
         <div class="overdiv">
             <div class="container mx-auto">
-                <HCitation citation='Picture Citation: Taxi 4 Hire. Orlando Public Transportation. 2011. Taxi 4 Hire, https://www.taxi4hire.com/orlando-public-transportation.html' />
-                <div class="alt-1">
-                  <p>Checking if this is working</p>
-                </div>
-
-          
+                <HCitation citation='Levine, Arthur. Get Around the Resort Easily. 2020. Trip Savvy, https://www.tripsavvy.com/why-stay-at-universal-orlando-hotels-4086570' />
+                <TMap />
                 <div class="alt-1"> 
                     <h2 className="heading">Lynx Bus Service</h2>
                     <hr className="the-hr"></hr>

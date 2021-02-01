@@ -12,6 +12,8 @@ import './css/ExTransportation.css';
 import './css/Home.css';
 import '../css/main.css';
 
+import hero from './assets/disney_hero.jpg';
+
 function DisneyPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,15 +22,15 @@ function DisneyPage() {
     <div className='App'>
         <div className="head-hero">
             <HeroSection
-            image='https://i.ytimg.com/vi/mOtp_w1BDDA/maxresdefault.jpg'
+            image={hero}//'https://i.ytimg.com/vi/mOtp_w1BDDA/maxresdefault.jpg'
             height='92'
-            style="filter: brightness(50%)">
+            filter='65'>
             </HeroSection>
             <div className='centered-child'>
             <h1 className="centered-title">Disney</h1>
             </div>
         </div>
-        <div class="overdiv-2">
+        <div class="overdiv">
             <div class="container mx-auto">
                 <HCitation citation="Kinkade, Thomas. Main Street, USA Walt Disney World. 2014. Thomas Kinkade Studios, https://thomaskinkade.com/art/main-street-u-s-a-walt-disney-world/"></HCitation>
                 <div class="alt-1"> 

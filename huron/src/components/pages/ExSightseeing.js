@@ -17,6 +17,13 @@ import './css/Home.css';
 import './css/Hotels.css'
 import './css/ExFood.css';
 
+import hero from './assets/sightseeing_hero.jpg';
+import harry from './assets/harry_card.jpg';
+import winterBoat from './assets/winter_boat.jpg';
+import adventure from './assets/florida_adventure.jpg';
+import botanical from './assets/botanic.jpg';
+import exoticAnimals from './assets/exotic_animals_card.jpg';
+
 function ExSightseeing(){
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -25,7 +32,7 @@ function ExSightseeing(){
         <div>
             <div className="head-hero">
                 <HeroSection
-                    image='https://www.onetravel.com/going-places/wp-content/uploads/2011/09/Orlando-Attractions.jpg'
+                    image={hero}//'https://www.onetravel.com/going-places/wp-content/uploads/2011/09/Orlando-Attractions.jpg'
                     height='92'
                     filter='70'
                 ></HeroSection>
@@ -34,11 +41,11 @@ function ExSightseeing(){
                 </div>
             </div>
             <div className="container">
-                <HCitation citation="Durso, Shannon. The Other Orlando. 2018. One Travel, https://www.onetravel.com/going-places/orlando-beyond-the-theme-parks/"></HCitation>
+                <HCitation citation="The Wow Style. Beautiful Nature Images. 2018. The Wow Style, https://www.thewowstyle.com/beautiful-nature-images-free-to-download/"></HCitation>
                 <CardSection>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-harry-p-leu-gardens">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/iRcHiY53ct5yNZefZEJUgg/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={harry} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -53,7 +60,7 @@ function ExSightseeing(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-florida-tours">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/WRLaECUSy96v5Wx-4fOOpA/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={adventure} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -98,7 +105,7 @@ function ExSightseeing(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-exotic-animals">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/duDMufPC8prSBNJeVS9hbg/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={exoticAnimals} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -108,7 +115,7 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
-                            <CardCitation citation="Exotic Animal Experience. Porcupines. 2017. Yelp, https://www.yelp.com/biz_photos/exotic-animal-experience-orlando?select=duDMufPC8prSBNJeVS9hbg" />
+                            <CardCitation citation="G., Junebug. Flamingos. 2018. Yelp. https://www.yelp.com/biz_photos/detroit-zoo-royal-oak?select=L4CrtH5PTrqsTPy0pWIGIw." />
                         </a>
                     </Card>
                     <Card>
@@ -143,7 +150,7 @@ function ExSightseeing(){
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-winter-park-boat-tour">
-                            <Card.Img variant="top" className="card-top food-image" src="https://www.scenicboattours.com/wp-content/uploads/nivoslider4wp_files/3_s.jpeg" />
+                            <Card.Img variant="top" className="card-top food-image" src={winterBoat} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
@@ -153,12 +160,12 @@ function ExSightseeing(){
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
-                            <CardCitation citation="Scenic Boat Tour. Winter Park Florida. 2020. Scenic Boat Tour, https://www.scenicboattours.com/gallery" />
+                            <CardCitation citation="Around Orlando Tours. Cruise Through Winter Park Chain of Lakes. 2020. Around Orlando Tours, https://aroundorlandotours.com/winter-park-orlando-tou" />
                         </a>
                     </Card>
                     <Card>
                         <a className="card-link" href="#/explore-sightseeing-wildlife-attractions">
-                            <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/ZHmwlS6SkxtSUFZ1rzI4gA/o.jpg" />
+                            <Card.Img variant="top" className="card-top food-image" src={botanical} />
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
