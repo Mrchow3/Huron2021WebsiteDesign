@@ -1,4 +1,10 @@
-.map{
-    height: 100vh;
+.map {
+    height: 90vh;
     width: 100%
+}
+
+@media screen and (max-width: 768) {
+    .map {
+        height: 60vh !important;
+    }
 }

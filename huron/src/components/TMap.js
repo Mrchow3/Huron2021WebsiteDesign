@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import './css/GoogleMap.css';
 const LocationPin = ({ text }) => 
 <div className="pin">
     <FontAwesomeIcon icon={faMapPin} className="pin-icon" />
@@ -21,7 +21,8 @@ class TMap extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '92vh', width: '100%' }}>
+      // style={{ height: '92vh', width: '100%' }}
+      <div className="map">
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyC09uoFh327yOZXM_AlHhmDakvnMVzk3Co'}}
           defaultCenter={this.props.center}

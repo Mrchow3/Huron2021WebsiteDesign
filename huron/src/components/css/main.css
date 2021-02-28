@@ -117,3 +117,8 @@ iframe {
     height: 30%;
     width: 30%;
 }
+
+.hero-cite {
+    word-wrap: break-word;
+	word-break: break-all;
+}

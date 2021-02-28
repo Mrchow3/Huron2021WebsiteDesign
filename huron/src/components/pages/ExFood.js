@@ -23,6 +23,9 @@ import italian from './assets/prato.jpg';
 import hispanic from './assets/hispanic.jpg';
 import fusion from './assets/fusion.jpg';
 import african from './assets/african.jpg';
+import french from './assets/french-card.jpg';
+import middleEastern from './assets/middle-eastern-card.jpg';
+import veg from './assets/veg-card.jpg';
 
 function ExFood(){
     useEffect(() => {
@@ -131,6 +134,51 @@ function ExFood(){
                                 </Card.Body>
                             </Card.ImgOverlay>
                             <CardCitation citation="D., Kiana. Selam Veggie Special. 2020. Yelp, https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=SOuQiNnbjzcKiNUo5nP84Q"></CardCitation>
+                        </a>
+                    </Card>
+                    <Card>
+                        <a className="card-link" href="#/explore-food-french">
+                            <Card.Img variant="top" className="card-top food-image" src={french} />
+                            <Card.ImgOverlay className="food-overlay">
+                                <div className="card-hover"></div>
+                                <Card.Body className="over-body">
+                                    <Card.Title>French</Card.Title>
+                                    <Card.Text>
+                                        Interest yourself in some delicious African food!
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card.ImgOverlay>
+                            <CardCitation citation="Le Gourmet Break. Breakfast. 2020. Le Gourmet Break, https://www.legourmetbreak.com/"></CardCitation>
+                        </a>
+                    </Card>
+                    <Card>
+                        <a className="card-link" href="#/explore-food-middle-eastern">
+                            <Card.Img variant="top" className="card-top food-image" src={middleEastern} />
+                            <Card.ImgOverlay className="food-overlay">
+                                <div className="card-hover"></div>
+                                <Card.Body className="over-body">
+                                    <Card.Title>Middle Eastern</Card.Title>
+                                    <Card.Text>
+                                        Interest yourself in some delicious African food!
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card.ImgOverlay>
+                            <CardCitation citation="Thinkstock, Violetta. Falafels Served with Yogurt or Hummus. 2016. QSR, https://www.qsrmagazine.com/menu-innovations/middle-eastern-cuisine-makes-its-move"></CardCitation>
+                        </a>
+                    </Card>
+                    <Card>
+                        <a className="card-link" href="#/explore-food-vegetarian-vegan">
+                            <Card.Img variant="top" className="card-top food-image" src={veg} />
+                            <Card.ImgOverlay className="food-overlay">
+                                <div className="card-hover"></div>
+                                <Card.Body className="over-body">
+                                    <Card.Title>Vegetarian & Vegan</Card.Title>
+                                    <Card.Text>
+                                        Interest yourself in some delicious African food!
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card.ImgOverlay>
+                            <CardCitation citation="Market On South. A Vegetarian Meal. 2017. Yelp, https://www.yelp.com/biz_photos/market-on-south-orlando?select=dGuQIoGAhhEgglwQBypSzQ"></CardCitation>
                         </a>
                     </Card>
                 </CardSection>

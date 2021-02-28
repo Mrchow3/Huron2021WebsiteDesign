@@ -10,7 +10,12 @@ import tabla from '../pages/assets/tabla.jpg';
 import nile from '../pages/assets/nile.jpg';
 import legourmetbreak from '../pages/assets/le-gourmet-break.jpg';
 import leBoucherie from '../pages/assets/sirloin.jpg';
-
+import zaman from '../pages/assets/zaman.jpg';
+import halal from '../pages/assets/halal.jpg';
+import vegetarianHero from '../pages/assets/vegetarian-hero.webp';
+import marketOnSouth from '../pages/assets/market-on-south.jpg';
+import veggieGarden from '../pages/assets/veggie-garden.jpg'
+import bombay from '../pages/assets/bombay.jpg'
 
 // JSON storing information for food pages
 const foodInputs = [
@@ -386,7 +391,7 @@ const foodInputs = [
                         times: '8:00am - 2:00pm'
                     },
                     {
-                        when: 'Tuesday-Friday: ',
+                        when: 'Tuesday - Friday: ',
                         times: '7:30am - 2:00pm'
                     },
                 ],
@@ -397,7 +402,7 @@ const foodInputs = [
                 name: 'La Boucherie',
                 pricing: '$$',
                 address: '7625 Turkey Lake Rd, Orlando, FL 32819',
-                description: 'Feel the Paris atmosphere in downtown Orlando with authentic french pastries freshly prepared everyday. Stop in anytime throughout the day to enjoy their all-day breakfast and indulge in delicious crepes and baguettes.',
+                description: 'Featured in USA Today’s “10 Best New and Popular Restaurants in Orlando”, La Boucherie is one of France’s most popular steakhouse. Each steak is carefully sourced locally and cooked to perfection with traditional French methods and an American flair.',
                 website: 'https://www.laboucherieusa.com/',
                 menu: 'https://c617af48-b09b-4b1c-bc2a-c9e1b9464e5a.filesusr.com/ugd/68ef93_759a966dd4a4464dbafe414c600ff14f.pdf',
                 menuInfo: '',
@@ -434,51 +439,102 @@ const foodInputs = [
                 name: 'Zaman Mediterranean Grill',
                 pricing: '$$',
                 address: '6400 International Dr unit 140, Orlando, FL 32819',
-                description: 'Feel the Paris atmosphere in downtown Orlando with authentic french pastries freshly prepared everyday. Stop in anytime throughout the day to enjoy their all-day breakfast and indulge in delicious crepes and baguettes.',
-                website: 'https://www.legourmetbreak.com/',
-                menu: 'https://www.legourmetbreak.com/menu.html',
+                description: 'Come enjoy fresh Middle Eastern cuisine at the Zaman Mediterranean Grill. At this local favorite, you can widen your horizons and find a new favorite dish.',
+                website: 'https://www.facebook.com/zamancuisine/',
+                menu: 'https://www.facebook.com/zamancuisine/photos/pcb.953253341701362/953253151701381',
                 menuInfo: '',
                 hours: [
                     {
                         when: 'Saturday - Tuesday: ',
-                        times: 'Closed'
+                        times: '12:00pm - 1:00am'
                     },
                     {
-                        when: 'Tuesday-Friday: ',
-                        times: '7:30am - 2:00pm'
+                        when: 'Wednesday - Friday: ',
+                        times: '12:00pm - 3:00am'
                     },
                 ],
-                image: legourmetbreak,
-                citation: "Le Gourmet Break. Le Gourmet Break. 2013. Trip Advisor, https://www.tripadvisor.com/Restaurant_Review-g34515-d4379548-Reviews-Le_Gourmet_Break-Orlando_Florida.html#photos;aggregationId=&albumid=101&filter=7&ff=69352457",
+                image: zaman,
+                citation: "B., Chris. Shish Kebab for Two. 2018. Yelp. https://www.yelp.com/biz_photos/palm-palace-ann-arbor?select=1rdn87sMOmlSPkm9Wey8CQ",
             },
             {
-                name: 'La Boucherie',
-                pricing: '$$',
-                address: '7625 Turkey Lake Rd, Orlando, FL 32819',
-                description: 'Feel the Paris atmosphere in downtown Orlando with authentic french pastries freshly prepared everyday. Stop in anytime throughout the day to enjoy their all-day breakfast and indulge in delicious crepes and baguettes.',
-                website: 'https://www.laboucherieusa.com/',
-                menu: 'https://c617af48-b09b-4b1c-bc2a-c9e1b9464e5a.filesusr.com/ugd/68ef93_759a966dd4a4464dbafe414c600ff14f.pdf',
+                name: 'Halal Food Express',
+                pricing: '$',
+                address: '6227 International Dr, Orlando, FL 32819',
+                description: 'With every meal made to order, you can guarantee your kebab is fresh. Get your fix of delicious Mediterranean home-style food without breaking the bank. Cooked with the freshest ingredients, this will make you come back for more.',
+                website: 'https://www.halalfoodexpress.com/index.php',
+                menu: 'https://www.halalfoodexpress.com/menu.php',
                 menuInfo: '',
                 hours: [
                     {
-                        when: 'Monday - Thursday: ',
-                        times: '12:00pm - 9:00pm'
-                    },
-                    {
-                        when: 'Friday: ',
-                        times: '12:00pm - 10:00pm'
-                    },
-                    {
-                        when: 'Saturday: 10:00am - 10:00pm',
-                        times: '10:00am - 10:00pm'
-                    },
-                    {
-                        when: 'Sunday:',
-                        times: '10:00am - 9:00pm'
+                        when: 'Monday - Sunday: ',
+                        times: '12:00pm - 12:00am'
                     }
                 ],
-                image: leBoucherie,
-                citation: "La Boucherie. Sirloin. 2019. Trip Advisor, https://www.tripadvisor.com/Restaurant_Review-g34515-d15521927-Reviews-La_Boucherie-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=413405385",
+                image: halal,
+                citation: "M, Aamina. Delicious Gyro. 2019. Tripadvisor, https://www.tripadvisor.com/Restaurant_Review-g34515-d4240859-Reviews-Halal_Food_Express-Orlando_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=407103959 ",
+            },
+        ]
+    },
+    {
+        type: 'Vegetarian & Vegan',
+        hero: vegetarianHero,
+        heroCitation: 'Urban Robot Associates. Plants, Plants Everywhere!. 2018. Tasting Table.https://www.tastingtable.com/entertain/national/restaurant-design-new-trends/slideshow/slide4 ',
+        route: '/explore-food-vegetarian-vegan',
+        content: [
+            {
+                name: 'Market On South',
+                pricing: '$$',
+                address: '2603 E South St, Orlando, FL 32803',
+                description: 'Enjoy a wide range of vegan and vegetarian food in the Market On South. They serve Dharma Fine Vittles plant based BBQ and desserts from Valhalla Bakery.',
+                website: 'https://www.marketonsouth.com/',
+                menu: 'https://www.marketonsouth.com/menu',
+                menuInfo: '',
+                hours: [
+                    {
+                        when: 'Monday - Saturday: ',
+                        times: '8:00am - 12:00am'
+                    },
+                    {
+                        when: 'Sunday: ',
+                        times: '8:00am - 10:00pm'
+                    },
+                ],
+                image: marketOnSouth,
+                citation: 'Market On South. Vegan Sandwich and Cake. 2018. Yelp. https://www.yelp.com/biz_photos/market-on-south-orlando?select=tfScRxhyyM6fPAcDVDYAfQ',
+            },
+            {
+                name: 'Veggie Garden',
+                pricing: '$',
+                address: '1216 E Colonial Dr #11, Orlando, FL 32803',
+                description: 'The chefs at the Veggie Garden work wide varieties of vegetables and fruits into every dish they prepare. This Vietnamese, vegan restaurant is an all time local favorite.',
+                website: 'https://www.veggiegardenvegan.net/',
+                menu: 'https://www.veggiegardenvegan.net/menu',
+                menuInfo: '',
+                hours: [
+                    {
+                        when: 'Monday - Sunday: ',
+                        times: '9:30am - 7:00pm'
+                    }
+                ],
+                image: veggieGarden,
+                citation: "T., Khang. Vegan Entree at Veggie Garden. 2017. Yelp. https://www.yelp.com/biz_photos/veggie-garden-orlando-2?select=X2PoVqLrZbsChp1ZSvEBwQ",
+            },
+            {
+                name: 'Bombay Cafe',
+                pricing: '$$',
+                address: '1137 Doss Ave #1155, Orlando, FL 32809',
+                description: 'At the Bombay Cafe, they serve Indian food that is all vegetarian. Each meal is filled with fresh spices and authentic flavor; you can even crank up the heat if you’re really feeling it.',
+                website: 'https://bombaycafeorlando.net/',
+                menu: 'https://bombaycafeorlando.net/menu/',
+                menuInfo: '',
+                hours: [
+                    {
+                        when: 'Monday - Sunday: ',
+                        times: '11:30am - 9:30pm'
+                    }
+                ],
+                image: bombay,
+                citation: "Bombay Café. Vegetarian Entrée. 2020. Yelp. https://www.yelp.com/biz_photos/bombay-caf%C3%A9-orlando-2?select=6f9UgkCAWu8LF93eIoCNfA",
             },
         ]
     }
