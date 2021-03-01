@@ -14,7 +14,7 @@ import CarouselSection from '../CarouselSection.js';
 import CardSection from '../CardSection.js';
 
 import { carouseloutputs } from '../inputs/HomeInputs.js'; //jsx inputs for carousel
-import hero from './assets/home_hero.jpg';
+import hero from './assets/new-hero.jpg';
 import conferenceImg from './assets/convention_info_card.jpeg';
 import scheduleImg from './assets/schedule_card.jpg';
 import hotelsImg from './assets/hotels_card.jpg';
@@ -39,7 +39,7 @@ function Home() {
             <h1 className="centered-title">Plan Your Trip to Nationals</h1>
           </div>
           <div className="centered-citation">
-          Photo Credit: ICON Park. The Wheel. 2020. ICON Park Orlando, https://www.iconparkorlando.com/
+          JavierArtPhotography. Lake Eola Park. 2021. Adobe Spark Images, https://stock.adobe.com/search?k=orlando+florida&asset_id=136867438 
           </div>
         </HeroSection>
       </div>

@@ -53,7 +53,7 @@ function SpringsRec() {
                                 La Vida Health Club
                                 </h4>
                                 <p>
-                                Complete with both a fitness center and a spa, enjoy relaxing manicures and facials after
+                                Complete with both a fitness center and a spa, enjoy relaxing manicures and facials after the experience.
                                 </p>
                             </div>
                         </div>

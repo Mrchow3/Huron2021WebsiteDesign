@@ -111,7 +111,7 @@ function ExSightseeing(){
                                 <Card.Body className="over-body">
                                     <Card.Title>Exotic Animal Experience</Card.Title>
                                     <Card.Text>
-                                        Meet and greet the endangered, exoctic animals in this privately-owned zoo.
+                                        Meet and greet the endangered, exotic animals in this privately-owned zoo.
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>

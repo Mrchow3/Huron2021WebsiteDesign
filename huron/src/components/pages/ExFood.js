@@ -144,7 +144,7 @@ function ExFood(){
                                 <Card.Body className="over-body">
                                     <Card.Title>French</Card.Title>
                                     <Card.Text>
-                                        Interest yourself in some delicious African food!
+                                    Say enchanté to some delicious French food.
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
@@ -159,7 +159,7 @@ function ExFood(){
                                 <Card.Body className="over-body">
                                     <Card.Title>Middle Eastern</Card.Title>
                                     <Card.Text>
-                                        Interest yourself in some delicious African food!
+                                    Enjoy middle eastern cuisine at these amazing places.
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>
@@ -174,7 +174,7 @@ function ExFood(){
                                 <Card.Body className="over-body">
                                     <Card.Title>Vegetarian & Vegan</Card.Title>
                                     <Card.Text>
-                                        Interest yourself in some delicious African food!
+                                    Take an amazing vegetarian food journey through.
                                     </Card.Text>
                                 </Card.Body>
                             </Card.ImgOverlay>

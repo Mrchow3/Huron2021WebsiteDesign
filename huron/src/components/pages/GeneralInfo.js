@@ -41,7 +41,7 @@ function GeneralInfo() {
                         <hr className="the-hr"></hr>
                         <h4>Registering for NLC</h4>
                         <p>
-                        The 2021 NLC will be held from May 5, 2021 to May 9, 2021.  To register for this event, you must use the Online Registration System, which is accessible from your web browser. The username and password is the same as the ones that you used to register your members. Registration officially opens on February 28, 2021.
+                        The 2021 NLC will be held from May 5, 2021 to May 9, 2021.  To register for this event, you must use the Online Registration System, which is accessible from your web browser. The username and password are the same as the ones that you used to register your members. Registration officially opens on February 28, 2021.
                         </p>
                         <h4>Hotel Reservations</h4>
                         <p>

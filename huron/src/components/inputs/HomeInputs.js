@@ -30,7 +30,7 @@ const carouselInputs = [
       //'https://108pkt40d39i1mdq4v41ganb-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/best-cities-for-nurses-orlando.jpg',
     height: carouselItemHeight,
     title: 'Sightseeing',
-    captionText: 'Experience Orlando to the fullest and immerse yourself in the real city experience.',
+    captionText: 'Experience Orlando to the fullest, and immerse yourself in the real city experience.',
     button: 'See Options',
     ref:'#/explore-sightseeing/',
     citation: 'MAS Medical Staffing. Orlando. 2017. MAS Medical Staffing, https://www.masmedicalstaffing.com/2017/08/22/best-cities-for-nurses-to-work/'
@@ -50,7 +50,7 @@ const carouselInputs = [
       // 'https://cdn.newsday.com/polopoly_fs/1.11408063.1454597559!/httpImage/image.jpeg_gen/derivatives/display_960/image.jpeg',
     height: carouselItemHeight,
     title: 'Attractions',
-    captionText: 'Orlando is known for its many exciting attractions. Learn about the best visits from the unique Museum of Art to the amazing Universal Theme Park.',
+    captionText: 'Orlando is known for its many exciting attractions. Learn about the best places to visit from the unique Museum of Art to the amazing Universal Theme Park.',
     button: 'See Options',
     ref:'#/explore-attractions/',
     citation: 'Capital Gazette. Mako at SeaWorld Orlando. 2021. Capital Gazette, https://www.capitalgazette.com/orl-seaworld-pg-photogallery.html'

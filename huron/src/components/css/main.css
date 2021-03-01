@@ -25,7 +25,7 @@
 }
 
 div.centered-citation{
-    min-width: 55vw;
+    min-width: 70vw;
 }
 
 .carousel-citation{
@@ -34,7 +34,7 @@ div.centered-citation{
 
 @media only screen and (max-width: 768px) {
     .centered-citation{
-        font-size: 8px;
+        font-size: 0.6em !important;
         width: 100%;
     }
     .carousel-citation{
