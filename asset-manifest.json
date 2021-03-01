@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Huron2021WebsiteDesign/static/css/main.bf999eae.chunk.css",
-    "main.js": "/Huron2021WebsiteDesign/static/js/main.87a99251.chunk.js",
-    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.87a99251.chunk.js.map",
+    "main.css": "/Huron2021WebsiteDesign/static/css/main.609d7ad9.chunk.css",
+    "main.js": "/Huron2021WebsiteDesign/static/js/main.77948c52.chunk.js",
+    "main.js.map": "/Huron2021WebsiteDesign/static/js/main.77948c52.chunk.js.map",
     "runtime-main.js": "/Huron2021WebsiteDesign/static/js/runtime-main.c2e386a0.js",
     "runtime-main.js.map": "/Huron2021WebsiteDesign/static/js/runtime-main.c2e386a0.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.7679bbd5.chunk.js.map": "/Huron2021WebsiteDesign/static/js/3.7679bbd5.chunk.js.map",
     "index.html": "/Huron2021WebsiteDesign/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Huron2021WebsiteDesign/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.bf999eae.chunk.css.map": "/Huron2021WebsiteDesign/static/css/main.bf999eae.chunk.css.map",
+    "static/css/main.609d7ad9.chunk.css.map": "/Huron2021WebsiteDesign/static/css/main.609d7ad9.chunk.css.map",
     "static/js/2.53b12d03.chunk.js.LICENSE.txt": "/Huron2021WebsiteDesign/static/js/2.53b12d03.chunk.js.LICENSE.txt",
-    "static/js/main.87a99251.chunk.js.LICENSE.txt": "/Huron2021WebsiteDesign/static/js/main.87a99251.chunk.js.LICENSE.txt",
+    "static/js/main.77948c52.chunk.js.LICENSE.txt": "/Huron2021WebsiteDesign/static/js/main.77948c52.chunk.js.LICENSE.txt",
     "static/media/adventure.cae1ce57.jpg": "/Huron2021WebsiteDesign/static/media/adventure.cae1ce57.jpg",
     "static/media/african.4de3deee.jpg": "/Huron2021WebsiteDesign/static/media/african.4de3deee.jpg",
     "static/media/african_hero.b6a4a11a.webp": "/Huron2021WebsiteDesign/static/media/african_hero.b6a4a11a.webp",
@@ -51,7 +51,6 @@
     "static/media/harry_card.976e8927.jpg": "/Huron2021WebsiteDesign/static/media/harry_card.976e8927.jpg",
     "static/media/hispanic.ee6baa31.jpg": "/Huron2021WebsiteDesign/static/media/hispanic.ee6baa31.jpg",
     "static/media/hispanic_hero.693c2843.jpg": "/Huron2021WebsiteDesign/static/media/hispanic_hero.693c2843.jpg",
-    "static/media/home_hero.3dc4f54e.jpg": "/Huron2021WebsiteDesign/static/media/home_hero.3dc4f54e.jpg",
     "static/media/hotel_c_1.8ad7514b.jpg": "/Huron2021WebsiteDesign/static/media/hotel_c_1.8ad7514b.jpg",
     "static/media/hotel_c_2.5676f5b2.jpg": "/Huron2021WebsiteDesign/static/media/hotel_c_2.5676f5b2.jpg",
     "static/media/hotel_c_food.cef88fd7.jpg": "/Huron2021WebsiteDesign/static/media/hotel_c_food.cef88fd7.jpg",
@@ -77,6 +76,7 @@
     "static/media/middle-eastern-card.e930731f.jpg": "/Huron2021WebsiteDesign/static/media/middle-eastern-card.e930731f.jpg",
     "static/media/middle_eastern_hero.4841e0a9.webp": "/Huron2021WebsiteDesign/static/media/middle_eastern_hero.4841e0a9.webp",
     "static/media/museum.18a28b18.jpg": "/Huron2021WebsiteDesign/static/media/museum.18a28b18.jpg",
+    "static/media/new-hero3.6a559218.jpg": "/Huron2021WebsiteDesign/static/media/new-hero3.6a559218.jpg",
     "static/media/nile.242e790b.jpg": "/Huron2021WebsiteDesign/static/media/nile.242e790b.jpg",
     "static/media/peter_black-1.3f218325.jpg": "/Huron2021WebsiteDesign/static/media/peter_black-1.3f218325.jpg",
     "static/media/prato.e0eb35b7.jpg": "/Huron2021WebsiteDesign/static/media/prato.e0eb35b7.jpg",
@@ -112,7 +112,7 @@
     "static/js/runtime-main.c2e386a0.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.53b12d03.chunk.js",
-    "static/css/main.bf999eae.chunk.css",
-    "static/js/main.87a99251.chunk.js"
+    "static/css/main.609d7ad9.chunk.css",
+    "static/js/main.77948c52.chunk.js"
   ]
 }
