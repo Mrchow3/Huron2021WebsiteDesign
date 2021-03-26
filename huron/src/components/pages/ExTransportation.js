@@ -25,7 +25,7 @@ function ExTransportation() {
       <div className="head-hero">
         <HeroSection
           image={hero}//'https://www.taxi4hire.com/wp-content/uploads/2011/01/disney-world-0.jpg'
-          height='92'
+          height='100'
           filter='70'>
         </HeroSection>
         <div className='centered-child'>

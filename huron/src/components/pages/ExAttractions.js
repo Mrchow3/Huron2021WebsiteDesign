@@ -40,13 +40,14 @@ function ExAttractions(){
             <div className="head-hero">
                 <HeroSection
                     image={hero}//'https://ewscripps.brightspotcdn.com/dims4/default/5302b3f/2147483647/strip/true/crop/0x0+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fwww.dontwasteyourmoney.com%2Fwp-content%2Fuploads%2F2019%2F07%2F611910256_walt-disney-world-e1563453095573.jpg'
-                    height='92'
+                    height='100'
                     filter='70'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">Attractions</h1>
                 </div>
             </div>
+            <div className="scroll-body">
             <div className="container">
                 <HCitation citation="Nell, Jacqueline. Walt Disney World Resort Celebrates 45th Anniversary to Colorful Fanfare. 2016. Florida News, https://www.wtxl.com/news/florida-news/on-this-day-in-history-walt-disney-world-opened-in-orlando" />
                 <CardSection>
@@ -231,6 +232,7 @@ function ExAttractions(){
                         </a>
                     </Card>
                 </CardSection>
+            </div>
             </div>
         </div>
     );

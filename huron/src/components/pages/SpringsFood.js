@@ -21,7 +21,7 @@ function SpringsFood() {
       <div className="head-hero">
         <HeroSection
           image='https://attractionsmagazine.com/wp-content/uploads/2017/02/CoronadoSprings-at-WaltDisneyWorldResort-Rendering.jpeg'
-          height='92'
+          height='100'
           filter="70">
         </HeroSection>
         <div className='centered-child'>

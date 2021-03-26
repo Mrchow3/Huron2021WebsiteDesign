@@ -28,7 +28,7 @@ function YachtFood() {
       <div className="head-hero">
         <HeroSection
           image={hero}//'https://images.trvl-media.com/hotels/1000000/20000/11300/11250/6ab397ec_z.jpg'
-          height='92'
+          height='100'
           filter="70">
         </HeroSection>
         <div className='centered-child'>

@@ -43,6 +43,7 @@ function ExFood(){
                     <h1 className="centered-title">Local Food</h1>
                 </div>
             </div>
+            <div className="scroll-body">
             <div className="container">
                 <HCitation citation="NAIC. Norman’s. 2019. NAIC, https://content.naic.org/article/daily_news_welcome_orlando.htm"></HCitation>
                 <CardSection>
@@ -182,6 +183,7 @@ function ExFood(){
                         </a>
                     </Card>
                 </CardSection>
+            </div>
             </div>
         </div>
     );

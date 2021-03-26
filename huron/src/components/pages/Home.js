@@ -27,92 +27,93 @@ function Home() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className='App'>
+    <div className='App' style={{'background-color': 'white !important'}}>
       <div className="head-hero">
         <HeroSection
           image= {hero}//'https://a.cdn-hotels.com/gdcs/production142/d1678/02312c78-cd46-4e43-b6c6-d174700968a8.jpg'////'https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
-          height='92'
+          height='100'
           filter='70'
         >
-        
-          <div className='centered-child'>
-            <h1 className="centered-title">Plan Your Trip to Nationals</h1>
-          </div>
-          <div className="centered-citation">
-          JavierArtPhotography. Lake Eola Park. 2021. Adobe Spark Images, https://stock.adobe.com/search?k=orlando+florida&asset_id=136867438 
-          </div>
         </HeroSection>
-      </div>
-      <div className="container">
-        <div className="my-4 py-4 row d-flex align-items-md-center justify-content-between">
-          <div className="col-md text-center px-4">
-              <p className="text-center web-overview">Congratulations on your qualification to the 2021 National Leadership Conference!</p>
-              <p className="text-center web-overview">Learn more about the convention by exploring the potential hotels you could stay at as well as the schedule of the conference. Explore the unique culture of Orlando by cruising on a tranquil boat ride at Winter Park or immersing yourself in views of the bustling cityscape from atop the Wheel. Enjoy your stay!
-            </p>
-            </div>
+        <div className='hero-text'>
+              <h1 className="centered-title">Plan Your Trip to Nationals</h1>
+        </div>
+        <div className="centered-citation">
+        JavierArtPhotography. Lake Eola Park. 2021. Adobe Spark Images, https://stock.adobe.com/search?k=orlando+florida&asset_id=136867438 
         </div>
       </div>
-      
-      <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
-      
+      <div className="scroll-body"> 
+        <div className="container" style={{'background-color': 'white'}}>
+          <div className="my-4 py-4 row d-flex align-items-md-center justify-content-between">
+            <div className="col-md text-center px-4">
+                <p className="text-center web-overview">Congratulations on your qualification to the 2021 National Leadership Conference!</p>
+                <p className="text-center web-overview">Learn more about the convention by exploring the potential hotels you could stay at as well as the schedule of the conference. Explore the unique culture of Orlando by cruising on a tranquil boat ride at Winter Park or immersing yourself in views of the bustling cityscape from atop the Wheel. Enjoy your stay!
+              </p>
+              </div>
+          </div>
+        </div>
+        
+        <CarouselSection height='850'>{carouseloutputs}</CarouselSection>
+        
 
-      
-      <div className="container mb-4">
-          <h1 className="convention-title">Learn More About the Convention</h1>
-          <hr />
-            <CardSection>
-                <Card>
-                    <a className="card-link" href="#/general-info">
-                        <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
-                        <Card.ImgOverlay className="food-overlay">
-                          <div className="card-hover"></div>
-                            <Card.Body className="over-body">
-                                <Card.Title>General Info</Card.Title>
-                                <Card.Text>
-                                    All you need to know about the National Conference!
-                                </Card.Text>
-                            </Card.Body>
-                        </Card.ImgOverlay>
-                        <div className="card-citation">
-                        Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
-                        </div>
-                    </a>
-                </Card>
-                <Card>
-                    <a className="card-link" href="#/schedule">
-                        <Card.Img variant="top" className="card-top food-image" src={scheduleImg} />
-                        <Card.ImgOverlay className="food-overlay">
+        
+        <div className="container mb-4">
+            <h1 className="convention-title">Learn More About the Convention</h1>
+            <hr />
+              <CardSection>
+                  <Card>
+                      <a className="card-link" href="#/general-info">
+                          <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
+                          <Card.ImgOverlay className="food-overlay">
                             <div className="card-hover"></div>
-                            <Card.Body className="over-body">
-                                <Card.Title>Schedule</Card.Title>
-                                <Card.Text>
-                                    When are your events? Let's find out.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card.ImgOverlay>
-                        <div className="card-citation">
-                        University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
-                        </div>
-                    </a>
-                </Card>
-                <Card>
-                    <a className="card-link" href="#/hotels">
-                        <Card.Img variant="top" className="card-top food-image" src={hotelsImg} />
-                        <Card.ImgOverlay className="food-overlay">
-                            <div className="card-hover"></div>
-                            <Card.Body className="over-body">
-                                <Card.Title>Hotels</Card.Title>
-                                <Card.Text>
-                                    Learn about the two options for your stay in Orlando.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card.ImgOverlay>
-                        <div className="card-citation">
-                        Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
-                        </div>
-                    </a>
-                </Card>
-            </CardSection> 
+                              <Card.Body className="over-body">
+                                  <Card.Title>General Info</Card.Title>
+                                  <Card.Text>
+                                      All you need to know about the National Conference!
+                                  </Card.Text>
+                              </Card.Body>
+                          </Card.ImgOverlay>
+                          <div className="card-citation">
+                          Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
+                          </div>
+                      </a>
+                  </Card>
+                  <Card>
+                      <a className="card-link" href="#/schedule">
+                          <Card.Img variant="top" className="card-top food-image" src={scheduleImg} />
+                          <Card.ImgOverlay className="food-overlay">
+                              <div className="card-hover"></div>
+                              <Card.Body className="over-body">
+                                  <Card.Title>Schedule</Card.Title>
+                                  <Card.Text>
+                                      When are your events? Let's find out.
+                                  </Card.Text>
+                              </Card.Body>
+                          </Card.ImgOverlay>
+                          <div className="card-citation">
+                          University of Texas, Dallas. High School Programming Contest. 2016. UT Dallas, https://cs.utdallas.edu/battle-of-the-brains-fall-2016-hs-programming/
+                          </div>
+                      </a>
+                  </Card>
+                  <Card>
+                      <a className="card-link" href="#/hotels">
+                          <Card.Img variant="top" className="card-top food-image" src={hotelsImg} />
+                          <Card.ImgOverlay className="food-overlay">
+                              <div className="card-hover"></div>
+                              <Card.Body className="over-body">
+                                  <Card.Title>Hotels</Card.Title>
+                                  <Card.Text>
+                                      Learn about the two options for your stay in Orlando.
+                                  </Card.Text>
+                              </Card.Body>
+                          </Card.ImgOverlay>
+                          <div className="card-citation">
+                          Fuller Street. BPA 2019 National Leadership Conference After Party. 2019. Fuller Street, http://www.fullerstreet.com/event-resume/bpa-2019-national-leadership-conference-after-party.html
+                          </div>
+                      </a>
+                  </Card>
+              </CardSection> 
+        </div>
       </div>
     </div>
   );

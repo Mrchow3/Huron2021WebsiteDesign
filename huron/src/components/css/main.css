@@ -1,7 +1,18 @@
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 .head-hero{
     position: relative;
 }
 
+.scroll-body {
+    background-color: white !important;
+    overflow: auto;
+    position: relative;
+    width: 100vw;
+}
 .centered-article{
     display: block;
     margin-left: auto;

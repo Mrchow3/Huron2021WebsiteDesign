@@ -10,7 +10,7 @@ import {
   Button,
 } from 'react-bootstrap';
 import './css/HNavBar.css';
-import palmlogo from './peter_black-1.jpg';
+import palmlogo from './pages/assets/palm-logo.png';
 import HModal from './HModal';
 /*
 function MyVerticallyCenteredModal(props) {
@@ -41,30 +41,40 @@ function MyVerticallyCenteredModal(props) {
 
 //const Navbar;
 function HNavBar() {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 500){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
   return (
-    <Navbar expand='lg' bg='light' fixed='top'>
-      <Navbar.Brand className="ml-n1" href='#/'>
+    <Navbar expand='lg' variant="dark" className={colorChange ? 'dark-nav' : 'transparent-nav'} fixed='top'>
+      <Navbar.Brand className="ml-n1" href='#/' style={{'font-size': '1.6em'}}>
         <img
           alt=''
           src={palmlogo}
-          width='30'
-          height='30'
-          className='d-inline-block align-top'
+          width='50'
+          height='50'
+          className='d-inline-block' 
         />{' '}
         BPA Plan
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav'/>
       <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='mr-auto'>
-              <NavDropdown title='Plan Your Travel' class='category'>
+            <Nav className='mr-auto' className="white-color">
+              <NavDropdown title='Plan Your Travel' className='white-color'>
                 <NavDropdown.Item class="specific-dropdown" href='#/travel'>Travel Options</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title='Convention Info' class='category'>
+              <NavDropdown title='Convention Info' className='white-color'>
               <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
                 <NavDropdown.Item href='#/schedule'>Schedule</NavDropdown.Item>
                 <NavDropdown.Item href='#/hotels'>Hotels</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title='Explore Orlando' class='category'>
+              <NavDropdown title='Explore Orlando' className='white-color'>
                 <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
                 <NavDropdown.Item href='#/explore-sightseeing'>Sightseeing</NavDropdown.Item>
                 <NavDropdown.Item href='#/explore-attractions/'>Attractions</NavDropdown.Item>
@@ -73,7 +83,7 @@ function HNavBar() {
             </Nav>
           <Nav className='mr-auto'>
           </Nav>
-          <Button variant="outline-primary" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+          <Button variant="outline-success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
       </Navbar.Collapse>
     </Navbar>
   );

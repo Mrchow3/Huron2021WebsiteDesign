@@ -23,7 +23,7 @@ function DisneyPage() {
         <div className="head-hero">
             <HeroSection
             image={hero}//'https://i.ytimg.com/vi/mOtp_w1BDDA/maxresdefault.jpg'
-            height='92'
+            height='100'
             filter='65'>
             </HeroSection>
             <div className='centered-child'>

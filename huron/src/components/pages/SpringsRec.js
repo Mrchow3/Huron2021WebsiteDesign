@@ -23,7 +23,7 @@ function SpringsRec() {
       <div className="head-hero">
         <HeroSection
           image={hero}
-          height='92'
+          height='100'
           filter="70">
         </HeroSection>
         <div className='centered-child'>

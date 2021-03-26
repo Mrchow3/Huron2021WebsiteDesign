@@ -33,13 +33,14 @@ function ExSightseeing(){
             <div className="head-hero">
                 <HeroSection
                     image={hero}//'https://www.onetravel.com/going-places/wp-content/uploads/2011/09/Orlando-Attractions.jpg'
-                    height='92'
+                    height='100'
                     filter='70'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">Sightseeing</h1>
                 </div>
             </div>
+            <div className="scroll-body">
             <div className="container">
                 <HCitation citation="The Wow Style. Beautiful Nature Images. 2018. The Wow Style, https://www.thewowstyle.com/beautiful-nature-images-free-to-download/"></HCitation>
                 <CardSection>
@@ -178,6 +179,7 @@ function ExSightseeing(){
                         </a>
                     </Card>
                 </CardSection>
+            </div>
             </div>
         </div>
     );

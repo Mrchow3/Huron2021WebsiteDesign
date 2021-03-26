@@ -27,7 +27,7 @@ function ExFoodSingle(props){
                     height='60'
                     filter='70'
                 ></HeroSection>
-                <div className='centered-child'>
+                <div className='small-centered'>
                     <h1 className="centered-title">{props.title}</h1>
                 </div>
             </div>
@@ -58,7 +58,6 @@ function ExFoodSingle(props){
                     </div>
                 </div>  
             </div>
-            
         </div>
     );
 }

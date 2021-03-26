@@ -69,13 +69,14 @@ class Hotels extends Component{
                 <div className="head-hero">
                     <HeroSection
                                 image={hero}//'https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
-                                height='92'
+                                height='100'
                                 filter='70'>
                     </HeroSection>
                     <div className='centered-child'>
                         <h1 className='centered-title'>Hotels</h1>
                     </div>
                 </div>
+                <div className="scroll-body">
                 <div className="container">
                     <HCitation citation="Picture Citation: Lambert, Christian. Recreation. 2021. Walt Express, https://waltexpress.com/walt-disney-world-deluxe-resort-disneys-yacht-club-resort/"></HCitation>
                     <div class="row">
@@ -419,6 +420,7 @@ class Hotels extends Component{
                             </CardDeck>
                         </div>
                     }
+                </div>
                 </div>
             </div>
         );
