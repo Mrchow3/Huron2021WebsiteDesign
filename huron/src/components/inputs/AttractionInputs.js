@@ -94,7 +94,7 @@ const attractionInputs = [
         heroCitation: 'B., Kathleen. Painting Section. 2019. Yelp. https://www.yelp.com/biz_photos/orlando-museum-of-art-orlando?select=jIzvtPozrZP5oo-HuNy84Q'
     },
     {
-        title: 'Chocolate Kingdom: Interactive Factory Adventure Tour',
+        title: 'Chocolate Kingdom',
         route: '/explore-attractions-chocolate-kingdom',
         description: 'Watch the creation of everyone’s favorite treat at the Chocolate Kingdom. The personal tour guide, alongside a charming Prince and a daring Dragon companion, will take you to the Mystical River of Chocolate, an unforgettable Chocolate Museum, and through a Bean-to-the-bar factory using vintage machinery. Don’t leave out the one of a kind opportunity to customize your very own chocolate bar.',
         websites: [

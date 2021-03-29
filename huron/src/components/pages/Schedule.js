@@ -23,7 +23,7 @@ function Schedule() {
                 <HeroSection
                 image={hero}
                 height='100'
-                style="filter: brightness(50%)">
+                filter='50'>
                 </HeroSection>
                 <div className='centered-child'>
                 <h1 className="centered-title">Schedule</h1>

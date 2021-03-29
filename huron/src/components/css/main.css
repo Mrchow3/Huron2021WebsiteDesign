@@ -133,3 +133,22 @@ iframe {
     word-wrap: break-word;
 	word-break: break-all;
 }
+
+.card, .p-card, .card-img-top {
+    border: none;
+    height: 400px !important;
+    border-radius: 0em !important;  
+}
+.card {
+}
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+    justify-content: center!important;
+}
+@media (min-width: 768px) {
+    .p-card {
+        min-width: calc(33.33% - 30px);
+    }
+}

@@ -11,7 +11,7 @@ function HeroSection(props) {
 
   const HeroStyles = {
     'background-image': `url(${props.image})`,
-    'backdrop-filter': `brightness(${props.filter}%)`,
+    'filter': `brightness(${props.filter}%)`,
     color: 'white !important',
     height: `${props.height}vh`
   };

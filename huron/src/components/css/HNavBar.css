@@ -10,6 +10,11 @@
     left: 50%;
 }
 
+.center-pills {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 #book-button{
     width: auto;
     margin-left: auto;

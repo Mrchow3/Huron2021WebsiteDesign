@@ -70,7 +70,7 @@ class Hotels extends Component{
                     <HeroSection
                                 image={hero}//'https://waltexpress.com/wp-content/uploads/2016/03/Yacht-Club-Resort-Pool.jpg'
                                 height='100'
-                                filter='70'>
+                                filter='60'>
                     </HeroSection>
                     <div className='centered-child'>
                         <h1 className='centered-title'>Hotels</h1>

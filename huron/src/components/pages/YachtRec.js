@@ -24,7 +24,7 @@ function YachtRec() {
         <HeroSection
           image={hero}//'https://mickeyblog.com/wp-content/uploads/2018/08/Yacht-Club.jpg'
           height='100'
-          filter="70">
+          filter="60">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Yacht Club Recreation</h1>

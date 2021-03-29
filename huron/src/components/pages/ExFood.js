@@ -37,7 +37,7 @@ function ExFood(){
                 <HeroSection
                     image={hero}//'https://media-cdn.tripadvisor.com/media/photo-o/07/77/96/fe/the-ritz-carlton-orlando.jpg'
                     height='92'
-                    filter='70'
+                    filter='60'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">Local Food</h1>

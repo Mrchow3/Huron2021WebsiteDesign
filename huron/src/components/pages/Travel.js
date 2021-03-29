@@ -28,7 +28,7 @@ function Travel() {
                 <HeroSection
                             image={hero}
                             height='100'
-                            filter='60'>
+                            filter='50'>
                 </HeroSection>
                 <div className='centered-child'>
                     <h1 className='centered-title'>Travel</h1>

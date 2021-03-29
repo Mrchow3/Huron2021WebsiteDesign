@@ -34,7 +34,7 @@ function ExSightseeing(){
                 <HeroSection
                     image={hero}//'https://www.onetravel.com/going-places/wp-content/uploads/2011/09/Orlando-Attractions.jpg'
                     height='100'
-                    filter='70'
+                    filter='60'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">Sightseeing</h1>

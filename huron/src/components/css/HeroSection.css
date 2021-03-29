@@ -24,7 +24,6 @@ html {
   align-content: center;
   align-items: center;
   max-width: 100vw;
-  filter: brightness(70%);
 }
 
 .hero-text {

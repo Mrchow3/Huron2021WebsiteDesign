@@ -6,7 +6,7 @@ Creates card section pointing to the Convention Info pages
 
 import React, { useState, useEffect } from 'react';
 import {
-  Card
+  Card, CardDeck
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeroSection from '../HeroSection.js';
@@ -32,7 +32,7 @@ function Home() {
         <HeroSection
           image= {hero}//'https://a.cdn-hotels.com/gdcs/production142/d1678/02312c78-cd46-4e43-b6c6-d174700968a8.jpg'////'https://media.bizj.us/view/img/620061/pg-1-centerpiece-158219737*1200xx2407-1354-0-493.jpg' //https://www.iconparkorlando.com/wp-content/uploads/carousel_3Artboard-4.jpg
           height='100'
-          filter='70'
+          filter='60'
         >
         </HeroSection>
         <div className='hero-text'>
@@ -61,9 +61,9 @@ function Home() {
             <h1 className="convention-title">Learn More About the Convention</h1>
             <hr />
               <CardSection>
-                  <Card>
+                  <Card className="p-card p-card-left">
                       <a className="card-link" href="#/general-info">
-                          <Card.Img variant="top" className="card-top food-image" src={conferenceImg}/>
+                          <Card.Img variant="top" className="card-top food-image p-card-img" src={conferenceImg}/>
                           <Card.ImgOverlay className="food-overlay">
                             <div className="card-hover"></div>
                               <Card.Body className="over-body">
@@ -78,9 +78,9 @@ function Home() {
                           </div>
                       </a>
                   </Card>
-                  <Card>
+                  <Card className="p-card p-card-left">
                       <a className="card-link" href="#/schedule">
-                          <Card.Img variant="top" className="card-top food-image" src={scheduleImg} />
+                          <Card.Img variant="top" className="card-top food-image p-card-img" src={scheduleImg} />
                           <Card.ImgOverlay className="food-overlay">
                               <div className="card-hover"></div>
                               <Card.Body className="over-body">
@@ -95,9 +95,9 @@ function Home() {
                           </div>
                       </a>
                   </Card>
-                  <Card>
+                  <Card className="p-card">
                       <a className="card-link" href="#/hotels">
-                          <Card.Img variant="top" className="card-top food-image" src={hotelsImg} />
+                          <Card.Img variant="top" className="card-top food-image p-card-img" src={hotelsImg} />
                           <Card.ImgOverlay className="food-overlay">
                               <div className="card-hover"></div>
                               <Card.Body className="over-body">

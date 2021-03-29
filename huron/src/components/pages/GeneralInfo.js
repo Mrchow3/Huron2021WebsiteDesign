@@ -27,7 +27,7 @@ function GeneralInfo() {
                 <HeroSection
                             image={hero}
                             height='100'
-                            filter='70'>
+                            filter='60'>
                 </HeroSection>
                 <div className='centered-child'>
                     <h1 className='centered-title'>General Info</h1>

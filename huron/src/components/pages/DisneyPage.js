@@ -24,7 +24,7 @@ function DisneyPage() {
             <HeroSection
             image={hero}//'https://i.ytimg.com/vi/mOtp_w1BDDA/maxresdefault.jpg'
             height='100'
-            filter='65'>
+            filter='50'>
             </HeroSection>
             <div className='centered-child'>
             <h1 className="centered-title">Disney</h1>

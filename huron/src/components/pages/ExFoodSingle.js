@@ -63,7 +63,7 @@ function ExFoodSingle(props){
                 <HeroSection
                     image={props.hero}
                     height='60'
-                    filter='70'
+                    filter='60'
                 ></HeroSection>
                 <div className='small-centered'>
                     <h1 className="centered-title">{props.type}</h1>

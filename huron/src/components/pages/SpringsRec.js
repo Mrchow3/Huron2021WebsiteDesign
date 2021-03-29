@@ -24,7 +24,7 @@ function SpringsRec() {
         <HeroSection
           image={hero}
           height='100'
-          filter="70">
+          filter="50">
         </HeroSection>
         <div className='centered-child'>
           <h1 className="centered-title">Coronado Springs Recreation</h1>

@@ -41,7 +41,7 @@ function ExAttractions(){
                 <HeroSection
                     image={hero}//'https://ewscripps.brightspotcdn.com/dims4/default/5302b3f/2147483647/strip/true/crop/0x0+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fwww.dontwasteyourmoney.com%2Fwp-content%2Fuploads%2F2019%2F07%2F611910256_walt-disney-world-e1563453095573.jpg'
                     height='100'
-                    filter='70'
+                    filter='60'
                 ></HeroSection>
                 <div className='centered-child'>
                     <h1 className="centered-title">Attractions</h1>
