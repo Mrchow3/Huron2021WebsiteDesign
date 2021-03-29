@@ -36,7 +36,7 @@ function Home() {
         >
         </HeroSection>
         <div className='hero-text'>
-              <h1 className="centered-title">Plan Your Trip to Nationals</h1>
+              <h1 className="landing-title centered-title">Plan Your Trip to Nationals</h1>
         </div>
         <div className="centered-citation">
         JavierArtPhotography. Lake Eola Park. 2021. Adobe Spark Images, https://stock.adobe.com/search?k=orlando+florida&asset_id=136867438 

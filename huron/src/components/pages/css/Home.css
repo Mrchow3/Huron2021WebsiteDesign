@@ -2,6 +2,9 @@ html {
   max-width: 100vw;
   overflow-x: hidden;
 }
+.landing-title {
+  font-family: 'Pacifico';
+}
 .centered-child{
   position: fixed;
   top: 50%;

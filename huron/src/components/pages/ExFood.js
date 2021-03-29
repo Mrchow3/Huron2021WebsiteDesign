@@ -47,7 +47,7 @@ function ExFood(){
             <div className="container">
                 <HCitation citation="NAIC. Norman’s. 2019. NAIC, https://content.naic.org/article/daily_news_welcome_orlando.htm"></HCitation>
                 <CardSection>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-italian">
                             <Card.Img variant="top" className="card-top food-image" src={italian} />
                             <Card.ImgOverlay className="food-overlay">
@@ -62,7 +62,7 @@ function ExFood(){
                             <CardCitation citation="Pizarri, Michael. Prato's diavolo pizza is on the Winter Park restaurant's new happy hour menu, 2017. Orlando Sentinel, https://www.orlandosentinel.com/food-restaurants/os-et-prato-happy-hour-20170801-story.html"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-asian">
                             <Card.Img variant="top" className="card-top food-image" src={asian} />
                             <Card.ImgOverlay className="food-overlay">
@@ -77,7 +77,7 @@ function ExFood(){
                             <CardCitation citation="Home is a Kitchen. Kung Pao Chicken. 2019. Home is a Kitchen, https://homeisakitchen.com/2019/10/06/chengdu-taste-szechuan-review/"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-hispanic">
                             <Card.Img variant="top" className="card-top food-image" src={hispanic} />
                             <Card.ImgOverlay className="food-overlay">
@@ -92,7 +92,7 @@ function ExFood(){
                             <CardCitation citation="Universal Orlando. Familiar Yet Unexpected. 2021. Universal Orlando Resort Meetings and Events, https://www.uomeetingsandevents.com/Event-Options/Overview/Universal-Citywalk/Antojitos-Authentic-Mexican-Food.html"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-fusion">
                             <Card.Img variant="top" className="card-top food-image" src={fusion} />
                             <Card.ImgOverlay className="food-overlay">
@@ -107,7 +107,7 @@ function ExFood(){
                             <CardCitation citation="J., Travis. Spiced Alligator Bites. 2018. Yelp, https://www.yelp.com/biz_photos/caf%C3%A9-tu-tu-tango-orlando-5?select=cg7APOHAHFv7ArDfJDSMXA"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-american">
                             <Card.Img variant="top" className="card-top food-image" src="https://images.squarespace-cdn.com/content/v1/57c63f3e03596e373290b357/1592419675327-D8MNK47GRJFF2GQ218RK/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg?format=1500w" />
                             <Card.ImgOverlay className="food-overlay">
@@ -122,7 +122,7 @@ function ExFood(){
                             <CardCitation citation="Se7en Bites. The Baller. 2020. Se7evn Bites, http://www.se7enbites.com/gallery "></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-african">
                             <Card.Img variant="top" className="card-top food-image" src={african} />
                             <Card.ImgOverlay className="food-overlay">
@@ -137,7 +137,7 @@ function ExFood(){
                             <CardCitation citation="D., Kiana. Selam Veggie Special. 2020. Yelp, https://www.yelp.com/biz_photos/selam-ethiopian-and-eritrean-cuisine-orlando?select=SOuQiNnbjzcKiNUo5nP84Q"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-french">
                             <Card.Img variant="top" className="card-top food-image" src={french} />
                             <Card.ImgOverlay className="food-overlay">
@@ -152,7 +152,7 @@ function ExFood(){
                             <CardCitation citation="Le Gourmet Break. Breakfast. 2020. Le Gourmet Break, https://www.legourmetbreak.com/"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-middle-eastern">
                             <Card.Img variant="top" className="card-top food-image" src={middleEastern} />
                             <Card.ImgOverlay className="food-overlay">
@@ -167,7 +167,7 @@ function ExFood(){
                             <CardCitation citation="Thinkstock, Violetta. Falafels Served with Yogurt or Hummus. 2016. QSR, https://www.qsrmagazine.com/menu-innovations/middle-eastern-cuisine-makes-its-move"></CardCitation>
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-food-vegetarian-vegan">
                             <Card.Img variant="top" className="card-top food-image" src={veg} />
                             <Card.ImgOverlay className="food-overlay">

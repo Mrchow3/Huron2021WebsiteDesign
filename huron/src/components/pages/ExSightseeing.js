@@ -44,7 +44,7 @@ function ExSightseeing(){
             <div className="container">
                 <HCitation citation="The Wow Style. Beautiful Nature Images. 2018. The Wow Style, https://www.thewowstyle.com/beautiful-nature-images-free-to-download/"></HCitation>
                 <CardSection>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-harry-p-leu-gardens">
                             <Card.Img variant="top" className="card-top food-image" src={harry} />
                             <Card.ImgOverlay className="food-overlay">
@@ -59,7 +59,7 @@ function ExSightseeing(){
                             <CardCitation citation="O., Crystal. Kopsia Fruticosa at Harry P. Leu Gardens. 2020. Yelp. https://www.yelp.com/biz_photos/harry-p-leu-gardens-orlando?select=iRcHiY53ct5yNZefZEJUgg" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-florida-tours">
                             <Card.Img variant="top" className="card-top food-image" src={adventure} />
                             <Card.ImgOverlay className="food-overlay">
@@ -74,7 +74,7 @@ function ExSightseeing(){
                             <CardCitation citation="Florida Dolphin Tours. Swim With Manatees Excursion. 2014. Yelp, https://www.yelp.com/biz_photos/florida-dolphin-tours-orlando?select=WRLaECUSy96v5Wx-4fOOpA" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-tibet-butler-preserve">
                             <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/zKmHO2-EEbP0pV-ePEn0CA/o.jpg" />
                             <Card.ImgOverlay className="food-overlay">
@@ -89,7 +89,7 @@ function ExSightseeing(){
                             <CardCitation citation="D., Mark. Tibet-Butler Preserve Boardwalk. 2017. Yelp. https://www.yelp.com/biz_photos/tibet-butler-preserve-orlando?select=zKmHO2-EEbP0pV-ePEn0CA" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-lake-eola-park">
                             <Card.Img variant="top" className="card-top food-image" src="https://s3-media0.fl.yelpcdn.com/bphoto/cz5fhi4pJQinInQLZC_kVg/o.jpg" />
                             <Card.ImgOverlay className="food-overlay">
@@ -104,7 +104,7 @@ function ExSightseeing(){
                             <CardCitation citation="L., Angel. Lake Eola Park at Night. 2020. Yelp, https://www.yelp.com/biz_photos/lake-eola-park-orlando?select=X4_FuDHfq0lVYj1UHM1-tA" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-exotic-animals">
                             <Card.Img variant="top" className="card-top food-image" src={exoticAnimals} />
                             <Card.ImgOverlay className="food-overlay">
@@ -119,7 +119,7 @@ function ExSightseeing(){
                             <CardCitation citation="G., Junebug. Flamingos. 2018. Yelp. https://www.yelp.com/biz_photos/detroit-zoo-royal-oak?select=L4CrtH5PTrqsTPy0pWIGIw." />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-butler-chain-lakes">
                             <Card.Img variant="top" className="card-top food-image" src="https://www.orangeobserver.com/sites/default/files/styles/sliders_and_planned_story_image_870x580/public/51706_standard.jpeg?itok=5xRCGbjd" />
                             <Card.ImgOverlay className="food-overlay">
@@ -134,7 +134,7 @@ function ExSightseeing(){
                             <CardCitation citation="Nesslar, Jennifer. Lake Tibet-Butler. 2016. Orange Observer, https://www.orangeobserver.com/photo-gallery/final-piece-butler-chain-lakes#photo-5" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-kissimmee-swamp-tours">
                             <Card.Img variant="top" className="card-top food-image" src="https://media-cdn.tripadvisor.com/media/photo-w/18/3d/d9/37/kissimmee-swamp-tours.jpg" />
                             <Card.ImgOverlay className="food-overlay">
@@ -149,7 +149,7 @@ function ExSightseeing(){
                             <CardCitation citation="M., Peter. Schitterende Airboatride. 2019. Trip Advisor, https://www.tripadvisor.com/Attraction_Review-g34337-d677214-Reviews-Kissimmee_Swamp_Tours-Kenansville_Florida.html#photos;aggregationId=101&albumid=101&filter=7&ff=406706487" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-winter-park-boat-tour">
                             <Card.Img variant="top" className="card-top food-image" src={winterBoat} />
                             <Card.ImgOverlay className="food-overlay">
@@ -164,7 +164,7 @@ function ExSightseeing(){
                             <CardCitation citation="Around Orlando Tours. Cruise Through Winter Park Chain of Lakes. 2020. Around Orlando Tours, https://aroundorlandotours.com/winter-park-orlando-tou" />
                         </a>
                     </Card>
-                    <Card>
+                    <Card className="p-card">
                         <a className="card-link" href="#/explore-sightseeing-wildlife-attractions">
                             <Card.Img variant="top" className="card-top food-image" src={botanical} />
                             <Card.ImgOverlay className="food-overlay">
