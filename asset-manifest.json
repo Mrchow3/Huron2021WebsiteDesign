@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.49ec1a2b.chunk.css",
-    "main.js": "./static/js/main.2a2d261f.chunk.js",
-    "main.js.map": "./static/js/main.2a2d261f.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.ab3846cd.js",
-    "runtime-main.js.map": "./static/js/runtime-main.ab3846cd.js.map",
+    "main.css": "./static/css/main.1f70b8f1.chunk.css",
+    "main.js": "./static/js/main.156755e5.chunk.js",
+    "main.js.map": "./static/js/main.156755e5.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a37c64cb.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a37c64cb.js.map",
     "static/css/2.1a02f21c.chunk.css": "./static/css/2.1a02f21c.chunk.css",
-    "static/js/2.18a46aa4.chunk.js": "./static/js/2.18a46aa4.chunk.js",
-    "static/js/2.18a46aa4.chunk.js.map": "./static/js/2.18a46aa4.chunk.js.map",
-    "static/js/3.7679bbd5.chunk.js": "./static/js/3.7679bbd5.chunk.js",
-    "static/js/3.7679bbd5.chunk.js.map": "./static/js/3.7679bbd5.chunk.js.map",
+    "static/js/2.09f85794.chunk.js": "./static/js/2.09f85794.chunk.js",
+    "static/js/2.09f85794.chunk.js.map": "./static/js/2.09f85794.chunk.js.map",
+    "static/js/3.9f6a7ea4.chunk.js": "./static/js/3.9f6a7ea4.chunk.js",
+    "static/js/3.9f6a7ea4.chunk.js.map": "./static/js/3.9f6a7ea4.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.1a02f21c.chunk.css.map": "./static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.49ec1a2b.chunk.css.map": "./static/css/main.49ec1a2b.chunk.css.map",
-    "static/js/2.18a46aa4.chunk.js.LICENSE.txt": "./static/js/2.18a46aa4.chunk.js.LICENSE.txt",
-    "static/js/main.2a2d261f.chunk.js.LICENSE.txt": "./static/js/main.2a2d261f.chunk.js.LICENSE.txt",
+    "static/css/main.1f70b8f1.chunk.css.map": "./static/css/main.1f70b8f1.chunk.css.map",
+    "static/js/2.09f85794.chunk.js.LICENSE.txt": "./static/js/2.09f85794.chunk.js.LICENSE.txt",
+    "static/js/main.156755e5.chunk.js.LICENSE.txt": "./static/js/main.156755e5.chunk.js.LICENSE.txt",
     "static/media/adventure.cae1ce57.jpg": "./static/media/adventure.cae1ce57.jpg",
     "static/media/african.4de3deee.jpg": "./static/media/african.4de3deee.jpg",
     "static/media/african_hero.b6a4a11a.webp": "./static/media/african_hero.b6a4a11a.webp",
@@ -110,10 +110,10 @@
     "static/media/zaman.59082f3e.jpg": "./static/media/zaman.59082f3e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab3846cd.js",
+    "static/js/runtime-main.a37c64cb.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.18a46aa4.chunk.js",
-    "static/css/main.49ec1a2b.chunk.css",
-    "static/js/main.2a2d261f.chunk.js"
+    "static/js/2.09f85794.chunk.js",
+    "static/css/main.1f70b8f1.chunk.css",
+    "static/js/main.156755e5.chunk.js"
   ]
 }
