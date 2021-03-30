@@ -48,7 +48,7 @@ function HNavBar() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav'/>
       <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className={centerPills > 992 ? 'mr-auto center-pills' : 'mr-auto'}>
+          <Nav width='auto' className={centerPills > 992 ? 'mr-auto center-pills' : 'mr-auto'}>
             <NavDropdown title='Plan Your Travel' className=''>
               <NavDropdown.Item class="specific-dropdown" href='#/travel'>Travel Options</NavDropdown.Item>
             </NavDropdown>
@@ -64,17 +64,35 @@ function HNavBar() {
               <NavDropdown.Item href='#/explore-food/'>Local Food</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav className='mr-auto'>
-          </Nav>
-          <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
-          <DropdownButton
-            menuAlign={centerPills > 992 ? "right":"left"}
-            title={centerPills > 992 ? <FontAwesomeIcon size = '1x' icon={faPlus} />: <span>More <FontAwesomeIcon size = '1x' icon={faPlus} /></span>} 
-            id="more-button"
-            className={centerPills > 992 ? 'mar-neg10' : ''}>
-              <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
-              <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
-          </DropdownButton>
+          <Nav className='mr-auto'></Nav>
+          {centerPills > 992 ? 
+            <Nav width='auto'>
+              <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+              <DropdownButton
+                menuAlign={"right"}
+                title={<FontAwesomeIcon size = '1x' icon={faPlus} />} 
+                id="more-button"
+                className={'no-pad-right'}>
+                  <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
+                  <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
+              </DropdownButton>
+            </Nav>
+          :
+          <div>
+            <Nav width='auto'>
+            <DropdownButton
+              menuAlign={"left"}
+              title={<span>More <FontAwesomeIcon size = '1x' icon={faPlus} /></span>} 
+              id="more-button"
+              className='no-pad'>
+                <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
+                <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
+            </DropdownButton>
+            </Nav>
+            <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+          </div>
+          }
+          
       </Navbar.Collapse>
     </Navbar>
   );
