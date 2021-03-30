@@ -8,37 +8,15 @@ import {
   Nav,
   NavDropdown,
   Button,
+  DropdownButton,
+  Dropdown
 } from 'react-bootstrap';
 import './css/HNavBar.css';
 import palmlogo from './pages/assets/palm-logo.png';
 import bpalogo from './pages/assets/logo-transparent.png'
 import HModal from './HModal';
-/*
-function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Book your trip now!
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <p>
-          BLAH BLAH BLAH
-        </p>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
-}
-*/
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 //const Navbar;
 function HNavBar() {
@@ -70,16 +48,16 @@ function HNavBar() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav'/>
       <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className={centerPills > 992 ? 'center-pills white-color' : 'white-color'}>
-            <NavDropdown title='Plan Your Travel' className='white-color'>
+          <Nav className={centerPills > 992 ? 'mr-auto center-pills' : 'mr-auto'}>
+            <NavDropdown title='Plan Your Travel' className=''>
               <NavDropdown.Item class="specific-dropdown" href='#/travel'>Travel Options</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title='Convention Info' className='white-color'>
-            <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
+            <NavDropdown title='Convention Info' className=''>
+              <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
               <NavDropdown.Item href='#/schedule'>Schedule</NavDropdown.Item>
               <NavDropdown.Item href='#/hotels'>Hotels</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title='Explore Orlando' className='white-color'>
+            <NavDropdown title='Explore Orlando' className=''>
               <NavDropdown.Item href='#/explore-transportation'>Transportation</NavDropdown.Item>
               <NavDropdown.Item href='#/explore-sightseeing'>Sightseeing</NavDropdown.Item>
               <NavDropdown.Item href='#/explore-attractions/'>Attractions</NavDropdown.Item>
@@ -88,7 +66,15 @@ function HNavBar() {
           </Nav>
           <Nav className='mr-auto'>
           </Nav>
-          <Button variant="outline-success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+          <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+          <DropdownButton
+            menuAlign={centerPills > 992 ? "right":"left"}
+            title={centerPills > 992 ? <FontAwesomeIcon size = '1x' icon={faPlus} />: <span>More <FontAwesomeIcon size = '1x' icon={faPlus} /></span>} 
+            id="more-button"
+            className={centerPills > 992 ? 'mar-neg10' : ''}>
+              <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
+              <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
+          </DropdownButton>
       </Navbar.Collapse>
     </Navbar>
   );

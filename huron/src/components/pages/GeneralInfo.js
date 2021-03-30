@@ -45,7 +45,7 @@ function GeneralInfo() {
                         </p>
                         <h4>Hotel Reservations</h4>
                         <p>
-                        Conference members are required to stay at Disney’s Coronado Springs Resort or Disney’s Yacht Club Resort. The reservation process will also take place using BPA’s Online Registration System. The deadline to reserve a hotel is April 1, 2021. Prior to that, feel free to contact Jonathan Smith, jsmith@bpa.org, with any inquiries you may have.
+                        Conference members are required to stay at Disney’s Coronado Springs Resort or Disney’s Yacht Club Resort. The reservation process will also take place using BPA’s Online Registration System. The deadline to reserve a hotel is April 1, 2021. Prior to that, feel free to contact Jonathan Smith, <a href="mailto:jsmith@bpa.org">jsmith@bpa.org</a>, with any inquiries you may have.
                         </p>
                         <p>
                         <a href="#/hotels">
@@ -65,10 +65,10 @@ function GeneralInfo() {
                         <p>Westerville, OH 43086</p>
                         </ul>
                         <p>
-                        If you wish to fax either your credit card payment or your purchase order, please send it to (614) 895-1165.
+                        If you wish to fax either your credit card payment or your purchase order, please send it to <a href="javascript:void(0)" onclick="return false;">(614) 895-1165</a>.
                         </p>
                         <p>
-                        If you wish to call in your payment, please dial (614) 895-7277. Please note that it must be a credit card payment if you wish to pay by phone.
+                        If you wish to call in your payment, please dial <a href="javascript:void(0)" onclick="return false;">(614) 895-7277</a>. Please note that it must be a credit card payment if you wish to pay by phone.
                         </p>
                         <h2 className="heading">Dress Code</h2>
                         <hr className="the-hr"></hr>
@@ -90,9 +90,9 @@ function GeneralInfo() {
                             <div class="col-md mr-3">
                                 <div class="right-div">
                                     <h4>Professional Dress Code</h4>
-                                    <p>This is required for General Sessions, all competitive events, Caucuses, Campaign Rally, Workshops, and National Leadership Academy</p>
+                                    <p>This is <b>required</b> for General Sessions, all competitive events, Caucuses, Campaign Rally, Workshops, and National Leadership Academy</p>
                                     <p>
-                                        Men
+                                        <b>Men:</b>
                                     </p>
                                     <ul>
                                         <li>No denim permitted</li>
@@ -102,7 +102,7 @@ function GeneralInfo() {
                                         <li>BPA blazer, dress slacks, dress shirt, and tie</li>
                                     </ul>
                                     <p>
-                                        Women
+                                        <b>Women:</b>
                                     </p>
                                     <ul>
                                         <li>Required: dress shoes with dress socks or dress sandals with heel</li>
@@ -149,19 +149,19 @@ function GeneralInfo() {
                         <hr className="the-hr"></hr>
                         <p>Join BPA in impacting communities both locally and nationally. Some options you should consider participating in:</p>
                         <ul>
-                            <li className="mb-2">A Million Thanks
+                            <li className="mb-2"><b>A Million Thanks:</b>
                             <ul><li>Write a card or a letter to military members and thank them for their service</li></ul>
                             </li>
                             
-                            <li className="mb-2">A Smile a Day Thank You Cards
+                            <li className="mb-2"><b>A Smile a Day Thank You Cards:</b>
                             <ul><li>Create a thank-you card that recognizes the efforts of all those that made your trip a success</li></ul>
                             </li>
                             
-                            <li className="mb-2">BPA Cares School Supply Drive
+                            <li className="mb-2"><b>BPA Cares School Supply Drive:</b>
                             <ul><li>Bring some school supplies such as pencils, crayons, notebooks, and donate it to those in need</li></ul>
                             </li>
                             
-                            <li className="mb-2">Walk for Special Olympics Posters
+                            <li className="mb-2"><b>Walk for Special Olympics Posters:</b>
                             <ul><li>Encourage people along the course of the walk through motivating posters and signs</li></ul>
                             </li>
                             

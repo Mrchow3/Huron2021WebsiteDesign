@@ -139,6 +139,10 @@ iframe {
     border-radius: 0em !important;  
 }
 
+.p-card > a > .card-img-top {
+    filter:brightness(37%);
+}
+
 @media (min-width: 768px) {
     .p-card {
         min-width: calc(33.33% - 30px);

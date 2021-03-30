@@ -62,7 +62,7 @@ function ExTransportation() {
                         <div class="col">
                             <div class="right-div">
                                 <p class="left-justified">Additionally, Orlando offers a free downtown circulator bus, LYMMO, that provides quick and easy access to businesses and services throughout the immediate downtown area. These buses come every 10-15 minutes depending on the time of the day and provide another fun opportunity to tour Orlando.</p>
-                                <p class="left-justified">Individuals may also be eligible to use services provided by ACCESS LYNX if they are unable to use the fixed routes due to a disability or other potential limitations. This service offers shared door-to-door transportation. However, a mail-in application is required before all requests and trips have to be scheduled in advance by calling (407) 423-8747. In general, the fixed route service is more affordable and still fully accessible to individuals with disabilities or special needs.</p>
+                                <p class="left-justified">Individuals may also be eligible to use services provided by ACCESS LYNX if they are unable to use the fixed routes due to a disability or other potential limitations. This service offers shared door-to-door transportation. However, a mail-in application is required before all requests and trips have to be scheduled in advance by calling <a href="javascript:void(0)" onclick="return false;">(407) 423-8747</a>. In general, the fixed route service is more affordable and still fully accessible to individuals with disabilities or special needs.</p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function ExTransportation() {
                     <div class="row mt-3 article">
                         <div class="col-md mr-3">
                           <div class="right-div">
-                              <p class="right-justified">Cycling is one of the easiest ways to explore, and Orlando is filled with many safe, scenic paths that surround breathtaking lakes and parks. HOPR, the official bike share of Orlando, has hundreds of bikes scattered throughout the city at various locations. Their <a href="https://gohopr.com/orlando/">app</a> allows for easy bike rental and is available for download in both the App Store and Google Play. With one QR code scan, all that’s left to do is choose your rental type and be on your way. </p>
+                              <p class="right-justified">Cycling is one of the easiest ways to explore, and Orlando is filled with many safe, scenic paths that surround breathtaking lakes and parks. HOPR, the official bike share of Orlando, has hundreds of bikes scattered throughout the city at various locations. The <a href="https://gohopr.com/orlando/">HOPR app</a> allows for easy bike rental and is available for download in both the App Store and Google Play. With one QR code scan, all that’s left to do is choose your rental type and be on your way. </p>
                               <section>
                                 <p>There are four rental options available to cater to your needs:</p>
                                 <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
@@ -110,7 +110,7 @@ function ExTransportation() {
                         </div>
                         <div class="col-md">
                             <div class="right-div">
-                                <p class="right-justified">Taxis are typically available at hotels and surrounding large attractions. But if you don’t prefer to hail your own cab, call 407-422-2222 for Mears Orlando Taxi Services. Started in 1939, Mears offers both sedans and vans, each equipped with drivers that are local experts and will help you arrive at your destination safely and on time. Additionally, Mears’ partnership with Uber provides luxury rides available on the Uber app, making their taxis more accessible for you. While prices vary depending on type of vehicle and distance traveled, on average Mears taxis are more affordable than other ride sharing options.</p>
+                                <p class="right-justified">Taxis are typically available at hotels and surrounding large attractions. But if you don’t prefer to hail your own cab, call <a href="javascript:void(0)" onclick="return false;">407-422-2222</a> for Mears Orlando Taxi Services. Started in 1939, Mears offers both sedans and vans, each equipped with drivers that are local experts and will help you arrive at your destination safely and on time. Additionally, Mears’ partnership with Uber provides luxury rides available on the Uber app, making their taxis more accessible for you. While prices vary depending on type of vehicle and distance traveled, on average Mears taxis are more affordable than other ride sharing options.</p>
                             </div> 
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function ExTransportation() {
                             <div class="right-div">
                                 <p class="right-justified"><a href="https://auth.uber.com/login/?uber_client_name=riderSignUp&city_id=7&utm_source=AdWords_Brand&utm_campaign=search-google-brand_1_7_us-chicago_d_txt_acq_cpc_en-us_uber_kwd-169801042_320236091175_22880476120_e_c_track-jan22urlupdate-sl42391-1114_restructure&cid=271787680&adg_id=22880476120&fi_id=5028672018&match=e&net=g&dev=c&dev_m=&cre=320236091175&kwid=kwd-169801042&kw=uber&placement=&tar=&gclsrc=aw.ds&&gclid=EAIaIQobChMI3KS0oYHV3wIVVTVpCh3gPgtTEAAYASABEgK6hvD_BwE&gclsrc=aw.ds">Uber</a> and <a href="https://www.lyft.com/rider">Lyft</a> offer on-demand rides throughout Orlando. With both apps effortless to use, all that is required to get a ride to your destination is a couple clicks. Rates and availability are available on both platforms.</p>
                                 <section>
-                                  <p>Uber</p>
+                                  <p><b>Uber</b></p>
                                   <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
                                       <li>
                                       Booking Fee: $2.20
@@ -140,7 +140,7 @@ function ExTransportation() {
                                   </ul>
                                 </section>
                                 <section>
-                                  <p>Lyft</p>
+                                  <p><b>Lyft</b></p>
                                   <ul className="mt-n3" aria-label="There are four rental options available to cater to your needs:">
                                       <li>
                                       Base Fare: $1.15

@@ -50,7 +50,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Harry P. Leu Gardens</Card.Title>
+                                    <Card.Title><strong>Harry P. Leu Gardens</strong></Card.Title>
                                     <Card.Text>
                                         Explore the scenic paths at Leu Gardens.
                                     </Card.Text>
@@ -65,7 +65,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Florida Dolphin Tours/Florida Adventure Tour</Card.Title>
+                                    <Card.Title><strong>Florida Dolphin Tours/Florida Adventure Tour</strong></Card.Title>
                                     <Card.Text>
                                         Take an expert-led boat ride into Florida's beautiful wilderness.
                                     </Card.Text>
@@ -80,7 +80,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Tibet-Butler Preserve</Card.Title>
+                                    <Card.Title><strong>Tibet-Butler Preserve</strong></Card.Title>
                                     <Card.Text>
                                         Take a breathtaking hike in the Tibet-Butler Preserve.
                                     </Card.Text>
@@ -95,7 +95,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Lake Eola Park</Card.Title>
+                                    <Card.Title><strong>Lake Eola Park</strong></Card.Title>
                                     <Card.Text>
                                         Adventure into Lake Eola Park and enjoy an amazing view of the city.
                                     </Card.Text>
@@ -110,7 +110,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Exotic Animal Experience</Card.Title>
+                                    <Card.Title><strong>Exotic Animal Experience</strong></Card.Title>
                                     <Card.Text>
                                         Meet and greet the endangered, exotic animals in this privately-owned zoo.
                                     </Card.Text>
@@ -125,7 +125,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Butler Chain of Lakes</Card.Title>
+                                    <Card.Title><strong>Butler Chain of Lakes</strong></Card.Title>
                                     <Card.Text>
                                         View the Butler Chain of Lakes' awe-inspiring beauty.
                                     </Card.Text>
@@ -140,7 +140,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Kissimmee Swamp Tours</Card.Title>
+                                    <Card.Title><strong>Kissimmee Swamp Tours</strong></Card.Title>
                                     <Card.Text>
                                         Tour the Kissimee Swamp and look at the unique wildlife outside of Orlando.
                                     </Card.Text>
@@ -155,7 +155,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Winter Park Scenic Boat Tour</Card.Title>
+                                    <Card.Title><strong>Winter Park Scenic Boat Tour</strong></Card.Title>
                                     <Card.Text>
                                         Relax in a tranquil cruise through Winter Park.
                                     </Card.Text>
@@ -170,7 +170,7 @@ function ExSightseeing(){
                             <Card.ImgOverlay className="food-overlay">
                                 <div className="card-hover"></div>
                                 <Card.Body className="over-body">
-                                    <Card.Title>Central Florida Zoo and Botanical Gardens</Card.Title>
+                                    <Card.Title><strong>Central Florida Zoo and Botanical Gardens</strong></Card.Title>
                                     <Card.Text>
                                         Encounter amazing wildlife in these attractions.
                                     </Card.Text>

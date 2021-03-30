@@ -82,13 +82,13 @@ class Hotels extends Component{
                     <div class="row">
                         <div class="nav nav-pills justify-content-around">
                             <button className="btn no-click">
-                                Hotel: 
+                                <b>Hotel:</b> 
                             </button>
                             <button id="yacht" className={this.state.hotel === this.HOTEL.YACHT ? "btn-primary btn" : "btn"} onClick={() => this.switchHotelsToYacht()}>
-                                Yacht Club
+                                <b>Yacht Club</b>
                             </button>
                             <button className={this.state.hotel === this.HOTEL.SPRINGS ? "btn-primary btn ml-2" : "btn ml-2"} onClick={() => this.switchHotelsToSprings()}>
-                                Coronado Springs
+                                <b>Coronado Springs</b>
                             </button>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ class Hotels extends Component{
                                 <div class="col MR-3">
                                     <div class="right-div">
                                         <p class="left-justified">A captivating hotel with Spanish, Mexican, and Southwest American inspired architecture, built around the 15-acre glistening lake Lago Dorado, Disney offers a modern and energizing experience for everyone who chooses this as their destination home. With amenities such as an expansive Mayan-themed pool complex, 18 restaurants nearby the resort, and many more, Coronado Springs Resort will provide unique and unforgettable memories.</p>
-                                        <h6>Resort Address:</h6>
+                                        <h6><b>Resort Address:</b></h6>
                                         <p>1000 West Buena Vista Drive<br></br>Lake Buena Vista, Florida 32830-8403<br></br>(407) 939-1000</p>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@ class Hotels extends Component{
                                     <div class="col-md mr-3">
                                         <div class="right-div">
                                             <section>
-                                                <p>General Amenities/Information:</p>
+                                                <p><b>General Amenities/Information:</b></p>
                                                 <ul className="mt-n3" aria-label="">
                                                     <li>
                                                         Built 08/01/1997
@@ -177,7 +177,7 @@ class Hotels extends Component{
                                     <div class="col">
                                         <div class="right-div">
                                         <section>
-                                                <p>Room Features:</p>
+                                                <p><b>Room Features:</b></p>
                                                 <ul className="mt-n3" aria-label="">
                                                     <li>
                                                     Air conditioning
@@ -228,7 +228,7 @@ class Hotels extends Component{
                                         <Card.Img variant="top" className="card-top" src={coronadoFood} />
                                         <div className="hotel-card">Picture Citation: Walt Disney World. Maya Grill. 2016. Yelp, https://www.yelp.com/biz_photos/maya-grill-orlando-2?select=zS-e1bYjpjbYxDLZqx8sFw</div>
                                         <Card.Body>
-                                            <Card.Title>Food</Card.Title>
+                                            <Card.Title><b>Food</b></Card.Title>
                                             <Card.Text>
                                                 Enjoy some amazing food from a variety of restaurants within Disney’s Coronado Springs Resort!
                                             </Card.Text>
@@ -241,7 +241,7 @@ class Hotels extends Component{
                                     <Card.Img variant="top" className="card-top" src={coronadoRec}></Card.Img>
                                     <div className="hotel-card">Picture Citation: Bricker, Tom. Stopped By the Pool. 2018. Disney Tourist Blog, https://www.disneytouristblog.com/coronado-springs-resort-update-october-2018/</div>
                                     <Card.Body>
-                                        <Card.Title>Recreation</Card.Title>
+                                        <Card.Title><b>Recreation</b></Card.Title>
                                         <Card.Text>
                                             Let yourself live out the wonderful recreation options in Disney’s Coronado Springs Resort!
                                         </Card.Text>
@@ -258,7 +258,7 @@ class Hotels extends Component{
                                 <div class="col MR-3">
                                     <div class="right-div">
                                         <p class="left-justified">Disney’s Yacht Club Resort is built in a New England-style yacht club style and is located on Crescent Lake, right next door to its sister hotel, the Beach Club Resort. Each room and lobby is decorated with nautical touches to complete the seafaring experience. With over ten dining locations in this hotel, it is the perfect place for anyone looking to switch up from their daily life. Renting watercraft from Bayside Marina is a fun way to spend a sunny day, and boat rides are available for travelling to Disney’s Hollywood Studios nearby. </p>
-                                        <h6>Resort Address:</h6>
+                                        <h6><b>Resort Address:</b></h6>
                                         <p>1700 Epcot Resorts Boulevard<br></br>Lake Buena Vista, Florida 32830-8407<br></br>(407) 934-7000</p>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@ class Hotels extends Component{
                                     <div class="col-md mr-3">
                                         <div class="right-div">
                                             <section>
-                                                <p>General Amenities/Information:</p>
+                                                <p><b>General Amenities/Information:</b></p>
                                                 <ul className="mt-n3" aria-label="">
                                                     <li>
                                                     Built 11/5/1990
@@ -350,7 +350,7 @@ class Hotels extends Component{
                                     <div class="col">
                                         <div class="right-div">
                                         <section>
-                                                <p>Room Features:</p>
+                                                <p><b>Room Features:</b></p>
                                                 <ul className="mt-n3" aria-label="">
                                                     <li>
                                                     Air conditioning
@@ -398,7 +398,7 @@ class Hotels extends Component{
                                         <Card.Img variant="top" className="card-top" src={yachtFood} />
                                         <div className="hotel-card">Picture Citation: Walt Disney World. Ale & Compass Restaurant. 2019. Yelp, https://www.yelp.com/biz_photos/ale-and-compass-restaurant-orlando?select=Qq9LDQx6PkaHeS74GQxHqw</div>
                                         <Card.Body>
-                                            <Card.Title>Food</Card.Title>
+                                            <Card.Title><b>Food</b></Card.Title>
                                             <Card.Text>
                                                 Enjoy some amazing food from a variety of restaurants within Disney’s Yacht Club Resort!
                                             </Card.Text>
@@ -410,7 +410,7 @@ class Hotels extends Component{
                                         <Card.Img variant="top" className="card-top" src={yachtRec} />
                                         <div className="hotel-card">Disney, Marcio. Stormalong Bay at Night. 2014. Marcio Disney Pictures, http://fashionforwork.blogspot.com/2012/03/attention-guys.html</div>
                                         <Card.Body>
-                                            <Card.Title>Recreation</Card.Title>
+                                            <Card.Title><b>Recreation</b></Card.Title>
                                             <Card.Text>
                                                 Let yourself live out the wonderful recreation options in Disney’s Yacht Club Resort!
                                             </Card.Text>
