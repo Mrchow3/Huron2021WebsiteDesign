@@ -43,6 +43,8 @@ import YachtRec from './components/pages/YachtRec';
 import GeneralInfo from './components/pages/GeneralInfo';
 import Travel from './components/pages/Travel';
 import Schedule from './components/pages/Schedule';
+import About from './components/pages/About';
+import Citations from './components/pages/Citations';
 
 function App() {
   const templatedPages = [];
@@ -115,6 +117,8 @@ function App() {
         <Route path='/general-info' component={GeneralInfo} />
         <Route path='/schedule' component={Schedule} />
         <Route path='/travel' component={Travel} />
+        <Route path='/about-us' component={About} />
+        <Route path='/citations' component={Citations} />
       </Switch>
       <footer>
         <HFooter />

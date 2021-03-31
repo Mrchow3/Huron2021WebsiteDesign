@@ -3,10 +3,23 @@ html {
     overflow-x: hidden;
 }
 .map {
-    height: 90vh;
-    width: 100%
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
-
+.map > div {
+    height: 100% !important;
+    width: 70% !important;
+}
+.map-mobile {
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
 @media screen and (max-width: 768) {
     .map {
         height: 60vh !important;

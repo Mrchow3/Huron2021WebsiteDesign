@@ -36,7 +36,7 @@ function ExFood(){
             <div className="head-hero">
                 <HeroSection
                     image={hero}//'https://media-cdn.tripadvisor.com/media/photo-o/07/77/96/fe/the-ritz-carlton-orlando.jpg'
-                    height='92'
+                    height='100'
                     filter='60'
                 ></HeroSection>
                 <div className='centered-child'>

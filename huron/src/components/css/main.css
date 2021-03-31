@@ -3,6 +3,10 @@ html {
     overflow-x: hidden;
 }
 
+img {
+    user-select: none;
+}
+
 .head-hero{
     position: relative;
 }

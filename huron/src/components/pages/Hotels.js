@@ -102,7 +102,7 @@ class Hotels extends Component{
                                     <div class="right-div">
                                         <p class="left-justified">A captivating hotel with Spanish, Mexican, and Southwest American inspired architecture, built around the 15-acre glistening lake Lago Dorado, Disney offers a modern and energizing experience for everyone who chooses this as their destination home. With amenities such as an expansive Mayan-themed pool complex, 18 restaurants nearby the resort, and many more, Coronado Springs Resort will provide unique and unforgettable memories.</p>
                                         <h6><b>Resort Address:</b></h6>
-                                        <p>1000 West Buena Vista Drive<br></br>Lake Buena Vista, Florida 32830-8403<br></br>(407) 939-1000</p>
+                                        <p>1000 West Buena Vista Drive<br></br>Lake Buena Vista, Florida 32830-8403<br></br><a href="javascript:void(0)" onclick="return false;">(407) 939-1000</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +259,7 @@ class Hotels extends Component{
                                     <div class="right-div">
                                         <p class="left-justified">Disney’s Yacht Club Resort is built in a New England-style yacht club style and is located on Crescent Lake, right next door to its sister hotel, the Beach Club Resort. Each room and lobby is decorated with nautical touches to complete the seafaring experience. With over ten dining locations in this hotel, it is the perfect place for anyone looking to switch up from their daily life. Renting watercraft from Bayside Marina is a fun way to spend a sunny day, and boat rides are available for travelling to Disney’s Hollywood Studios nearby. </p>
                                         <h6><b>Resort Address:</b></h6>
-                                        <p>1700 Epcot Resorts Boulevard<br></br>Lake Buena Vista, Florida 32830-8407<br></br>(407) 934-7000</p>
+                                        <p>1700 Epcot Resorts Boulevard<br></br>Lake Buena Vista, Florida 32830-8407<br></br><a href="javascript:void(0)" onclick="return false;">(407) 934-7000</a></p>
                                     </div>
                                 </div>
                             </div>

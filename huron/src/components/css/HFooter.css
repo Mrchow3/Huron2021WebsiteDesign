@@ -10,7 +10,7 @@ a.icon-inherit,
 a.icon-inherit:hover{
     color:inherit;
 }
-a, a:hover {
+a.foot-a, a.foot-a:hover {
     color:inherit;
 }
 .foot{
@@ -39,10 +39,6 @@ a, a:hover {
 .img-holder {
     align-items: flex-start;
     justify-content: left;
-}
-
-li {
-    list-style-type: none;
 }
 
 .map-head {

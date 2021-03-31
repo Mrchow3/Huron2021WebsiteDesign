@@ -17,12 +17,28 @@ class TMap extends Component {
     },
     zoom: 11
   };
+
+  constructor() {
+    super();
+    this.state = {
+      mobile: window.innerWidth,
+    };
+    this.setMobile = () => {
+      this.setState({
+          mobile: window.innerWidth
+      });
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.setMobile)
+  }
  
   render() {
     return (
       // Important! Always set the container height explicitly
       // style={{ height: '92vh', width: '100%' }}
-      <div className="map">
+      <div className={this.state.mobile > 768 ? "map" : "map-mobile"}>
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyC09uoFh327yOZXM_AlHhmDakvnMVzk3Co'}}
           defaultCenter={this.props.center}

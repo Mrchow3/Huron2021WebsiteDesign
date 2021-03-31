@@ -38,7 +38,7 @@ function Travel() {
                 <div class="container mx-auto">
                     <HCitation citation="Stock photo: credit to jag_cz https://www.shutterstock.com/image-photo/passengers-commercial-airplane-flying-above-clouds-1568946955"></HCitation>
                     <div class="alt-1"> 
-                        <h2 className="heading">Getting there by Plane</h2>
+                        <h2 className="heading">Getting There by Plane</h2>
                         <hr className="the-hr"></hr>
                         <div class="row article">
                             <div class="col-md mr-3">

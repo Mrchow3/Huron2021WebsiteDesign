@@ -17,6 +17,7 @@ import '../css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import hero from './assets/general_info_hero.jpg';
+
 function GeneralInfo() {
     useEffect(() => {
         window.scrollTo(0, 0);

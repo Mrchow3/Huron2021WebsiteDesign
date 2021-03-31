@@ -38,7 +38,7 @@
 .no-pad-right > button {
     padding-right: 0 !important;
 }
-.no-pad > button {
+.no-pad, .no-pad > button {
     padding: 8px 0 !important;
 }
 .category{

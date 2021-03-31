@@ -24,7 +24,7 @@ html {
   filter: brightness(45%);
   overflow: hidden;
   height: auto;
-  max-height: 93vh;
+  max-height: 89vh;
   object-fit: cover;
 }
 

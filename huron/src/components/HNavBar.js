@@ -36,7 +36,7 @@ function HNavBar() {
   }
   window.addEventListener('resize', editPills);
   return (
-    <Navbar expand='lg' variant="dark" className={colorChange ? 'dark-nav' : 'transparent-nav'} fixed='top'>
+    <Navbar collapseOnSelect expand='lg' variant="dark" className={colorChange ? 'dark-nav' : 'transparent-nav'} fixed='top'>
       <Navbar.Brand className="" href='#/' style={{'font-size': '1.6em'}}>
         <img
           alt=''
@@ -46,11 +46,11 @@ function HNavBar() {
           className='d-inline-block' 
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='basic-navbar-nav'/>
-      <Navbar.Collapse id='basic-navbar-nav'>
+      <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+      <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav width='auto' className={centerPills > 992 ? 'mr-auto center-pills' : 'mr-auto'}>
             <NavDropdown title='Plan Your Travel' className=''>
-              <NavDropdown.Item class="specific-dropdown" href='#/travel'>Travel Options</NavDropdown.Item>
+              <NavDropdown.Item href='#/travel'>Travel Options</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title='Convention Info' className=''>
               <NavDropdown.Item href='#/general-info'>General Info</NavDropdown.Item>
@@ -80,16 +80,17 @@ function HNavBar() {
           :
           <div>
             <Nav width='auto'>
-            <DropdownButton
-              menuAlign={"left"}
+            <NavDropdown
               title={<span>More <FontAwesomeIcon size = '1x' icon={faPlus} /></span>} 
               id="more-button"
-              className='no-pad'>
+              >
                 <NavDropdown.Item href="#/about-us">About Us</NavDropdown.Item>
                 <NavDropdown.Item href="#/citations">Citations</NavDropdown.Item>
-            </DropdownButton>
+            </NavDropdown>
             </Nav>
-            <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+            <div className='no-pad' >
+              <Button variant="success" target="_blank" href="https://www.expedia.com/">Book Now!</Button>
+            </div>
           </div>
           }
           

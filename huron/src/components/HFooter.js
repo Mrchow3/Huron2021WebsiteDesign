@@ -30,24 +30,24 @@ function HFooter(){
                     <div className="foot-txt mb-3">
                     This website was made by the 2021 BPA Website Design Team of the Huron BPA Chapter; the prompt, create a planning website for the 2021 BPA National Conference. The Huron BPA Chapter recognizes the importance of sportsmanship within competitions and stresses the importance of community service. As a chapter, we pride ourselves in contributing to a passionate, diligent, and motivated community full of leaders and young scholars. 
                     </div>
-                    <Button target="_blank" href="https://www.huronbpa.com/" variant="outline-success">Find out More</Button>
+                    <Button target="_blank" href="https://www.huronbpa.com/" variant="outline-success">Find out more</Button>
                 </div>
                 <div className="col mr-2">
                     <address>
-                        <a className='' href='#'>Home</a>
+                        <a className='foot-a' href='#'>Home</a>
                         <br></br>
-                        <a className='' href='#/travel'>Travel</a>
+                        <a className='foot-a' href='#/travel'>Travel</a>
                         <br></br>
-                        <a href='#/general-info'>General Info</a>
-                        <br></br><a href='#/schedule'>Schedule</a>
-                        <br></br><a href='#/hotels'>Hotels</a>
+                        <a className='foot-a' href='#/general-info'>General Info</a>
+                        <br></br><a className='foot-a' href='#/schedule'>Schedule</a>
+                        <br></br><a className='foot-a' href='#/hotels'>Hotels</a>
                         <br></br>
-                        <a href='#/explore-transportation'>Transportation</a>
-                        <br></br><a href='#/explore-sightseeing'>Sightseeing</a>
-                        <br></br><a href='#/explore-attractions'>Attractions</a>
-                        <br></br><a href='#/explore-food'>Local Food</a>
-                        <br></br><a className='' href='#/about-us'>About Us</a>
-                        <br></br><a className='' href='#/citations'>Citations</a>
+                        <a className='foot-a' href='#/explore-transportation'>Transportation</a>
+                        <br></br><a className='foot-a' href='#/explore-sightseeing'>Sightseeing</a>
+                        <br></br><a className='foot-a' href='#/explore-attractions'>Attractions</a>
+                        <br></br><a className='foot-a' href='#/explore-food'>Local Food</a>
+                        <br></br><a className='foot-a' href='#/about-us'>About Us</a>
+                        <br></br><a className='foot-a' href='#/citations'>Citations</a>
                     </address>                
                 </div>
             </div>
