@@ -10,11 +10,41 @@ a.icon-inherit,
 a.icon-inherit:hover{
     color:inherit;
 }
-
+a, a:hover {
+    color:inherit;
+}
 .foot{
     overflow: auto;
     background-color: #242124 !important;
     position: relative;
     color: white;
-    text-align: center;
+    
+}
+@media only screen and (max-width: 768) {
+    .foot-txt {
+        text-align: center;
+    }
+}
+.big-ml {
+    margin-left: 60px;
+}
+.footer-logo {
+    height: auto;
+    width: 250px;
+}
+.test {
+    background-color: red;
+}
+
+.img-holder {
+    align-items: flex-start;
+    justify-content: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+.map-head {
+    font-weight: bold;
 }
