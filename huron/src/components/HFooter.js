@@ -32,8 +32,8 @@ function HFooter(){
                     </div>
                     <Button target="_blank" href="https://www.huronbpa.com/" variant="outline-success">Find out more</Button>
                 </div>
-                <div className="col mr-2">
-                    <address>
+                <div className="col">
+                    <address className="page-list">
                         <a className='foot-a' href='#'>Home</a>
                         <br></br>
                         <a className='foot-a' href='#/travel'>Travel</a>

@@ -20,9 +20,16 @@ a.foot-a, a.foot-a:hover {
     color: white;
     
 }
+.page-list {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 @media only screen and (max-width: 768) {
     .foot-txt {
         text-align: center;
+    }
+    .page-list {
+        padding: 0 !important;
     }
 }
 .big-ml {
@@ -44,3 +51,4 @@ a.foot-a, a.foot-a:hover {
 .map-head {
     font-weight: bold;
 }
+

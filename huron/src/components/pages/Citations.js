@@ -11,7 +11,8 @@ import './css/Home.css';
 import './css/Hotels.css'
 import '../css/main.css'
 
-import hero from './assets/presentation-team.jpg'
+import hero from './assets/citations.webp';
+import worksCited from './assets/works-cited.pdf';
 
 function Citations() {
     useEffect(() => {
@@ -31,12 +32,12 @@ function Citations() {
             </div>
             <div className="scroll-body">
                 <div className="container">
-                    <HCitation citation="Belchonock. Business Training at Office. 2013. Deposit Photos, https://depositphotos.com/24655347/stock-photo-business-training-at-office.html"></HCitation>
-                    <h2 className="heading">Citations</h2>
+                    <HCitation citation="Hyatt Regency Orlando. Orlando Hotel. 2021. Hyatt Regency Orlando, https://www.hyatt.com/en-US/hotel/florida/hyatt-regency-orlando/mcoro"></HCitation>
+                    <h2 className="heading">Works Cited</h2>
                     <hr className="the-hr"></hr>
-                    <p>You may also view the citations <a target="_blank" href="">here</a>.</p>
+                    <p>You may also view the citations <a target="_blank" href="https://drive.google.com/file/d/1Ks74UVT3DGKG2qkYj8jX01AfKS_KFgXP/view?usp=sharing">here</a>.</p>
                     <div className="frame">
-                        <iframe src="https://34kjmn3xy614nqsp3bsgpb13-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/SOE-NLC-2021-TENTATIVE-10.01.20.pdf"></iframe>
+                        <iframe src={worksCited}></iframe>
                     </div>
                 </div>
             </div>
