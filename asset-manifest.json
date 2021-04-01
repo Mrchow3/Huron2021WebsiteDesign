@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.5c64e5e4.chunk.css",
-    "main.js": "./static/js/main.83cca600.chunk.js",
-    "main.js.map": "./static/js/main.83cca600.chunk.js.map",
+    "main.css": "./static/css/main.22d44b74.chunk.css",
+    "main.js": "./static/js/main.410a52f0.chunk.js",
+    "main.js.map": "./static/js/main.410a52f0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.8a2fa276.js",
     "runtime-main.js.map": "./static/js/runtime-main.8a2fa276.js.map",
     "static/css/2.1a02f21c.chunk.css": "./static/css/2.1a02f21c.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.dcd18331.chunk.js.map": "./static/js/3.dcd18331.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.1a02f21c.chunk.css.map": "./static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.5c64e5e4.chunk.css.map": "./static/css/main.5c64e5e4.chunk.css.map",
+    "static/css/main.22d44b74.chunk.css.map": "./static/css/main.22d44b74.chunk.css.map",
     "static/js/2.39561937.chunk.js.LICENSE.txt": "./static/js/2.39561937.chunk.js.LICENSE.txt",
-    "static/js/main.83cca600.chunk.js.LICENSE.txt": "./static/js/main.83cca600.chunk.js.LICENSE.txt",
+    "static/js/main.410a52f0.chunk.js.LICENSE.txt": "./static/js/main.410a52f0.chunk.js.LICENSE.txt",
     "static/media/about.63b7ec3a.jpg": "./static/media/about.63b7ec3a.jpg",
     "static/media/adventure.cae1ce57.jpg": "./static/media/adventure.cae1ce57.jpg",
     "static/media/african.4de3deee.jpg": "./static/media/african.4de3deee.jpg",
@@ -33,6 +33,7 @@
     "static/media/cape_may.061f527c.jpg": "./static/media/cape_may.061f527c.jpg",
     "static/media/chimiking.d57bd1cf.jpg": "./static/media/chimiking.d57bd1cf.jpg",
     "static/media/chocolate.6db21143.webp": "./static/media/chocolate.6db21143.webp",
+    "static/media/citations.332605b9.webp": "./static/media/citations.332605b9.webp",
     "static/media/convention_info_card.457b0443.jpeg": "./static/media/convention_info_card.457b0443.jpeg",
     "static/media/coronado_map.6a769c98.jpg": "./static/media/coronado_map.6a769c98.jpg",
     "static/media/disney_hero.fb36f577.jpg": "./static/media/disney_hero.fb36f577.jpg",
@@ -109,6 +110,7 @@
     "static/media/vegetarian-hero.24ae64e5.webp": "./static/media/vegetarian-hero.24ae64e5.webp",
     "static/media/veggie-garden.791add22.jpg": "./static/media/veggie-garden.791add22.jpg",
     "static/media/winter_boat.ac865c5b.jpg": "./static/media/winter_boat.ac865c5b.jpg",
+    "static/media/works-cited.166f636a.pdf": "./static/media/works-cited.166f636a.pdf",
     "static/media/yacht-club-rec-hero.38c4b324.webp": "./static/media/yacht-club-rec-hero.38c4b324.webp",
     "static/media/yacht-hero.9137b05a.jpg": "./static/media/yacht-hero.9137b05a.jpg",
     "static/media/yachtsman_stakehouse.ccd5b69b.jpg": "./static/media/yachtsman_stakehouse.ccd5b69b.jpg",
@@ -118,7 +120,7 @@
     "static/js/runtime-main.8a2fa276.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.39561937.chunk.js",
-    "static/css/main.5c64e5e4.chunk.css",
-    "static/js/main.83cca600.chunk.js"
+    "static/css/main.22d44b74.chunk.css",
+    "static/js/main.410a52f0.chunk.js"
   ]
 }
